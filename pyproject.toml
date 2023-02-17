@@ -1,11 +1,14 @@
 [tool.poetry]
-name = "pypi-template"
+name = "pypi-pkg-template"
 version = "0.0.1-rc.4"
 description = "A Template for Python Package"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "src" }]
+packages = [{ include = "pycdit" }]
+
+[tool.poetry.scripts]
+pycdit = 'pycdit.cli:run'
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
@@ -41,7 +44,7 @@ profile = "black"
 
 [tool.flake8]
 exclude = ["node_modules", "_build", "docs", "tests", "venv"]
-per-file-ignores = ['__init__.py:F401']
+per-file-ignores = ['__init__.py:F401', '_version.py:W292']
 
 [tool.mypy]
 namespace_packages = true
@@ -83,7 +86,7 @@ version = "1.0.1"
 tag_format = "v$version"
 
 [tool.setuptools_scm]
-write_to = "src/_version.py"
+write_to = "pycdit/_version.py"
 write_to_template = '__version__ = "{version}"'
 tag_regex = '^(?P<prefix>v)?(?P<version>[^\+]+)(?P<suffix>.*)?$'
 
