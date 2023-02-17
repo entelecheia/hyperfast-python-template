@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pypi-template"
-version = "0.0.1-rc.1"
+version = "0.0.1-rc.2"
 description = "A Template for Python Package"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
