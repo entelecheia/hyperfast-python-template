@@ -100,7 +100,7 @@ changelog_file = "docs/CHANGELOG.md"
 upload_to_repository = true
 repository = "pypi"
 upload_to_release = true
-build_command = "poetry build"
+build_command = "pip install poetry && poetry build"
 hvcs = "github" # hosting version control system, gitlab is also supported
 
 [build-system]
