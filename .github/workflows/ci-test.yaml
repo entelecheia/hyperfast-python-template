@@ -61,7 +61,6 @@ jobs:
 
       # add content to GitHub summary
       - name: Pytest coverage GitHub summary
-        if: ${{ success() && github.event_name == 'pull_request' }}
         run: |
           set -o pipefail
           echo '# Coverage report' >> $GITHUB_STEP_SUMMARY
