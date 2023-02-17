@@ -1,5 +1,5 @@
 ---
-name: prerelease
+name: release-test
 
 on:
   workflow_call:
@@ -7,8 +7,6 @@ on:
   # push:
   #   branches:
   #     - main
-  #   paths:
-  #     - "src/**"
   pull_request:
     branches: main
 
@@ -20,7 +18,7 @@ permissions:
 jobs:
   build:
     # Name the Job
-    name: prerelease
+    name: semantic-release-test
     # Set the agent to run on
     runs-on: ${{ matrix.os }}
     strategy:
@@ -58,13 +56,13 @@ jobs:
       - name: Python Semantic Release
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          repository_url: https://upload.pypi.org/legacy/
+          repository_url: https://test.pypi.org/legacy/
           repository_username: __token__
-          repository_password: ${{ secrets.PYPI_API_TOKEN }}
+          repository_password: ${{ secrets.TEST_PYPI_API_TOKEN }}
         run: |
           set -o pipefail
           # Set git details
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           # run semantic-release
-          make prerelease-ci
+          make release-test-ci

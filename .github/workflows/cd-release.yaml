@@ -54,8 +54,11 @@ jobs:
 
       # semantic release
       - name: Python Semantic Release
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repository_url: https://upload.pypi.org/legacy/
+          repository_username: __token__
+          repository_password: ${{ secrets.PYPI_API_TOKEN }}
         run: |
           set -o pipefail
           # Set git details

@@ -118,13 +118,13 @@ next-changelog: ## returns the next changelog
 	@poetry run semantic-release changelog --unreleased
 
 release-noop: ## release without changing anything
-	@poetry run semantic-release publish --noop
+	@poetry run semantic-release publish -v DEBUG --noop
 
 release-ci: ## release in CI
 	@poetry run semantic-release publish -v DEBUG -D commit_author="github-actions <action@github.com>"
 
 prerelease-noop: ## release a pre-release without changing anything
-	@poetry run semantic-release publish --prerelease --noop
+	@poetry run semantic-release publish -v DEBUG --prerelease --noop
 
 prerelease-ci: ## release a pre-release in CI
 	@poetry run semantic-release publish --prerelease -v DEBUG -D commit_author="github-actions <action@github.com>"
