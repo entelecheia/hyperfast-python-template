@@ -54,15 +54,10 @@ jobs:
 
       # semantic release
       - name: Python Semantic Release
+        uses: relekang/python-semantic-release@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           repository_url: https://test.pypi.org/legacy/
           repository_username: __token__
           repository_password: ${{ secrets.TEST_PYPI_API_TOKEN }}
-        run: |
-          set -o pipefail
-          # Set git details
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          # run semantic-release
-          make release-test-ci
+          additional_options: --prerelease
