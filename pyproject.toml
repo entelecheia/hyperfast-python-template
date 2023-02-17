@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "python-template"
-version = "1.0.3"
-description = "A Template for Python Projects"
+name = "pypi-template"
+version = "0.0.1-rc.1"
+description = "A Template for Python Package"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
 readme = "README.md"
@@ -97,7 +97,7 @@ prerelease_tag = "rc"
 major_on_zero = true
 tag_commit = true
 changelog_file = "docs/CHANGELOG.md"
-upload_to_repository = false
+upload_to_repository = true
 repository = "pypi"
 upload_to_release = true
 build_command = "poetry build"
