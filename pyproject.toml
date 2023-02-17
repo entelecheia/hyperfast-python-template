@@ -5,10 +5,10 @@ description = "A Template for Python Package"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "pycdit" }]
+packages = [{ include = "pypitmpl" }]
 
 [tool.poetry.scripts]
-pycdit = 'pycdit.cli:run'
+pypitmpl = 'pypitmpl.cli:run'
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
@@ -25,7 +25,6 @@ numpy = "^1.24.2"
 ghp-import = "^2.1.0"
 
 [tool.poetry.group.dev.dependencies]
-python-semantic-release = "^7.33.1"
 commitizen = "^2.42.0"
 
 [tool.poetry.group.lint.dependencies]
@@ -86,7 +85,7 @@ version = "1.0.1"
 tag_format = "v$version"
 
 [tool.setuptools_scm]
-write_to = "pycdit/_version.py"
+write_to = "pypitmpl/_version.py"
 write_to_template = '__version__ = "{version}"'
 tag_regex = '^(?P<prefix>v)?(?P<version>[^\+]+)(?P<suffix>.*)?$'
 
@@ -101,7 +100,6 @@ major_on_zero = true
 tag_commit = true
 changelog_file = "docs/CHANGELOG.md"
 upload_to_repository = true
-repository = "pypi"
 upload_to_release = true
 build_command = "pip install poetry && poetry build"
 hvcs = "github" # hosting version control system, gitlab is also supported

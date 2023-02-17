@@ -60,21 +60,21 @@ lint: lint-black lint-isort lint-flake8 lint-mypy ## run all linters
 
 .PHONY: run
 run: ## run the main script
-	@poetry run pycdit
+	@poetry run pypitmpl
 
 ##@ Testing
 
-.PHONY: unit-tests
-unit-tests: ## run unit-tests with pytest
+.PHONY: tests
+tests: ## run tests with pytest
 	@poetry run pytest --doctest-modules
 
-.PHONY: unit-tests-cov
-unit-tests-cov: ## run unit-tests with pytest and show coverage (terminal + html)
-	@poetry run pytest --doctest-modules --cov=src --cov-report term-missing --cov-report=html
+.PHONY: tests-cov
+tests-cov: ## run tests with pytest and show coverage (terminal + html)
+	@poetry run pytest --doctest-modules --cov=pypitmpl --cov-report term-missing --cov-report=html
 
-.PHONY: unit-tests-cov-fail
-unit-tests-cov-fail: ## run unit tests with pytest and show coverage (terminal + html) & fail if coverage too low & create files for CI
-	@poetry run pytest --doctest-modules --cov=src --cov-report term-missing --cov-report=html --cov-fail-under=80 --junitxml=pytest.xml | tee pytest-coverage.txt
+.PHONY: tests-cov-fail
+tests-cov-fail: ## run unit tests with pytest and show coverage (terminal + html) & fail if coverage too low & create files for CI
+	@poetry run pytest --doctest-modules --cov=pypitmpl --cov-report term-missing --cov-report=html --cov-fail-under=80 --junitxml=pytest.xml | tee pytest-coverage.txt
 
 ##@ Jupyter-Book
 
@@ -137,11 +137,17 @@ build: ## build the package
 
 ##@ Setup
 
-install-deps: ## install dependencies
+install: ## install
 	@poetry install
+
+install-dev: ## install dependencies
+	@poetry install --with dev
 
 install-linters: ## install linters
 	@poetry install --with lint
+
+install-test: ## install test dependencies
+	@poetry install --with test
 
 install-release: ## install release tools
 	@poetry install --only release
