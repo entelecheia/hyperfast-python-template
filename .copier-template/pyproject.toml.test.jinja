@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "pypi-pkg-template"
+name = "{{ project_name }}"
 version = "0.0.1-rc.7"
-description = "A Template for Python Package"
-authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
-license = "MIT"
+description = "{{ project_description }}"
+authors = ["{{ author }} <{{ email }}>"]
+license = "{{ project_license }}"
 readme = "README.md"
-packages = [{ include = "pypit", from = "src" }]
+packages = [{ include = "{{ module_name }}", from = "src" }]
 
 [tool.poetry.scripts]
-pypit = 'pypit.cli:run'
+pypit = '{{ module_name }}.cli:run'
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
@@ -48,12 +48,12 @@ exclude = '_version.py'
 profile = "black"
 
 [tool.flake8]
-exclude = ["node_modules", "_build", "docs", "tests", "venv"]
+exclude = ["node_modules", "_build", "docs", "tests", "venv", ".copier-template"]
 per-file-ignores = ['__init__.py:F401', '_version.py:W292']
 
 [tool.mypy]
 namespace_packages = true
-exclude = ["node_modules", "build", "_build", "dist", "docs", "tests", "venv"]
+exclude = ["node_modules", "build", "_build", "dist", "docs", "tests", "venv", ".copier-template"]
 # 3rd party import
 ignore_missing_imports = true
 # dynamic typing
@@ -91,7 +91,7 @@ version = "1.0.1"
 tag_format = "v$version"
 
 [tool.setuptools_scm]
-write_to = "src/pypit/_version.py"
+write_to = "src/{{ module_name }}/_version.py"
 write_to_template = '__version__ = "{version}"'
 tag_regex = '^(?P<prefix>v)?(?P<version>[^\+]+)(?P<suffix>.*)?$'
 

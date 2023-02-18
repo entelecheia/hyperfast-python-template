@@ -1,0 +1,52 @@
+_subdirectory: .copier-template
+
+# Configure jinja2 defaults to make syntax highlighters lives easier
+_templates_suffix: .jinja
+_envops:
+  block_end_string: "%}"
+  block_start_string: "{%"
+  comment_end_string: "#}"
+  comment_start_string: "{#"
+  keep_trailing_newline: true
+  variable_end_string: "}}"
+  variable_start_string: "{{"
+
+_answers_file: .copier-config.yaml
+
+# questions
+project_name:
+  type: str
+  help: What is your project name?
+
+module_name:
+  type: str
+  help: What is your Python module name?
+
+project_description:
+  type: str
+  help: What is your project description?
+
+project_license:
+  type: str
+  choices:
+    - GPLv3
+    - MIT
+    - Apache-2.0
+    - BSD-3-Clause
+    - CC-BY-4.0
+
+author:
+  type: str
+  help: What is your name?
+
+email:
+  type: str
+  help: What is your email?
+
+github_username:
+  type: str
+  help: What is your GitHub username?
+
+github_repository:
+  type: str
+  help: What is your GitHub repository name?
