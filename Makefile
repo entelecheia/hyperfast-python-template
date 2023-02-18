@@ -60,7 +60,7 @@ lint: lint-black lint-isort lint-flake8 lint-mypy ## run all linters
 
 .PHONY: run
 run: ## run the main script
-	@poetry run pypitmpl
+	@poetry run pypit
 
 ##@ Testing
 
@@ -70,11 +70,11 @@ tests: ## run tests with pytest
 
 .PHONY: tests-cov
 tests-cov: ## run tests with pytest and show coverage (terminal + html)
-	@poetry run pytest --doctest-modules --cov=pypitmpl --cov-report term-missing --cov-report=html
+	@poetry run pytest --doctest-modules --cov=src --cov-report term-missing --cov-report=html
 
 .PHONY: tests-cov-fail
 tests-cov-fail: ## run unit tests with pytest and show coverage (terminal + html) & fail if coverage too low & create files for CI
-	@poetry run pytest --doctest-modules --cov=pypitmpl --cov-report term-missing --cov-report=html --cov-fail-under=80 --junitxml=pytest.xml | tee pytest-coverage.txt
+	@poetry run pytest --doctest-modules --cov=src --cov-report term-missing --cov-report=html --cov-fail-under=80 --junitxml=pytest.xml | tee pytest-coverage.txt
 
 ##@ Jupyter-Book
 

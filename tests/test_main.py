@@ -1,4 +1,4 @@
-from pypitmpl.main import get_version
+from pypit.main import get_version
 
 
 def test_get_version() -> None:

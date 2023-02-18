@@ -5,10 +5,11 @@ description = "A Template for Python Package"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "pypitmpl" }]
-
+packages = [
+    { include = "pypit", from = "src" },
+]
 [tool.poetry.scripts]
-pypitmpl = 'pypitmpl.cli:run'
+pypit = 'pypit.cli:run'
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
@@ -37,6 +38,9 @@ flake8-pyproject = "^1.2.2"
 [tool.poetry.group.test.dependencies]
 pytest = "^7.2.1"
 pytest-cov = "^4.0.0"
+
+[tool.black]
+exclude = '_version.py'
 
 [tool.isort]
 profile = "black"
@@ -85,7 +89,7 @@ version = "1.0.1"
 tag_format = "v$version"
 
 [tool.setuptools_scm]
-write_to = "pypitmpl/_version.py"
+write_to = "src/pypit/_version.py"
 write_to_template = '__version__ = "{version}"'
 tag_regex = '^(?P<prefix>v)?(?P<version>[^\+]+)(?P<suffix>.*)?$'
 

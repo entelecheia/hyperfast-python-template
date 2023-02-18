@@ -2,7 +2,7 @@
 
 # Importing the libraries
 
-from ._version import __version__
+from . import __version__
 
 
 def get_version() -> str:
