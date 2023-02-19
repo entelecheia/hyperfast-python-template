@@ -1,0 +1,28 @@
+---
+name: Release pipeline
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  call-lint-workflow:
+    name: Lint
+    uses: ./.github/workflows/cd-linter.yaml
+  call-test-workflow:
+    name: Test
+    uses: ./.github/workflows/cd-test.yaml
+  call-prerelease-workflow:
+    name: Pre-release
+    needs:
+      - call-lint-workflow
+      - call-test-workflow
+    uses: ./.github/workflows/cd-prerelease.yaml
+    secrets: inherit

@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{ include = "{{ module_name }}", from = "src" }]
 
 [tool.poetry.scripts]
-pypit = '{{ module_name }}.cli:run'
+{{ module_name }} = '{{ module_name }}.cli:run'
 
 [tool.poetry.dependencies]
 python = "^3.8.1"

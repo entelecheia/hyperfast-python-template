@@ -4,13 +4,6 @@ name: prerelease
 on:
   workflow_call:
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main
-  #   paths:
-  #     - "src/**"
-  pull_request:
-    branches: main
 
 permissions:
   contents: write
