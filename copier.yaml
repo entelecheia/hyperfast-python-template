@@ -52,6 +52,6 @@ github_repository:
   help: What is your GitHub repository name?
 
 book_title:
-  default: "{{ project_name }}}}"
+  default: "{{ project_name }}"
   type: str
   help: What is your book title?
