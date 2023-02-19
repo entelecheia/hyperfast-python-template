@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pypi-pkg-template"
-version = "0.0.1-rc.7"
+version = "0.0.1-rc.8"
 description = "A Template for Python Package"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{ include = "pypi_temp", from = "src" }]
 
 [tool.poetry.scripts]
-pypit = 'pypi_temp.cli:run'
+pypi_temp = 'pypi_temp.cli:run'
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
