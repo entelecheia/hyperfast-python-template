@@ -34,6 +34,10 @@ jobs:
         with:
           fetch-depth: 0
 
+      # install copier
+      - name: Install copier
+        run: pipx install copier>=7.0.0
+
       # semantic release
       - name: Python Semantic Release
         uses: relekang/python-semantic-release@master

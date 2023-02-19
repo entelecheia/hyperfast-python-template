@@ -45,6 +45,15 @@ jobs:
       - name: Install poetry
         run: pipx install poetry>=1.3.2
 
+      # install copier
+      - name: Install copier
+        run: pipx install copier>=7.0.0
+
+      # init project
+      - name: Init project
+        run: make init-project-force
+
+      # set up python
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
