@@ -60,7 +60,7 @@ lint: lint-black lint-isort lint-flake8 lint-mypy ## run all linters
 
 .PHONY: run
 run: ## run the main script
-	@poetry run pypit
+	@poetry run pypi_temp
 
 ##@ Testing
 
