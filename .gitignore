@@ -24,3 +24,7 @@ coverage.xml
 *.cover
 htmlcov/
 pytest-coverage.*
+
+# for templatetest
+src/pypi_temp
+tests/pypi_temp/

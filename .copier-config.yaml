@@ -1,0 +1,12 @@
+# Changes here will be overwritten by Copier; do NOT edit manually
+_commit: v0.0.1-rc.7-4-g20fc697
+_src_path: .
+author: Young Joon Lee
+email: entelecheia@hotmail.com
+github_repository: pypi-template
+github_username: entelecheia
+module_name: pypi_temp
+project_description: A Template for Python Package
+project_license: MIT
+project_name: pypi-pkg-template
+

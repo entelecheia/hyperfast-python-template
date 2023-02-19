@@ -29,11 +29,11 @@ project_description:
 project_license:
   type: str
   choices:
-    - GPLv3
     - MIT
+    - CC-BY-4.0
     - Apache-2.0
     - BSD-3-Clause
-    - CC-BY-4.0
+    - GPLv3
 
 author:
   type: str
@@ -50,3 +50,8 @@ github_username:
 github_repository:
   type: str
   help: What is your GitHub repository name?
+
+book_title:
+  default: "{{ project_name }}}}"
+  type: str
+  help: What is your book title?
