@@ -1,5 +1,5 @@
 ---
-name: Release pipeline
+name: pipeline-prelease
 
 on:
   workflow_dispatch:
@@ -13,16 +13,12 @@ permissions:
   pull-requests: write
 
 jobs:
-  call-lint-workflow:
-    name: Lint
-    uses: ./.github/workflows/cd-linter.yaml
   call-test-workflow:
     name: Test
-    uses: ./.github/workflows/cd-test.yaml
+    uses: ./.github/workflows/ci-test.yaml
   call-prerelease-workflow:
     name: Pre-release
     needs:
-      - call-lint-workflow
       - call-test-workflow
     uses: ./.github/workflows/cd-prerelease.yaml
     secrets: inherit
