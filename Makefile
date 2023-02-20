@@ -156,7 +156,7 @@ install-precommit: ## install pre-commit hooks
 	@pre-commit install
 
 install-pipx: ## install pipx (required for init-project)
-	@pipx --version &> /dev/null || pip install --user pipx || true
+	@set +e; pipx --version &> /dev/null || pip install --user pipx || true; set -e
 
 install-copier: install-pipx ## install copier (required for init-project)
 	@set +e; copier --version &> /dev/null || pipx install copier || true; set -e
