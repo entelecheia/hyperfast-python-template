@@ -163,6 +163,9 @@ install-test: ## install test dependencies
 install-release: ## install release tools
 	@poetry install --only release
 
+install-book: ## install jupyter-book
+	@poetry install --only book
+
 install-precommit: ## install pre-commit hooks
 	@pre-commit install
 
