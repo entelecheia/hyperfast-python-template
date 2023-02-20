@@ -1,17 +1,17 @@
 # Hyperfast Python Template
 
 ![][version-image]
-[![Release date][release-date-image]][release-url]
-[![License][license-image]][license-url]
-[![semantic-release][semantic-image]][semantic-url]
-[![Jupyter Book][jupyter-book-image]][jupyter-book-url]
-[![Conventional Commits][conventional-commits-image]][conventional-commits-url]
+![Release date][release-date-image]
+![License][license-image]
+![semantic-release][semantic-image]
+![Jupyter Book][jupyter-book-image]
+![Conventional Commits][conventional-commits-image]
 
 A python template that helps you jump start your project
 
-- Documentation: https://entelecheia.github.io/hyperfast-python-template
-- GitHub: https://github.com/entelecheia/hyperfast-python-template
-- PyPI: https://pypi.org/project/hyperfast-python-template
+- Documentation: [https://entelecheia.github.io/hyperfast-python-template](https://entelecheia.github.io/hyperfast-python-template)
+- GitHub: [https://github.com/entelecheia/hyperfast-python-template](https://github.com/entelecheia/hyperfast-python-template)
+- PyPI: [https://pypi.org/project/hyperfast-python-template](https://pypi.org/project/hyperfast-python-template)
 
 Hyperfast Python Template is a self-contained template that helps you initialize your Python project inside the template. It is hyperfast in the sense that the template itself is converted into a Python project in the blink of an eye. It is also hyperfast in the sense that it helps you jump start your project with the best practices in the Python community.
 
