@@ -35,6 +35,7 @@ jobs:
       - name: Init project
         run: |
           pipx install copier>=7.0.0
+          pipx install poetry>=1.3.2
           make init-project-force
           make install
 
