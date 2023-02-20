@@ -156,7 +156,7 @@ install-precommit: ## install pre-commit hooks
 	@pre-commit install
 
 install-copier: ## install copier (required for init-project)
-	@command -v copier &> /dev/null && echo "copier is already installed" || pipx install copier
+	@copier --version &> /dev/null && echo "copier is already installed" || pipx install copier
 
 init-project: install-copier ## initialize the project
 	@copier --answers-file .copier-config.yaml --vcs-ref=HEAD . .
