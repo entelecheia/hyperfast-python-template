@@ -1,11 +1,14 @@
 # Hyperfast Python Template
 
-[![License](https://img.shields.io/github/license/entelecheia/hyperfast-python-template)](https://github.com/entelecheia/hyperfast-python-template/blob/main/LICENSE)
-[![][version-image]]((https://github.com/entelecheia/hyperfast-python-template/releases))
+[![license-image]][license-url]
+[![version](https://img.shields.io/github/v/release/entelecheia/hyperfast-python-template?sort=semver)](https://github.com/entelecheia/hyperfast-python-template/releases)
 [![Release date](https://img.shields.io/github/release-date/entelecheia/hyperfast-python-template)](https://github.com/entelecheia/hyperfast-python-template/releases)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![Jupyter Book](https://jupyterbook.org/en/stable/_images/badge.svg)](https://jupyterbook.org)
+
+[license-image]: https://img.shields.io/github/license/entelecheia/hyperfast-python-template
+[license-url]: https://github.com/entelecheia/hyperfast-python-template/blob/main/LICENSE
 
 A python template that helps you jump start your project
 
@@ -19,9 +22,9 @@ Hyperfast Python Template is a self-contained template that helps you initialize
 
 There are three ways to use this project:
 
-- Use [the template][template-url] to create a new repository
-- Use [Copier][copier-url] to create a project to your local machine directly
-- Inject [the template][template-url] into an existing project
+- Use [Hyperfast Python Template] to create a new repository
+- Use [Copier] to create a project to your local machine directly
+- Inject [Hyperfast Python Template] into an existing project
 
 ### I. Use the template
 
@@ -47,6 +50,7 @@ There are three ways to use this project:
 4. Do your work
 
 ## Features
+
 
 - [x] Automated semantic versioning with [Python Semantic Release]
 - [x] Automated uploads to [PyPI] and [TestPyPI]
@@ -115,23 +119,24 @@ The template supports Python 3.7, 3.8, 3.9, and 3.10.
 [typeguard]: https://github.com/agronholm/typeguard
 [xdoctest]: https://github.com/Erotemic/xdoctest
 
+
 ## License
 
 This project is released under the [MIT License][license-url].
+
+<!-- Images: -->
+
+[semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white
+[jupyter-book-image]: https://jupyterbook.org/en/stable/_images/badge.svg
+[version-image]: https://img.shields.io/github/v/release/entelecheia/hyperfast-python-template?sort=semver
+[release-date-image]: https://img.shields.io/github/release-date/entelecheia/hyperfast-python-template
 
 <!-- Links: -->
 
 [repo-url]: https://github.com/entelecheia/hyperfast-python-template
 [pypi-url]: https://pypi.org/project/hyperfast-python-template
 [docs-url]: https://entelecheia.github.io/hyperfast-python-template
-[version-image]: https://img.shields.io/github/v/release/entelecheia/hyperfast-python-template?sort=semver
-[release-date-image]: https://img.shields.io/github/release-date/entelecheia/hyperfast-python-template
 [release-url]: https://github.com/entelecheia/hyperfast-python-template/releases
-[license-image]: https://img.shields.io/github/license/entelecheia/hyperfast-python-template
-[license-url]: https://github.com/entelecheia/hyperfast-python-template/blob/main/LICENSE
 [changelog-url]: https://github.com/entelecheia/hyperfast-python-template/blob/main/CHANGELOG.md
-
-[template-url]: https://github.com/entelecheia/hyperfast-python-template
-[semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
-[conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white
-[jupyter-book-image]: https://jupyterbook.org/en/stable/_images/badge.svg
+[hyperfast python template]: https://github.com/entelecheia/hyperfast-python-template
