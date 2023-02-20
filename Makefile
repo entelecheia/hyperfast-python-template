@@ -159,7 +159,7 @@ install-pipx: ## install pipx (required for init-project)
 	@pipx --version &> /dev/null || pip install --user pipx || true
 
 install-copier: install-pipx ## install copier (required for init-project)
-	@copier --version &> /dev/null || pipx install copier || true
+	@set +e; copier --version &> /dev/null || pipx install copier || true; set -e
 
 init-project: install-copier ## initialize the project
 	@copier --answers-file .copier-config.yaml --vcs-ref=HEAD . .
