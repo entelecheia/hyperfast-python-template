@@ -9,9 +9,9 @@
 
 {{ project_short_description }}
 
-- Documentation: [docs-rul][docs-url]
-- GitHub: [repo-url][repo-url]
-- PyPI: [pypi-url][pypi-url]
+- Documentation: {{ documentation_url }}
+- GitHub: https://gihub.com/{{ github_username }}/{{ github_repo_name }}
+- PyPI: https://pypi.org/project/{{ package_name }}
 
 {{ project_description }}
 
@@ -19,9 +19,9 @@
 
 There are three ways to use this project:
 
-1. [Use the template][template-url] to create a new repository
-2. [Use Copier][copier-url] to create a project to your local machine directly
-3. Inject the template into an existing project
+1. Use [the template][template-url] to create a new repository
+2. Use [Copier][copier-url] to create a project to your local machine directly
+3. Inject [the template][template-url] into an existing project
 
 ### 1. Use the template
 
@@ -53,7 +53,7 @@ This project is released under the [{{ project_license }} License][license-url].
 
 [repo-url]: https://gihub.com/{{ github_username }}/{{ github_repo_name }}
 [pypi-url]: https://pypi.org/project/{{ package_name }}
-[docs-url]: https://{{ github_username }}.github.io/{{ github_repo_name }}
+[docs-url]: {{ documentation_url }}
 [version-image]: https://img.shields.io/github/v/release/{{ github_username }}/{{ github_repo_name }}?sort=semver
 [release-date-image]: https://img.shields.io/github/release-date/{{ github_username }}/{{ github_repo_name }}
 [release-url]: https://github.com/{{ github_username }}/{{ github_repo_name }}/releases
