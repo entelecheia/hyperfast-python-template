@@ -1,5 +1,8 @@
 <!--next-version-placeholder-->
 
+## v0.0.1-rc.14 (2023-02-20)
+
+
 ## v0.0.1-rc.13 (2023-02-20)
 ### Documentation
 * **jupyter-book:** Add templates for jupyter-book ([`eb10902`](https://github.com/entelecheia/hyperfast-python-template/commit/eb10902285cecf903add44efdeb4548d5eef5556))
