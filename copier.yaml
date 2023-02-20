@@ -1,4 +1,8 @@
 _subdirectory: .copier-template
+_skip_if_exists:
+  - .editorconfig
+  - .gitignore
+  - CHANGELOG.md
 
 # Configure jinja2 defaults to make syntax highlighters lives easier
 _templates_suffix: .jinja
@@ -18,9 +22,19 @@ project_name:
   type: str
   help: What is your project name?
 
-module_name:
+friendly_name:
+  default: "{{ project_name }}"
+  type: str
+  help: What is your book title?
+
+package_name:
+  default: "{{ project_name | replace('-', '_') }}"
   type: str
   help: What is your Python module name?
+
+project_short_description:
+  type: str
+  help: What is your project short description?
 
 project_description:
   type: str
@@ -32,7 +46,6 @@ project_license:
     - MIT
     - CC-BY-4.0
     - Apache-2.0
-    - BSD-3-Clause
     - GPLv3
 
 author:
@@ -47,11 +60,16 @@ github_username:
   type: str
   help: What is your GitHub username?
 
-github_repository:
+github_repo_name:
+  default: "{{ project_name }}"
   type: str
   help: What is your GitHub repository name?
 
-book_title:
-  default: "{{ project_name }}"
+documentaion_tool:
+  default: mkdocs
   type: str
-  help: What is your book title?
+  choices:
+    - mkdocs
+    - jupyter-book
+    - none
+  help: What documentation tool do you want to use?

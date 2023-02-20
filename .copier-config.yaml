@@ -2,12 +2,13 @@
 _commit: v0.0.1-rc.9-4-gb82c6c9
 _src_path: .
 author: Young Joon Lee
-book_title: PyPI Template
+friendly_name: Hyperfast Python Template
 email: entelecheia@hotmail.com
-github_repository: pypi-template
+github_repo_name: hyperfast-python-template
 github_username: entelecheia
-module_name: pypi_temp
-project_description: A Template for Python Package
+package_name: hyperfastpy
+project_description: Hyperfast Python Template is a self-contained template that helps you initialize your Python project inside the template.
+project_short_description: A python template that helps you jump start your project
 project_license: MIT
-project_name: pypi-pkg-template
+project_name: hyperfast-python-template
 

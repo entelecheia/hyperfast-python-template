@@ -1,4 +1,4 @@
-# PyPI Template
+# {{ friendly_name }}
 
 ![][version-image]
 [![Release date][release-date-image]][release-url]
@@ -7,7 +7,7 @@
 [![Jupyter Book][jupyter-book-image]][jupyter-book-url]
 [![Conventional Commits][conventional-commits-image]][conventional-commits-url]
 
-A Template for Python Packages
+{{ project_short_description }}
 
 ## Usage
 
@@ -19,18 +19,18 @@ A Template for Python Packages
 
 ## License
 
-This project is released under the [MIT License][license-url].
+This project is released under the [{{ project_license }} License][license-url].
 
 <!-- Links: -->
 
-[version-image]: https://img.shields.io/github/v/release/{{ github_username }}/{{ github_repository }}?sort=semver
-[release-date-image]: https://img.shields.io/github/release-date/{{ github_username }}/{{ github_repository }}
-[release-url]: https://github.com/{{ github_username }}/{{ github_repository }}/releases
+[version-image]: https://img.shields.io/github/v/release/{{ github_username }}/{{ github_repo_name }}?sort=semver
+[release-date-image]: https://img.shields.io/github/release-date/{{ github_username }}/{{ github_repo_name }}
+[release-url]: https://github.com/{{ github_username }}/{{ github_repo_name }}/releases
 [semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-url]: https://github.com/semantic-release/semantic-release
-[license-image]: https://img.shields.io/github/license/{{ github_username }}/{{ github_repository }}
-[license-url]: https://github.com/{{ github_username }}/{{ github_repository }}/blob/main/LICENSE
-[changelog-url]: https://github.com/{{ github_username }}/{{ github_repository }}/blob/main/docs/CHANGELOG.md
+[license-image]: https://img.shields.io/github/license/{{ github_username }}/{{ github_repo_name }}
+[license-url]: https://github.com/{{ github_username }}/{{ github_repo_name }}/blob/main/LICENSE
+[changelog-url]: https://github.com/{{ github_username }}/{{ github_repo_name }}/blob/main/CHANGELOG.md
 [jupyter-book-image]: https://jupyterbook.org/en/stable/_images/badge.svg
 [jupyter-book-url]: https://jupyterbook.org
 [conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white

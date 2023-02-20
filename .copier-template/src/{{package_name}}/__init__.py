@@ -1,8 +1,4 @@
-"""This is the main file of the project"""
-
-# Importing the libraries
-
-from . import __version__
+from ._version import __version__
 
 
 def get_version() -> str:
