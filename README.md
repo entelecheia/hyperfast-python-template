@@ -1,20 +1,36 @@
 # Hyperfast Python Template
 
 [![license-image]][license-url]
-[![version](https://img.shields.io/github/v/release/entelecheia/hyperfast-python-template?sort=semver)](https://github.com/entelecheia/hyperfast-python-template/releases)
-[![Release date](https://img.shields.io/github/release-date/entelecheia/hyperfast-python-template)](https://github.com/entelecheia/hyperfast-python-template/releases)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
-[![Jupyter Book](https://jupyterbook.org/en/stable/_images/badge.svg)](https://jupyterbook.org)
+[![version-image]][release-url]
+[![release-date-image]][release-url]
+[![semantic-release-image]][semantic release]
+[![conventional-commits-image]][conventional commits]
+[![jupyter-book-image]][jupyter book]
+
+<!-- Links: -->
+[hyperfast python template]: https://github.com/entelecheia/hyperfast-python-template
 
 [license-image]: https://img.shields.io/github/license/entelecheia/hyperfast-python-template
 [license-url]: https://github.com/entelecheia/hyperfast-python-template/blob/main/LICENSE
+[version-image]: https://img.shields.io/github/v/release/entelecheia/hyperfast-python-template?sort=semver
+[release-date-image]: https://img.shields.io/github/release-date/entelecheia/hyperfast-python-template
+[release-url]: https://github.com/entelecheia/hyperfast-python-template/releases
+[semantic-release-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white
+[jupyter-book-image]: https://jupyterbook.org/en/stable/_images/badge.svg
+
+[repo-url]: https://github.com/entelecheia/hyperfast-python-template
+[pypi-url]: https://pypi.org/project/hyperfast-python-template
+[docs-url]: https://entelecheia.github.io/hyperfast-python-template
+[changelog]: https://github.com/entelecheia/hyperfast-python-template/blob/main/CHANGELOG.md
+[contributing guidelines]: https://github.com/entelecheia/hyperfast-python-template/blob/main/CONTRIBUTING.md
+<!-- Links: -->
 
 A python template that helps you jump start your project
 
-- Documentation: [https://entelecheia.github.io/hyperfast-python-template](https://entelecheia.github.io/hyperfast-python-template)
-- GitHub: [https://github.com/entelecheia/hyperfast-python-template](https://github.com/entelecheia/hyperfast-python-template)
-- PyPI: [https://pypi.org/project/hyperfast-python-template](https://pypi.org/project/hyperfast-python-template)
+- Documentation: [https://entelecheia.github.io/hyperfast-python-template][docs-url]
+- GitHub: [https://github.com/entelecheia/hyperfast-python-template][repo-url]
+- PyPI: [https://pypi.org/project/hyperfast-python-template][pypi-url]
 
 Hyperfast Python Template is a self-contained template that helps you initialize your Python project inside the template. It is hyperfast in the sense that the template itself is converted into a Python project in the blink of an eye. It is also hyperfast in the sense that it helps you jump start your project with the best practices in the Python community.
 
@@ -54,10 +70,10 @@ There are three ways to use this project:
 
 - [x] Automated semantic versioning with [Python Semantic Release]
 - [x] Automated uploads to [PyPI] and [TestPyPI]
-- [x] Code coverage with [Coverage.py]
+- [x] Code coverage with [Pytest-Cov]
 - [x] Code formatting with [Black] and [Prettier]
 - [x] Continuous integration with [GitHub Actions]
-- [x] Coverage reporting with [Pytest-Cov]
+- [x] Coverage reporting with [Codecov]
 - [x] Documentation with [MkDocs], [Jupyter Book], and [Read the Docs]
 - [x] Import sorting with [isort]
 - [x] Linting with [pre-commit] and [Flake8]
@@ -119,24 +135,14 @@ The template supports Python 3.7, 3.8, 3.9, and 3.10.
 [typeguard]: https://github.com/agronholm/typeguard
 [xdoctest]: https://github.com/Erotemic/xdoctest
 
+## Changelog
+
+See the [CHANGELOG] for more information.
+
+## Contributing
+
+Contributions are welcome! Please see the [contributing guidelines] for more information.
 
 ## License
 
 This project is released under the [MIT License][license-url].
-
-<!-- Images: -->
-
-[semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
-[conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white
-[jupyter-book-image]: https://jupyterbook.org/en/stable/_images/badge.svg
-[version-image]: https://img.shields.io/github/v/release/entelecheia/hyperfast-python-template?sort=semver
-[release-date-image]: https://img.shields.io/github/release-date/entelecheia/hyperfast-python-template
-
-<!-- Links: -->
-
-[repo-url]: https://github.com/entelecheia/hyperfast-python-template
-[pypi-url]: https://pypi.org/project/hyperfast-python-template
-[docs-url]: https://entelecheia.github.io/hyperfast-python-template
-[release-url]: https://github.com/entelecheia/hyperfast-python-template/releases
-[changelog-url]: https://github.com/entelecheia/hyperfast-python-template/blob/main/CHANGELOG.md
-[hyperfast python template]: https://github.com/entelecheia/hyperfast-python-template
