@@ -41,6 +41,10 @@ pytest-cov = "^4.0.0"
 [tool.poetry.group.devenv.dependencies]
 copier = { version = "^7.0.1", optional = true, extras = ["devenv"] }
 
+
+[tool.poetry.group.mkdocs.dependencies]
+mkdocs = {version = "^1.4.2", optional = true, extras = ["mkdocs"]}
+
 [tool.black]
 exclude = ['_version.py', 'node_modules', '_build', 'docs', 'tests', 'venv', '.copier-template', '.refs']
 
