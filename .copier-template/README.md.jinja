@@ -69,9 +69,9 @@ There are three ways to use this project:
 
 
 - [x] Automated changelog with [Conventional Commits] and [Semantic Release]
+- [x] Automated labeling to pull requests based on [Conventional Commits] with [Conventional Release Labels]
 - [x] Automated semantic versioning with [Python Semantic Release]
 - [x] Automated uploads to [PyPI] and [TestPyPI]
-- [x] Automatically adds labels to pull requests based on [Conventional Commits] with [Conventional Release Labels]
 - [x] Code coverage with [Pytest-Cov]
 - [x] Code formatting with [Black] and [Prettier]
 - [x] Continuous integration with [GitHub Actions]
@@ -91,8 +91,8 @@ There are three ways to use this project:
 - [ ] Automated dependency updates with [Dependabot]
 - [ ] Automated Python syntax upgrades with [pyupgrade]
 - [ ] Automated release notes with [Release Drafter]
+- [ ] Automatic documentation from sources for [MkDocs] with [mkdocstrings]
 - [ ] Check documentation examples with [xdoctest]
-- [ ] Generating API documentation with [autodoc] and [napoleon]
 - [ ] Runtime type-checking with [Typeguard]
 - [ ] Security audit with [Bandit] and [Safety]
 - [ ] Test automation with [Nox]
@@ -116,9 +116,9 @@ The template supports Python 3.7, 3.8, 3.9, and 3.10.
 [jupyter book]: https://jupyterbook.org
 [make]: https://www.gnu.org/software/make/
 [mkdocs]: https://www.mkdocs.org
+[mkdocstrings]: https://mkdocstrings.github.io
 [mypy]: http://mypy-lang.org/
 [myst]: https://myst-parser.readthedocs.io/
-[napoleon]: https://www.sphinx-doc.org/en/master/usage/extensions/napoleon.html
 [nox]: https://nox.thea.codes/
 [poetry]: https://python-poetry.org/
 [pre-commit]: https://pre-commit.com/
