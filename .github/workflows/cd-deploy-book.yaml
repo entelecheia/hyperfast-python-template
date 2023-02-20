@@ -25,15 +25,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # init project
-      - name: Init project
-        run: make init-project-force
-
       # Install dependencies
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
+
+      # init project
+      - name: Init project
+        run: make init-project-force
 
       # Build the book
       - name: Build the book

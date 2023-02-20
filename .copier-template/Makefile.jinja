@@ -155,7 +155,10 @@ install-release: ## install release tools
 install-precommit: ## install pre-commit hooks
 	@pre-commit install
 
-install-copier: ## install copier (required for init-project)
+install-pipx: ## install pipx (required for init-project)
+	@pipx --version &> /dev/null || pip install --user pipx
+
+install-copier: install-pipx ## install copier (required for init-project)
 	@copier --version &> /dev/null && echo "copier is already installed" || pipx install copier
 
 init-project: install-copier ## initialize the project
