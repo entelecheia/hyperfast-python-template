@@ -85,7 +85,7 @@ There are three ways to use this project:
 - [x] Rendering projects with [Copier]
 - [x] Static type-checking with [mypy]
 - [x] Support for [Conventional Commits]
-- [x] Support for [Semantic Release]
+- [x] Support for [Semantic Versioning]
 - [x] Testing with [pytest]
 
 - [ ] Automated dependency updates with [Dependabot]
@@ -109,7 +109,6 @@ The template supports Python 3.7, 3.8, 3.9, and 3.10.
 [coverage.py]: https://coverage.readthedocs.io/
 [dependabot]: https://dependabot.com/
 [flake8]: http://flake8.pycqa.org
-[furo]: https://pradyunsg.me/furo/
 [github actions]: https://github.com/features/actions
 [github labeler]: https://github.com/marketplace/actions/github-labeler
 [isort]: https://pycqa.github.io/isort/
@@ -131,9 +130,7 @@ The template supports Python 3.7, 3.8, 3.9, and 3.10.
 [read the docs]: https://readthedocs.org/
 [release drafter]: https://github.com/release-drafter/release-drafter
 [safety]: https://github.com/pyupio/safety
-[semantic release]: https://github.com/semantic-release/semantic-release
-[sphinx-click]: https://sphinx-click.readthedocs.io/
-[sphinx]: http://www.sphinx-doc.org/
+[semantic versioning]: https://semver.org
 [testpypi]: https://test.pypi.org/
 [typeguard]: https://github.com/agronholm/typeguard
 [xdoctest]: https://github.com/Erotemic/xdoctest
