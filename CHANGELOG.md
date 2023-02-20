@@ -1,5 +1,10 @@
 <!--next-version-placeholder-->
 
+## v0.0.1-rc.12 (2023-02-20)
+### Documentation
+* **mkdocs:** Add mkdocs template ([`2016814`](https://github.com/entelecheia/hyperfast-python-template/commit/201681498c2242518c77eaf089b06e49ad1ecfd0))
+* **readme:** Add explanation ([`61e072e`](https://github.com/entelecheia/hyperfast-python-template/commit/61e072e929a289f59def43130ba03c77ba247406))
+
 ## v0.0.1-rc.11 (2023-02-20)
 
 
