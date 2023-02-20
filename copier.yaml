@@ -1,5 +1,4 @@
 _subdirectory: .copier-template
-_skip_if_exists:
 
 # Configure jinja2 defaults to make syntax highlighters lives easier
 _templates_suffix: .jinja
