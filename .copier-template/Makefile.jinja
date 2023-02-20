@@ -137,32 +137,34 @@ build: ## build the package
 
 ##@ Setup
 
-install: install-poetry ## install
+install-pipx: ## install pipx (pre-requisite for external tools)
+	@pipx --version &> /dev/null || pip install --user pipx || true
+
+install-copier: install-pipx ## install copier (pre-requisite for init-project)
+	@copier --version &> /dev/null || pipx install copier || true
+
+install-poetry: install-pipx ## install poetry (pre-requisite for install)
+	@poetry --version &> /dev/null || pipx install poetry || true
+
+install-prereqs: install-pipx  install-copier ## install all prerequisites
+
+install: ## install
 	@poetry install
 
-install-dev: install-poetry ## install dependencies
+install-dev: ## install dependencies
 	@poetry install --with dev
 
-install-linters: install-poetry ## install linters
+install-linters: ## install linters
 	@poetry install --with lint
 
-install-test: install-poetry ## install test dependencies
+install-test: ## install test dependencies
 	@poetry install --with test
 
-install-release: install-poetry ## install release tools
+install-release: ## install release tools
 	@poetry install --only release
 
 install-precommit: ## install pre-commit hooks
 	@pre-commit install
-
-install-pipx: ## install pipx (required for init-project)
-	@pipx --version &> /dev/null || pip install --user pipx || true
-
-install-poetry: ## install poetry (required for init-project)
-    @poetry --version &> /dev/null || pipx install poetry || true
-
-install-copier: install-pipx ## install copier (required for init-project)
-	@copier --version &> /dev/null || pipx install copier || true
 
 init-project: install-copier ## initialize the project
 	@copier --answers-file .copier-config.yaml --vcs-ref=HEAD . .
