@@ -1,8 +1,5 @@
 _subdirectory: .copier-template
 _skip_if_exists:
-  - .gitignore
-  - CHANGELOG.md
-  - .github/
 
 # Configure jinja2 defaults to make syntax highlighters lives easier
 _templates_suffix: .jinja

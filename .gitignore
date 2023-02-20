@@ -25,9 +25,3 @@ coverage.xml
 htmlcov/
 pytest-coverage.*
 
-# for template test
-src/hyperfastpy/
-tests/hyperfastpy/
-# you should not ignore these in your project
-book/
-docs/
