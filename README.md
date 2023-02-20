@@ -32,7 +32,7 @@ A python template that helps you jump start your project
 
 Hyperfast Python Template is a self-contained template that helps you initialize your Python project inside the template. It is hyperfast in the sense that the template itself is converted into a Python project in the blink of an eye. It is also hyperfast in the sense that it helps you jump start your project with the best practices in the Python community.
 
-## Usage
+## Quickstart
 
 There are three ways to use this project:
 
@@ -80,7 +80,7 @@ There are three ways to use this project:
 - [x] Managing project labels with [GitHub Labeler]
 - [x] Managing projects with [Make]
 - [x] Packaging and dependency management with [Poetry]
-- [x] Rendering projects with [Copier]
+- [x] Hyperfast rendering of the template into a new project with [Copier]
 - [x] Static type-checking with [mypy]
 - [x] Support for [Conventional Commits]
 - [x] Support for [Semantic Versioning]
