@@ -1,7 +1,4 @@
 site_name: Hyperfast Python Template
-theme:
-  name: readthedocs
-  highlightjs: true
 plugins:
   - search
   - mkdocstrings:
@@ -14,3 +11,7 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
+theme:
+  name: material
+  palette:
+    scheme: default
