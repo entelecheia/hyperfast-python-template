@@ -73,3 +73,13 @@ documentaion_tool:
     - jupyter-book
     - none
   help: What documentation tool do you want to use?
+
+copyright_year:
+  default: "{{ now().year }}"
+  type: int
+  help: What is the copyright year?
+
+documentation_url:
+  default: "https://{{ github_username }}.github.io/{{ github_repo_name }}"
+  type: str
+  help: What is your documentation URL?
