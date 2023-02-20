@@ -161,5 +161,5 @@ install-copier: ## install copier (required for init-project)
 init-project: ## initialize the project
 	@copier --answers-file .copier-config.yaml --vcs-ref=HEAD . .
 
-init-project-force: ## initialize the project
+init-project-force: ## initialize the project ignoring existing files (*Warning* this will overwrite existing files!)
 	@copier --answers-file .copier-config.yaml --force --vcs-ref=HEAD . .
