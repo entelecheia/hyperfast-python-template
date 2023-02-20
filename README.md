@@ -9,12 +9,11 @@
 
 A python template that helps you jump start your project
 
-- Documentation: [docs-rul][docs-url]
-- GitHub: [repo-url][repo-url]
-- PyPI: [pypi-url][pypi-url]
+- Documentation: https://entelecheia.github.io/hyperfast-python-template
+- GitHub: https://gihub.com/entelecheia/hyperfast-python-template
+- PyPI: https://pypi.org/project/hyperfastpy
 
 Hyperfast Python Template is a self-contained template that helps you initialize your Python project inside the template.
-
 
 ## Usage
 
