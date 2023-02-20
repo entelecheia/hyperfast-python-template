@@ -1,5 +1,8 @@
 <!--next-version-placeholder-->
 
+## v0.0.1-rc.11 (2023-02-20)
+
+
 ## v0.0.1-rc.10 (2023-02-20)
 ### Documentation
 * **readme:** Update README ([`72b3b4b`](https://github.com/entelecheia/hyperfast-python-template/commit/72b3b4b5e00392bc1ffcc8519a6ee72e8696c9ea))
