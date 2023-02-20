@@ -10,7 +10,7 @@
 A python template that helps you jump start your project
 
 - Documentation: https://entelecheia.github.io/hyperfast-python-template
-- GitHub: https://gihub.com/entelecheia/hyperfast-python-template
+- GitHub: https://github.com/entelecheia/hyperfast-python-template
 - PyPI: https://pypi.org/project/hyperfast-python-template
 
 Hyperfast Python Template is a self-contained template that helps you initialize your Python project inside the template.
@@ -51,7 +51,7 @@ This project is released under the [MIT License][license-url].
 
 <!-- Links: -->
 
-[repo-url]: https://gihub.com/entelecheia/hyperfast-python-template
+[repo-url]: https://github.com/entelecheia/hyperfast-python-template
 [pypi-url]: https://pypi.org/project/hyperfast-python-template
 [docs-url]: https://entelecheia.github.io/hyperfast-python-template
 [version-image]: https://img.shields.io/github/v/release/entelecheia/hyperfast-python-template?sort=semver
