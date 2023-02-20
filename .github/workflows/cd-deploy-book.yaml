@@ -36,6 +36,7 @@ jobs:
         run: |
           pipx install copier>=7.0.0
           make init-project-force
+          make install
 
       # Build the book
       - name: Build the book
