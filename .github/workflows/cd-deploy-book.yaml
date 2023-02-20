@@ -25,10 +25,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # install copier
-      - name: Install copier
-        run: pipx install copier>=7.0.0
-
       # init project
       - name: Init project
         run: make init-project-force
@@ -38,10 +34,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-
-      - name: Install dependencies
-        run: |
-          poetry install --no-root
 
       # Build the book
       - name: Build the book
