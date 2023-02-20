@@ -146,7 +146,10 @@ install-copier: install-pipx ## install copier (pre-requisite for init-project)
 install-poetry: install-pipx ## install poetry (pre-requisite for install)
 	@poetry --version &> /dev/null || pipx install poetry || true
 
-install-prereqs: install-pipx  install-copier ## install all prerequisites
+install-piptools: install-pipx ## install pip-tools (pre-requisite for install)
+	@pip-compile --version &> /dev/null || pipx install pip-tools || true
+
+install-prereqs: install-pipx  install-copier install-poetry install-piptools ## install all prerequisites
 
 install: ## install
 	@poetry install
@@ -174,3 +177,6 @@ init-project: install-copier ## initialize the project
 
 init-project-force: install-copier ## initialize the project ignoring existing files (*Warning* this will overwrite existing files!)
 	@copier --answers-file .copier-config.yaml --force --vcs-ref=HEAD . .
+
+generate-mkdocs-reqs: ## generate requirements.txt from requirements.in
+	@poetry run pip-compile --resolver=backtracking --output-file=docs/requirements.txt docs/requirements.in
