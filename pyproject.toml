@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "pypi-pkg-template"
+name = "hyperfast-python-template"
 version = "0.0.1-rc.7"
-description = "A Template for Python Package"
+description = "A python template that helps you jump start your project"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "pypi_temp", from = "src" }]
+packages = [{ include = "hyperfastpy", from = "src" }]
 
 [tool.poetry.scripts]
-pypi_temp = 'pypi_temp.cli:run'
+hyperfastpy = 'hyperfastpy.__cli__:main'
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
@@ -91,7 +91,7 @@ version = "1.0.1"
 tag_format = "v$version"
 
 [tool.setuptools_scm]
-write_to = "src/pypi_temp/_version.py"
+write_to = "src/hyperfastpy/_version.py"
 write_to_template = '__version__ = "{version}"'
 tag_regex = '^(?P<prefix>v)?(?P<version>[^\+]+)(?P<suffix>.*)?$'
 
@@ -104,7 +104,7 @@ commit_subject = "chore(release): :rocket: {version} [skip ci]"
 prerelease_tag = "rc"
 major_on_zero = true
 tag_commit = true
-changelog_file = "docs/CHANGELOG.md"
+changelog_file = "CHANGELOG.md"
 upload_to_repository = true
 upload_to_release = true
 build_command = "pip install poetry && poetry build"

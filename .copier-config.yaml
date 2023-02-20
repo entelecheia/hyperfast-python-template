@@ -1,14 +1,16 @@
 # Changes here will be overwritten by Copier; do NOT edit manually
-_commit: v0.0.1-rc.9-4-gb82c6c9
+_commit: v0.0.1-rc.9-8-gaaee553
 _src_path: .
 author: Young Joon Lee
-friendly_name: Hyperfast Python Template
+documentaion_tool: mkdocs
 email: entelecheia@hotmail.com
+friendly_name: Hyperfast Python Template
 github_repo_name: hyperfast-python-template
 github_username: entelecheia
 package_name: hyperfastpy
-project_description: Hyperfast Python Template is a self-contained template that helps you initialize your Python project inside the template.
-project_short_description: A python template that helps you jump start your project
+project_description: Hyperfast Python Template is a self-contained template that helps
+    you initialize your Python project inside the template.
 project_license: MIT
 project_name: hyperfast-python-template
+project_short_description: A python template that helps you jump start your project
 
