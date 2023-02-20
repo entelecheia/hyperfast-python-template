@@ -1,6 +1,5 @@
 _subdirectory: .copier-template
 _skip_if_exists:
-  - .editorconfig
   - .gitignore
   - CHANGELOG.md
 

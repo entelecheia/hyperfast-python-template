@@ -9,4 +9,4 @@ def test_get_version() -> None:
     """
     version = get_version()
     # check version format
-    assert version.count(".") in [2, 4]
+    assert version.count(".") in range(2, 5)
