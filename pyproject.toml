@@ -42,18 +42,20 @@ pytest-cov = "^4.0.0"
 copier = { version = "^7.0.1", optional = true, extras = ["devenv"] }
 
 [tool.black]
-exclude = '_version.py'
+exclude = ['_version.py', 'node_modules', '_build', 'docs', 'tests', 'venv', '.copier-template', '.refs']
 
 [tool.isort]
 profile = "black"
+skip = ['_version.py', 'node_modules', '_build', 'docs', 'tests', 'venv', '.copier-template', '.refs']
 
 [tool.flake8]
-exclude = ["node_modules", "_build", "docs", "tests", "venv", ".copier-template"]
+exclude = ["node_modules", "_build", "docs", "tests", "venv", ".copier-template", ".refs"]
 per-file-ignores = ['__init__.py:F401', '_version.py:W292']
 
 [tool.mypy]
 namespace_packages = true
-exclude = ["node_modules", "build", "_build", "dist", "docs", "tests", "venv", ".copier-template"]
+exclude = ["node_modules", "build", "_build", "dist", "docs", "tests", "venv", ".copier-template", ".refs"]
+
 # 3rd party import
 ignore_missing_imports = true
 # dynamic typing

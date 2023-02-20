@@ -41,9 +41,17 @@ There are three ways to use this project:
 
 ### 3. Inject the template
 
-1. From the root of your project, run `copier gh:entelecheia/hyperfast-python-template .`
-2. If your project is not a git repository, initialize it with `make init-git`
-3. Do your work
+1. Install Copier with `pipx install copier`
+2. From the root of your project, run `copier gh:entelecheia/hyperfast-python-template .`
+3. If your project is not a git repository, initialize it with `make init-git`
+4. Do your work
+
+## Features
+
+- [x] [Semantic Release][semantic-url]
+- [x] [Conventional Commits][conventional-commits-url]
+- [x] [Jupyter Book][jupyter-book-url]
+- [x] [Copier][copier-url]
 
 ## License
 

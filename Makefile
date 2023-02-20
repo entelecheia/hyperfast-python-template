@@ -65,7 +65,7 @@ run: ## run the main script
 ##@ Testing
 
 .PHONY: tests
-tests: ## run tests with pytest
+tests: scm-version ## run tests with pytest
 	@poetry run pytest --doctest-modules
 
 .PHONY: tests-cov
