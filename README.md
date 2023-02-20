@@ -1,7 +1,7 @@
 # Hyperfast Python Template
 
 ![][version-image]
-![Release date][release-date-image]
+[![Release date][release-date-image]](https://github.com/entelecheia/hyperfast-python-template/releases)
 ![License][license-image]
 ![semantic-release][semantic-image]
 ![Jupyter Book][jupyter-book-image]
