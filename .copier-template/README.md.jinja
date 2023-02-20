@@ -68,8 +68,10 @@ There are three ways to use this project:
 ## Features
 
 
+- [x] Automated changelog with [Conventional Commits] and [Semantic Release]
 - [x] Automated semantic versioning with [Python Semantic Release]
 - [x] Automated uploads to [PyPI] and [TestPyPI]
+- [x] Automatically adds labels to pull requests based on [Conventional Commits] with [Conventional Release Labels]
 - [x] Code coverage with [Pytest-Cov]
 - [x] Code formatting with [Black] and [Prettier]
 - [x] Continuous integration with [GitHub Actions]
@@ -102,6 +104,7 @@ The template supports Python 3.7, 3.8, 3.9, and 3.10.
 [click]: https://click.palletsprojects.com/
 [codecov]: https://codecov.io/
 [conventional commits]: https://conventionalcommits.org
+[conventional release labels]: https://github.com/marketplace/actions/conventional-release-labels
 [copier]: https://copier.readthedocs.io
 [coverage.py]: https://coverage.readthedocs.io/
 [dependabot]: https://dependabot.com/
