@@ -32,6 +32,7 @@
 
 {{ project_description }}
 
+{% if project_name == 'hyperfast-python-template' -%}
 ## Quickstart
 
 There are three ways to use this project:
@@ -133,6 +134,7 @@ The template supports Python 3.7, 3.8, 3.9, and 3.10.
 [typeguard]: https://github.com/agronholm/typeguard
 [xdoctest]: https://github.com/Erotemic/xdoctest
 
+{% endif -%}
 ## Changelog
 
 See the [CHANGELOG] for more information.
@@ -144,3 +146,8 @@ Contributions are welcome! Please see the [contributing guidelines] for more inf
 ## License
 
 This project is released under the [{{ project_license }} License][license-url].
+
+## Table of Contents
+
+```{tableofcontents}
+```
