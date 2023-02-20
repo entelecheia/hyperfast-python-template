@@ -69,10 +69,10 @@ tests: scm-version ## run tests with pytest
 	@poetry run pytest --doctest-modules
 
 .PHONY: tests-cov
-tests-cov: ## run tests with pytest and show coverage (terminal + html)
+tests-cov: scm-version ## run tests with pytest and show coverage (terminal + html)
 	@poetry run pytest --doctest-modules --cov=src --cov-report term-missing --cov-report=html
 
-.PHONY: tests-cov-fail
+.PHONY: scm-version tests-cov-fail
 tests-cov-fail: ## run unit tests with pytest and show coverage (terminal + html) & fail if coverage too low & create files for CI
 	@poetry run pytest --doctest-modules --cov=src --cov-report term-missing --cov-report=html --cov-fail-under=80 --junitxml=pytest.xml | tee pytest-coverage.txt
 

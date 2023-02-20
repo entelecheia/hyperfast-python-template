@@ -55,7 +55,6 @@ per-file-ignores = ['__init__.py:F401', '_version.py:W292']
 [tool.mypy]
 namespace_packages = true
 exclude = ["node_modules", "build", "_build", "dist", "docs", "tests", "venv", ".copier-template", ".refs"]
-
 # 3rd party import
 ignore_missing_imports = true
 # dynamic typing
