@@ -173,7 +173,7 @@ install-precommit: ## install pre-commit hooks
 	@pre-commit install
 
 init-project: install-copier ## initialize the project
-	@copier --answers-file .copier-config.yaml --vcs-ref=HEAD . .
+	@copier --vcs-ref=HEAD . .
 
 init-project-force: install-copier ## initialize the project ignoring existing files (*Warning* this will overwrite existing files!)
 	@copier --answers-file .copier-config.yaml --force --vcs-ref=HEAD . .
