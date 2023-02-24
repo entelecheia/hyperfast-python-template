@@ -12,6 +12,7 @@ on:
       - "mkdocs.yaml"
       - "docs/**.md"
       - "docs/images/**"
+      - ".github/workflows/deploy-docs.yaml"
 
 permissions:
   contents: write
