@@ -47,5 +47,6 @@ jobs:
           repository_username: __token__
           repository_password: ${{ secrets.PYPI_API_TOKEN }}
           additional_options: --patch
+          branch: ${GITHUB_REF#refs/heads/}
         env:
           REPOSITORY_URL: https://test.pypi.org/legacy/

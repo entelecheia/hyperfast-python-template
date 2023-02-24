@@ -46,3 +46,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           repository_username: __token__
           repository_password: ${{ secrets.PYPI_API_TOKEN }}
+          branch: ${GITHUB_REF#refs/heads/}

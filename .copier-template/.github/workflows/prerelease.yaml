@@ -51,3 +51,4 @@ jobs:
           repository_username: __token__
           repository_password: ${{ secrets.PYPI_API_TOKEN }}
           additional_options: --prerelease
+          branch: ${GITHUB_REF#refs/heads/}
