@@ -29,13 +29,16 @@ jobs:
         with:
           fetch-depth: 0
 
-      # install copier
+      # install copier and init project
       - name: Install copier and init project
         if: github.repository == 'entelecheia/hyperfast-python-template'
         run: |
           pipx install copier>=7.0.0
           make reinit-project-force
-          echo "BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+
+      # set env variable
+      - name: Set env variable
+        run: echo "BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
 
       # semantic release
       - name: Python Semantic Release to Test PyPI

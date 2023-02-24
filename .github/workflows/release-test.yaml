@@ -37,7 +37,10 @@ jobs:
         run: |
           pipx install copier>=7.0.0
           make reinit-project-force
-          echo "BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+
+      # set env variable
+      - name: Set env variable
+        run: echo "BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
 
       # semantic release
       - name: Python Semantic Release to PyPI
