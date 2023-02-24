@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.1.6 (2023-02-24)
+### Fix
+* Github action templates ([`d3eadb0`](https://github.com/entelecheia/hyperfast-python-template/commit/d3eadb04c3514c55668f9d46934fab2ae97e2ae0))
+
 ## v0.1.5 (2023-02-24)
 ### Fix
 * Index of mkdocs template ([`40a1d0e`](https://github.com/entelecheia/hyperfast-python-template/commit/40a1d0e0cefde85843fca78860b738288cd636ae))
