@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.1.5 (2023-02-24)
+### Fix
+* Index of mkdocs template ([`40a1d0e`](https://github.com/entelecheia/hyperfast-python-template/commit/40a1d0e0cefde85843fca78860b738288cd636ae))
+
 ## v0.1.4 (2023-02-24)
 ### Fix
 * Makefile ([`56c76a4`](https://github.com/entelecheia/hyperfast-python-template/commit/56c76a42de67a646efc77e0de4cb096a22ec7ffb))
