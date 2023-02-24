@@ -12,6 +12,8 @@ permissions:
   contents: write
   issues: write
   pull-requests: write
+  pull_request:
+    types: [closed]
 
 jobs:
   build:
@@ -38,6 +40,7 @@ jobs:
         run: |
           pipx install copier>=7.0.0
           make reinit-project-force
+          echo "BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
 
       # semantic release
       - name: Python Semantic Release to PyPI
@@ -46,4 +49,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           repository_username: __token__
           repository_password: ${{ secrets.PYPI_API_TOKEN }}
-          additional_options: --verbosity=DEBUG --define='branch=${GITHUB_REF#refs/heads/}'
+          additional_options: --verbosity=DEBUG --define=branch=${{ env.BRANCH }}
