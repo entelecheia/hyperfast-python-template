@@ -33,7 +33,7 @@
 {{ project_description }}
 
 {% if project_name == 'hyperfast-python-template' -%}
-## Quickstart
+### Quickstart
 
 There are three ways to use this project:
 
@@ -47,28 +47,41 @@ There are three ways to use this project:
 2. Enter a name for your repository
 3. Click `Create repository from template`
 4. Clone your new repository to your local machine
-5. Initialize your project with `make init-project`
+5. Initialize your project
+    ```bash
+    make init-project
+    ```
 6. Do your work
 
 ### II. Use Copier
 
-1. Install Copier with `pipx install copier`
-2. Run `copier gh:entelecheia/hyperfast-python-template path/to/destination`
-3. Initialize your project with `make init-git`
-4. Do your work
+1. Install Copier
+    ```bash
+    pipx install copier
+    ```
+2. Run
+    ```bash
+    copier gh:entelecheia/hyperfast-python-template path/to/destination
+    ```
+3. Do your work
 
 ### III. Inject the template
 
-1. Install Copier with `pipx install copier`
-2. From the root of your project, run `copier gh:entelecheia/hyperfast-python-template .`
-3. If your project is not a git repository, initialize it with `make init-git`
-4. Do your work
+1. Install Copier
+    ```bash
+    pipx install copier
+    ```
+2. From the root of your project, run
+    ```bash
+    copier gh:entelecheia/hyperfast-python-template path/to/destination
+    ```
+3. Do your work
 
 ## Features
 
 
 - [x] Automated changelog with [Conventional Commits] and [Python Semantic Release]
-- [x] Automated labeling to pull requests based on [Conventional Commits] with [Conventional Release Labels]
+- [x] Automated dependency updates with [Dependabot]
 - [x] Automated semantic versioning with [Python Semantic Release]
 - [x] Automated uploads to [PyPI] and [TestPyPI]
 - [x] Code coverage with [Pytest-Cov]
@@ -76,20 +89,18 @@ There are three ways to use this project:
 - [x] Continuous integration with [GitHub Actions]
 - [x] Coverage reporting with [Codecov]
 - [x] Documentation with [MkDocs], [Jupyter Book], and [Read the Docs]
+- [x] Hyperfast rendering of the template into a new project with [Copier]
 - [x] Import sorting with [isort]
 - [x] Linting with [pre-commit] and [Flake8]
 - [x] Managing project labels with [GitHub Labeler]
 - [x] Managing projects with [Make]
 - [x] Packaging and dependency management with [Poetry]
-- [x] Hyperfast rendering of the template into a new project with [Copier]
 - [x] Static type-checking with [mypy]
 - [x] Support for [Conventional Commits]
 - [x] Support for [Semantic Versioning]
 - [x] Testing with [pytest]
 
-- [ ] Automated dependency updates with [Dependabot]
 - [ ] Automated Python syntax upgrades with [pyupgrade]
-- [ ] Automated release notes with [Release Drafter]
 - [ ] Automatic documentation from sources for [MkDocs] with [mkdocstrings]
 - [ ] Check documentation examples with [xdoctest]
 - [ ] Runtime type-checking with [Typeguard]
@@ -133,8 +144,8 @@ The template supports Python 3.7, 3.8, 3.9, and 3.10.
 [testpypi]: https://test.pypi.org/
 [typeguard]: https://github.com/agronholm/typeguard
 [xdoctest]: https://github.com/Erotemic/xdoctest
+{% endif %}
 
-{% endif -%}
 ## Changelog
 
 See the [CHANGELOG] for more information.
@@ -143,9 +154,11 @@ See the [CHANGELOG] for more information.
 
 Contributions are welcome! Please see the [contributing guidelines] for more information.
 
+{% if project_lincense != 'None' -%}
 ## License
 
 This project is released under the [{{ project_license }} License][license-url].
+{% endif %}
 
 ## Table of Contents
 

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hyperfast-python-template"
-version = "0.0.1-rc.18"
+version = "0.0.1-rc.7"
 description = "A python template that helps you jump start your project"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
@@ -25,11 +25,15 @@ pytest = "^7.2.1"
 pytest-cov = "^4.0.0"
 
 [tool.poetry.group.docs.dependencies]
-mkdocs = {version = "^1.4.2", optional = true}
+jupyter-book = { version = "^0.13.2", optional = true}
+cookiecutter = { version = "^2.1.1", optional = true}
+matplotlib = { version = "^3.7.0", optional = true}
+numpy = { version = "^1.24.2", optional = true}
+ghp-import = { version = "^2.1.0", optional = true}
 
 
 [tool.poetry.extras]
-docs = ["mkdocs"]
+docs = ["jupyter-book", "cookiecutter", "matplotlib", "numpy", "ghp-import"]
 
 
 [tool.black]

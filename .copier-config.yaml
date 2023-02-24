@@ -1,10 +1,10 @@
 # Changes here will be overwritten by Copier; do NOT edit manually
-_commit: v0.0.1-rc.14-8-gf7ecaa1
+_commit: v0.0.1-rc.18-5-g3b4a942
 _src_path: .
 author: Young Joon Lee
 copyright_year: 2023
-documentaion_tool: mkdocs
-documentation_url: https://entelecheia.github.io/hyperfast-python-template
+documentaion_tool: jupyter-book
+documentation_url: https://hyperfast-python.entelecheia.cc
 email: entelecheia@hotmail.com
 friendly_name: Hyperfast Python Template
 github_repo_name: hyperfast-python-template
