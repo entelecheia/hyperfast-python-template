@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.1.2-rc.2 (2023-02-24)
+
+
+## v0.1.2-rc.1 (2023-02-24)
+
+
 ## v0.1.1 (2023-02-24)
 ### Fix
 * Add CNAME github variable for gh-pages action ([`535401d`](https://github.com/entelecheia/hyperfast-python-template/commit/535401de5aa5c0e956790addcdf2ee63c0464370))

@@ -10,7 +10,8 @@ on:
     paths:
       - "src/**"
       - "tests/**"
-
+  pull_request:
+      
 jobs:
   build:
     # Name the Job
