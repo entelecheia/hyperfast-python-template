@@ -49,6 +49,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           repository_username: __token__
           repository_password: ${{ secrets.PYPI_API_TOKEN }}
-          additional_options: --noop --verbosity=DEBUG --no-commit --define=branch=${{ env.BRANCH }}
+          additional_options: --noop --verbosity=DEBUG --define=branch=${{ env.BRANCH }}
         env:
           REPOSITORY_URL: https://test.pypi.org/legacy/
