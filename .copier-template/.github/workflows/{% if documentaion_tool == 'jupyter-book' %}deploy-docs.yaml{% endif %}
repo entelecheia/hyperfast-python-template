@@ -26,23 +26,15 @@ jobs:
           pipx install copier>=7.0.0
           make reinit-project-force
 
-      # install poetry
-      - name: Install poetry
-        run: pipx install poetry>=1.3.2
-
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-          cache: "poetry"
-
-      # Install dependencies
-      - name: Install dependencies for linters
-        run: make install-docs
 
       # Build the book
       - name: Build the book
         run: |
-          poetry run jupyter-book build book
+          pip install -r book/requirements.txt
+          jupyter-book build book
 
       # Deploy the book's HTML to gh-pages branch
       - name: GitHub Pages action

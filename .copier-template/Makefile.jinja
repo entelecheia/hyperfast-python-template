@@ -181,9 +181,6 @@ install: ## install the package
 install-dev: ## install the package in development mode
 	@poetry install --with dev
 
-install-docs: ## install the dependencies for building the docs
-	@poetry install -E docs
-	
 install-precommit-hooks: install-precommit ## install pre-commit hooks
 	@pre-commit install
 
