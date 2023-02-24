@@ -26,7 +26,7 @@
 
 A python template that helps you jump start your project
 
-- Documentation: [hyperfast-python.entelecheia.cc][docs-url]
+- Documentation: [https://hyperfast-python.entelecheia.cc][docs-url]
 - GitHub: [https://github.com/entelecheia/hyperfast-python-template][repo-url]
 - PyPI: [https://pypi.org/project/hyperfast-python-template][pypi-url]
 
@@ -46,22 +46,35 @@ There are three ways to use this project:
 2. Enter a name for your repository
 3. Click `Create repository from template`
 4. Clone your new repository to your local machine
-5. Initialize your project with `make init-project`
+5. Initialize your project
+    ```bash
+    make init-project
+    ```
 6. Do your work
 
 ### II. Use Copier
 
-1. Install Copier with `pipx install copier`
-2. Run `copier gh:entelecheia/hyperfast-python-template path/to/destination`
-3. Initialize your project with `make init-git`
-4. Do your work
+1. Install Copier
+    ```bash
+    pipx install copier
+    ```
+2. Run
+    ```bash
+    copier gh:entelecheia/hyperfast-python-template path/to/destination
+    ```
+3. Do your work
 
 ### III. Inject the template
 
-1. Install Copier with `pipx install copier`
-2. From the root of your project, run `copier gh:entelecheia/hyperfast-python-template .`
-3. If your project is not a git repository, initialize it with `make init-git`
-4. Do your work
+1. Install Copier
+    ```bash
+    pipx install copier
+    ```
+2. From the root of your project, run
+    ```bash
+    copier gh:entelecheia/hyperfast-python-template path/to/destination
+    ```
+3. Do your work
 
 ## Features
 
