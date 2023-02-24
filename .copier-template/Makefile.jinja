@@ -143,13 +143,13 @@ show-branches: ## show all branches
 	@git show-branch --list
 
 dev-checkout: ## checkout the dev branch
-	@branch=$(shell echo $${BRANCH:-"dev"}) && \
+	@branch=$(shell echo $${branch:-"dev"}) && \
 	    git show-branch --list | grep -q $${branch} && \
-		git checkout $${BRANCH}
+		git checkout $${branch}
 
 dev-checkout-upstream: ## create and checkout the dev branch, and set the upstream
-	@branch=$(shell echo $${BRANCH:-"dev"}) && \
-		git checkout -B $${BRANCH} && \
+	@branch=$(shell echo $${branch:-"dev"}) && \
+		git checkout -B $${branch} && \
 		git push --set-upstream origin $${branch} || true
 
 main-checkout: ## checkout the main branch
