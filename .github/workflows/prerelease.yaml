@@ -41,7 +41,7 @@ jobs:
         if: github.repository == 'entelecheia/hyperfast-python-template'
         run: |
           pipx install copier>=7.0.0
-          make init-project-force
+          make reinit-project-force
 
       # semantic release
       - name: Python Semantic Release to PyPI

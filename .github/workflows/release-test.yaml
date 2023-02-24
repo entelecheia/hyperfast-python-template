@@ -36,7 +36,7 @@ jobs:
         if: github.repository == 'entelecheia/hyperfast-python-template'
         run: |
           pipx install copier>=7.0.0
-          make init-project-force
+          make reinit-project-force
 
       - name: Python Semantic Release to Test PyPI
         uses: relekang/python-semantic-release@master
