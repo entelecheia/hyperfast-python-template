@@ -1,0 +1,54 @@
+---
+name: deploy-docs
+on:
+  workflow_call:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
+    paths:
+      - "book/**"
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # init project
+      - name: Init project
+        if: github.repository == 'entelecheia/hyperfast-python-template'
+        run: |
+          pipx install copier>=7.0.0
+          make reinit-project-force
+
+      # install poetry
+      - name: Install poetry
+        run: pipx install poetry>=1.3.2
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+          cache: "poetry"
+
+      # Install dependencies
+      - name: Install dependencies for linters
+        run: make install-docs
+
+      # Build the book
+      - name: Build the book
+        run: |
+          poetry run jupyter-book build book
+
+      # Deploy the book's HTML to gh-pages branch
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: book/_build/html
+          if: github.repository == 'entelecheia/hyperfast-python'
+          cname: hyperfast-python.entelecheia.cc
