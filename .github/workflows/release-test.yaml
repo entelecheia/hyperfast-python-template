@@ -38,23 +38,13 @@ jobs:
           pipx install copier>=7.0.0
           make reinit-project-force
 
-      - name: Python Semantic Release to Test PyPI
-        uses: relekang/python-semantic-release@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          repository_username: __token__
-          repository_password: ${{ secrets.TEST_PYPI_API_TOKEN }}
-          additional_options: --prerelease
-        env:
-          REPOSITORY_URL: https://test.pypi.org/legacy/
-
       # semantic release
       - name: Python Semantic Release to PyPI
         uses: relekang/python-semantic-release@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           repository_username: __token__
-          repository_password: ${{ secrets.TEST_PYPI_API_TOKEN }}
+          repository_password: ${{ secrets.PYPI_API_TOKEN }}
           additional_options: --noop --verbosity=DEBUG
         env:
           REPOSITORY_URL: https://test.pypi.org/legacy/

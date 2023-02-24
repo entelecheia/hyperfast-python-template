@@ -37,16 +37,6 @@ jobs:
           make reinit-project-force
 
       # semantic release
-      - name: Python Semantic Release to Test PyPI
-        uses: relekang/python-semantic-release@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          repository_username: __token__
-          repository_password: ${{ secrets.TEST_PYPI_API_TOKEN }}
-        env:
-          REPOSITORY_URL: https://test.pypi.org/legacy/
-
-      # semantic release
       - name: Python Semantic Release to PyPI
         uses: relekang/python-semantic-release@master
         with:

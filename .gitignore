@@ -30,3 +30,5 @@ src/hyperfastpy/
 tests/hyperfastpy/
 book/
 docs/
+/mkdocs.yaml
+/.readthedocs.yaml
