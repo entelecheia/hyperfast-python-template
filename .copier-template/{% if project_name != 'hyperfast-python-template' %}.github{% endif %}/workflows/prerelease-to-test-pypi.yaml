@@ -1,12 +1,9 @@
 ---
-name: semantic-release
+name: semantic-prerelease
 
 on:
   workflow_call:
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -16,7 +13,7 @@ permissions:
 jobs:
   build:
     # Name the Job
-    name: semantic-release
+    name: prerelease
     # Set the agent to run on
     runs-on: ${{ matrix.os }}
     strategy:
@@ -32,22 +29,18 @@ jobs:
         with:
           fetch-depth: 0
 
-      # install copier and init project
-      - name: Install copier and init project
-        if: github.repository == 'entelecheia/hyperfast-python-template'
-        run: |
-          pipx install copier>=7.0.0
-          make reinit-project-force
-
       # set env variable
       - name: Set env variable
         run: echo "BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
 
       # semantic release
-      - name: Python Semantic Release to PyPI
+      - name: Python Semantic Release to Test PyPI
         uses: relekang/python-semantic-release@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           repository_username: __token__
-          repository_password: ${{ secrets.PYPI_API_TOKEN }}
-          additional_options: --verbosity=DEBUG --define=branch=${{ env.BRANCH }}
+          repository_password: ${{ secrets.TEST_PYPI_API_TOKEN }}
+          additional_options: --prerelease --verbosity=DEBUG --define=branch=${{ env.BRANCH }}
+        env:
+          REPOSITORY_URL: https://test.pypi.org/legacy/
+

@@ -1,13 +1,12 @@
 ---
-name: semantic-release-patch
+name: semantic-release
 
 on:
   workflow_call:
   workflow_dispatch:
   push:
     branches:
-      - patch*
-      - hotfix*
+      - main
 
 permissions:
   contents: write
@@ -17,7 +16,7 @@ permissions:
 jobs:
   build:
     # Name the Job
-    name: semantic-release-patch
+    name: semantic-release
     # Set the agent to run on
     runs-on: ${{ matrix.os }}
     strategy:
@@ -25,19 +24,13 @@ jobs:
         os: [ubuntu-latest]
         python-version: [3.8]
 
+    # Load all steps #
     steps:
       # Checkout the code base #
       - name: Checkout Code
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-
-      # install copier and init project
-      - name: Install copier and init project
-        if: github.repository == 'entelecheia/hyperfast-python-template'
-        run: |
-          pipx install copier>=7.0.0
-          make reinit-project-force
 
       # set env variable
       - name: Set env variable
@@ -50,6 +43,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           repository_username: __token__
           repository_password: ${{ secrets.PYPI_API_TOKEN }}
-          additional_options: --patch --verbosity=DEBUG --define=branch=${{ env.BRANCH }}
-        env:
-          REPOSITORY_URL: https://test.pypi.org/legacy/
+          additional_options: --verbosity=DEBUG --define=branch=${{ env.BRANCH }}
