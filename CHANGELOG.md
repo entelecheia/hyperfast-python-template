@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.1.4 (2023-02-24)
+### Fix
+* Makefile ([`56c76a4`](https://github.com/entelecheia/hyperfast-python-template/commit/56c76a42de67a646efc77e0de4cb096a22ec7ffb))
+
 ## v0.1.3 (2023-02-24)
 ### Fix
 * Release actions ([`4412d46`](https://github.com/entelecheia/hyperfast-python-template/commit/4412d46a93cbdec94215a84a4313fa4fb0ac2fdb))
