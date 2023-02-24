@@ -1,0 +1,585 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.5.4">
+    
+    
+      
+        <title>Hyperfast Python Template</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.80dcb947.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#hyperfast-python-template" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Hyperfast Python Template" class="md-header__button md-logo" aria-label="Hyperfast Python Template" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Hyperfast Python Template
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Hyperfast Python Template" class="md-nav__button md-logo" aria-label="Hyperfast Python Template" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Hyperfast Python Template
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Home
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quickstart" class="md-nav__link">
+    Quickstart
+  </a>
+  
+    <nav class="md-nav" aria-label="Quickstart">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#i-use-the-template" class="md-nav__link">
+    I. Use the template
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ii-use-copier" class="md-nav__link">
+    II. Use Copier
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iii-inject-the-template" class="md-nav__link">
+    III. Inject the template
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    Features
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changelog" class="md-nav__link">
+    Changelog
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributing" class="md-nav__link">
+    Contributing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    License
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="api/" class="md-nav__link">
+        API Reference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="usage/" class="md-nav__link">
+        Usage
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quickstart" class="md-nav__link">
+    Quickstart
+  </a>
+  
+    <nav class="md-nav" aria-label="Quickstart">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#i-use-the-template" class="md-nav__link">
+    I. Use the template
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ii-use-copier" class="md-nav__link">
+    II. Use Copier
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iii-inject-the-template" class="md-nav__link">
+    III. Inject the template
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features" class="md-nav__link">
+    Features
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changelog" class="md-nav__link">
+    Changelog
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributing" class="md-nav__link">
+    Contributing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    License
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="hyperfast-python-template">Hyperfast Python Template</h1>
+<p><a href="https://github.com/entelecheia/hyperfast-python-template/blob/main/LICENSE"><img alt="license-image" src="https://img.shields.io/github/license/entelecheia/hyperfast-python-template" /></a>
+<a href="https://github.com/entelecheia/hyperfast-python-template/releases"><img alt="version-image" src="https://img.shields.io/github/v/release/entelecheia/hyperfast-python-template?sort=semver" /></a>
+<a href="https://github.com/entelecheia/hyperfast-python-template/releases"><img alt="release-date-image" src="https://img.shields.io/github/release-date/entelecheia/hyperfast-python-template" /></a>
+<a href="https://conventionalcommits.org"><img alt="conventional-commits-image" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&amp;logoColor=white" /></a>
+<a href="https://jupyterbook.org"><img alt="jupyter-book-image" src="https://jupyterbook.org/en/stable/_images/badge.svg" /></a></p>
+<!-- Links: -->
+<!-- Links: -->
+
+<p>A python template that helps you jump start your project</p>
+<ul>
+<li>Documentation: <a href="https://hyperfast-python.entelecheia.cc">https://hyperfast-python.entelecheia.cc</a></li>
+<li>GitHub: <a href="https://github.com/entelecheia/hyperfast-python-template">https://github.com/entelecheia/hyperfast-python-template</a></li>
+<li>PyPI: <a href="https://pypi.org/project/hyperfast-python-template">https://pypi.org/project/hyperfast-python-template</a></li>
+</ul>
+<p>Hyperfast Python Template is a self-contained template that helps you initialize your Python project inside the template. It is hyperfast in the sense that the template itself is converted into a Python project in the blink of an eye. It is also hyperfast in the sense that it helps you jump start your project with the best practices in the Python community.</p>
+<h2 id="quickstart">Quickstart</h2>
+<p>There are three ways to use this project:</p>
+<ul>
+<li>Use <a href="https://github.com/entelecheia/hyperfast-python-template">Hyperfast Python Template</a> to create a new repository</li>
+<li>Use <a href="https://copier.readthedocs.io">Copier</a> to create a project to your local machine directly</li>
+<li>Inject <a href="https://github.com/entelecheia/hyperfast-python-template">Hyperfast Python Template</a> into an existing project</li>
+</ul>
+<h3 id="i-use-the-template">I. Use the template</h3>
+<ol>
+<li>Click the <code>Use this template</code> button</li>
+<li>Enter a name for your repository</li>
+<li>Click <code>Create repository from template</code></li>
+<li>Clone your new repository to your local machine</li>
+<li>Initialize your project
+    <code>bash
+    make init-project</code></li>
+<li>Do your work</li>
+</ol>
+<h3 id="ii-use-copier">II. Use Copier</h3>
+<ol>
+<li>Install Copier
+    <code>bash
+    pipx install copier</code></li>
+<li>Run
+    <code>bash
+    copier gh:entelecheia/hyperfast-python-template path/to/destination</code></li>
+<li>Do your work</li>
+</ol>
+<h3 id="iii-inject-the-template">III. Inject the template</h3>
+<ol>
+<li>Install Copier
+    <code>bash
+    pipx install copier</code></li>
+<li>From the root of your project, run
+    <code>bash
+    copier gh:entelecheia/hyperfast-python-template path/to/destination</code></li>
+<li>Do your work</li>
+</ol>
+<h2 id="features">Features</h2>
+<ul>
+<li>[x] Automated changelog with <a href="https://conventionalcommits.org">Conventional Commits</a> and <a href="https://python-semantic-release.readthedocs.io/en/latest/">Python Semantic Release</a></li>
+<li>[x] Automated dependency updates with <a href="https://dependabot.com/">Dependabot</a></li>
+<li>[x] Automated semantic versioning with <a href="https://python-semantic-release.readthedocs.io/en/latest/">Python Semantic Release</a></li>
+<li>[x] Automated uploads to <a href="https://pypi.org/">PyPI</a> and <a href="https://test.pypi.org/">TestPyPI</a></li>
+<li>[x] Code coverage with <a href="https://pytest-cov.readthedocs.io/">Pytest-Cov</a></li>
+<li>[x] Code formatting with <a href="https://github.com/psf/black">Black</a> and <a href="https://prettier.io/">Prettier</a></li>
+<li>[x] Continuous integration with <a href="https://github.com/features/actions">GitHub Actions</a></li>
+<li>[x] Coverage reporting with <a href="https://codecov.io/">Codecov</a></li>
+<li>[x] Documentation with <a href="https://www.mkdocs.org">MkDocs</a>, <a href="https://jupyterbook.org">Jupyter Book</a>, and <a href="https://readthedocs.org/">Read the Docs</a></li>
+<li>[x] Hyperfast rendering of the template into a new project with <a href="https://copier.readthedocs.io">Copier</a></li>
+<li>[x] Import sorting with <a href="https://pycqa.github.io/isort/">isort</a></li>
+<li>[x] Linting with <a href="https://pre-commit.com/">pre-commit</a> and <a href="http://flake8.pycqa.org">Flake8</a></li>
+<li>[x] Managing project labels with <a href="https://github.com/marketplace/actions/github-labeler">GitHub Labeler</a></li>
+<li>[x] Managing projects with <a href="https://www.gnu.org/software/make/">Make</a></li>
+<li>[x] Packaging and dependency management with <a href="https://python-poetry.org/">Poetry</a></li>
+<li>[x] Static type-checking with <a href="http://mypy-lang.org/">mypy</a></li>
+<li>[x] Support for <a href="https://conventionalcommits.org">Conventional Commits</a></li>
+<li>[x] Support for <a href="https://semver.org">Semantic Versioning</a></li>
+<li>
+<p>[x] Testing with <a href="https://docs.pytest.org/en/latest/">pytest</a></p>
+</li>
+<li>
+<p>[ ] Automated Python syntax upgrades with <a href="https://github.com/asottile/pyupgrade">pyupgrade</a></p>
+</li>
+<li>[ ] Automatic documentation from sources for <a href="https://www.mkdocs.org">MkDocs</a> with <a href="https://mkdocstrings.github.io">mkdocstrings</a></li>
+<li>[ ] Check documentation examples with <a href="https://github.com/Erotemic/xdoctest">xdoctest</a></li>
+<li>[ ] Runtime type-checking with <a href="https://github.com/agronholm/typeguard">Typeguard</a></li>
+<li>[ ] Security audit with <a href="https://github.com/PyCQA/bandit">Bandit</a> and <a href="https://github.com/pyupio/safety">Safety</a></li>
+<li>[ ] Test automation with <a href="https://nox.thea.codes/">Nox</a></li>
+</ul>
+<p>The template supports Python 3.7, 3.8, 3.9, and 3.10.</p>
+<h2 id="changelog">Changelog</h2>
+<p>See the <a href="https://github.com/entelecheia/hyperfast-python-template/blob/main/CHANGELOG.md">CHANGELOG</a> for more information.</p>
+<h2 id="contributing">Contributing</h2>
+<p>Contributions are welcome! Please see the <a href="https://github.com/entelecheia/hyperfast-python-template/blob/main/CONTRIBUTING.md">contributing guidelines</a> for more information.</p>
+<h2 id="license">License</h2>
+<p>This project is released under the <a href="https://github.com/entelecheia/hyperfast-python-template/blob/main/LICENSE">MIT License</a>.</p>
+<p>Check out the <a href="usage">usage</a> section for further information.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This project is under active development.</p>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+      
+        
+        <a href="api/" class="md-footer__link md-footer__link--next" aria-label="Next: API Reference" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              API Reference
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.078830c0.min.js"></script>
+      
+    
+  </body>
+</html>
