@@ -1,5 +1,5 @@
 ---
-name: deploy-mkdocs
+name: deploy-docs
 on:
   workflow_call:
   workflow_dispatch:
@@ -8,6 +8,7 @@ on:
       - main
     # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
     paths:
+      - "README.md"
       - "mkdocs.yaml"
       - "docs/**.md"
       - "docs/images/**"
@@ -23,15 +24,16 @@ jobs:
 
       # init project
       - name: Init project
+        if: github.repository == 'entelecheia/hyperfast-python-template'
         run: |
           pipx install copier>=7.0.0
-          make init-project-force
+          make reinit-project-force
 
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           key: ${{ github.ref }}
           path: .cache

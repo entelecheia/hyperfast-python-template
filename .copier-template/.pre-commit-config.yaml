@@ -29,23 +29,12 @@ repos:
       - id: check-yaml
       - id: check-json
       - id: check-added-large-files
-  - repo: https://github.com/ljnsn/cz-conventional-gitmoji
-    rev: v0.1.2
-    hooks:
-      - id: conventional-gitmoji
   - repo: local
     hooks:
       - id: commitizen
         name: commitizen check
         entry: cz check
         args: [--allow-abort, --commit-msg-file]
-        stages: [commit-msg]
-        language: system
-        require_serial: true
-      - id: conventional-gitmoji
-        name: gitmojify
-        entry: gitmojify
-        args: [--commit-msg-file]
         stages: [commit-msg]
         language: system
         require_serial: true
