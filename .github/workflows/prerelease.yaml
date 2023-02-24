@@ -42,7 +42,7 @@ jobs:
         run: |
           pipx install copier>=7.0.0
           make reinit-project-force
-          echo "GITHUB_HEAD_REF=${GITHUB_HEAD_REF}" >> $GITHUB_ENV
+          echo "GITHUB_HEAD_REF=${GITHUB_HEAD_REF}"
 
       # semantic release
       - name: Python Semantic Release to PyPI
