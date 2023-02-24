@@ -33,14 +33,14 @@ cookiecutter = { version = "^2.1.1", optional = true}
 matplotlib = { version = "^3.7.0", optional = true}
 numpy = { version = "^1.24.2", optional = true}
 ghp-import = { version = "^2.1.0", optional = true}
-{% endif -%}
+{% endif %}
 
 [tool.poetry.extras]
 {% if documentaion_tool == 'mkdocs' -%}
-docs = ["mkdocs", "mkdocs-material"]
+docs = ["mkdocs"]
 {% elif documentaion_tool == 'jupyter-book' -%}
 docs = ["jupyter-book", "cookiecutter", "matplotlib", "numpy", "ghp-import"]
-{% endif -%}
+{% endif %}
 
 [tool.black]
 exclude = ['_version.py', 'node_modules', '_build', 'docs', 'tests', 'venv', '.copier-template', '.refs']

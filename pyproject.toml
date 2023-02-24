@@ -27,7 +27,8 @@ pytest-cov = "^4.0.0"
 [tool.poetry.group.docs.dependencies]
 mkdocs = {version = "^1.4.2", optional = true}
 [tool.poetry.extras]
-docs = ["mkdocs", "mkdocs-material"]
+docs = ["jupyter-book", "cookiecutter", "matplotlib", "numpy", "ghp-import", "mkdocs"]
+
 [tool.black]
 exclude = ['_version.py', 'node_modules', '_build', 'docs', 'tests', 'venv', '.copier-template', '.refs']
 
