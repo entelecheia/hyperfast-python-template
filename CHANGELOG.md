@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.1.3 (2023-02-24)
+### Fix
+* Release actions ([`4412d46`](https://github.com/entelecheia/hyperfast-python-template/commit/4412d46a93cbdec94215a84a4313fa4fb0ac2fdb))
+
 ## v0.1.2 (2023-02-24)
 ### Fix
 * Release actions ([`cbb191d`](https://github.com/entelecheia/hyperfast-python-template/commit/cbb191df537ae6ca40524f443ad3d77d31dcefa5))
