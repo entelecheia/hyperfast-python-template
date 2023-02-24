@@ -19,14 +19,14 @@
 
 [repo-url]: https://github.com/entelecheia/hyperfast-python-template
 [pypi-url]: https://pypi.org/project/hyperfast-python-template
-[docs-url]: https://entelecheia.github.io/hyperfast-python-template
+[docs-url]: https://hyperfast-python.entelecheia.cc
 [changelog]: https://github.com/entelecheia/hyperfast-python-template/blob/main/CHANGELOG.md
 [contributing guidelines]: https://github.com/entelecheia/hyperfast-python-template/blob/main/CONTRIBUTING.md
 <!-- Links: -->
 
 A python template that helps you jump start your project
 
-- Documentation: [https://entelecheia.github.io/hyperfast-python-template][docs-url]
+- Documentation: [hyperfast-python.entelecheia.cc][docs-url]
 - GitHub: [https://github.com/entelecheia/hyperfast-python-template][repo-url]
 - PyPI: [https://pypi.org/project/hyperfast-python-template][pypi-url]
 
