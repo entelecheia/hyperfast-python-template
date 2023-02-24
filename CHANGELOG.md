@@ -1,5 +1,13 @@
 <!--next-version-placeholder-->
 
+## v0.1.0 (2023-02-24)
+### Feature
+* Initial version ([`323d59b`](https://github.com/entelecheia/hyperfast-python-template/commit/323d59bfc75e7527653f22338ee7f16c268478ed))
+
+### Documentation
+* Update README ([`0dbeddf`](https://github.com/entelecheia/hyperfast-python-template/commit/0dbeddf1c8e07371a48d34bdc466ba3ad09c262f))
+* Update README ([`6f21e8b`](https://github.com/entelecheia/hyperfast-python-template/commit/6f21e8b7bfdd512ead7e9b709dcd35d54e50f4e4))
+
 ## v0.0.1-rc.18 (2023-02-24)
 
 
