@@ -76,6 +76,7 @@ tests-cov: scm-version ## run tests with pytest and show coverage (terminal + ht
 tests-cov-fail: ## run unit tests with pytest and show coverage (terminal + html) & fail if coverage too low & create files for CI
 	@poetry run pytest --doctest-modules --cov=src --cov-report term-missing --cov-report=html --cov-fail-under=80 --junitxml=pytest.xml | tee pytest-coverage.txt
 
+{% if documentaion_tool == 'jupyter-book' -%}
 ##@ Jupyter-Book
 
 book-build: ## build documentation locally
@@ -89,6 +90,7 @@ book-publish: ## publish documentation to "gh-pages" branch
 
 book-deploy: ## build & publish documentation to "gh-pages" branch
 	book-build book-publish
+{%- endif %}
 
 ##@ Clean-up
 
@@ -141,14 +143,14 @@ show-branches: ## show all branches
 	@git show-branch --list
 
 dev-checkout: ## checkout the dev branch
-	@BRANCH=$(shell echo $${BRANCH:-"dev"}) && \
-	    git show-branch --list | grep -q $${BRANCH} && \
+	@branch=$(shell echo $${BRANCH:-"dev"}) && \
+	    git show-branch --list | grep -q $${branch} && \
 		git checkout $${BRANCH}
 
 dev-checkout-upstream: ## create and checkout the dev branch, and set the upstream
-	@BRANCH=$(shell echo $${BRANCH:-"dev"}) && \
+	@branch=$(shell echo $${BRANCH:-"dev"}) && \
 		git checkout -B $${BRANCH} && \
-		git push --set-upstream origin $${BRANCH} || true
+		git push --set-upstream origin $${branch} || true
 
 main-checkout: ## checkout the main branch
 	@git checkout main

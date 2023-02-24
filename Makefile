@@ -141,14 +141,14 @@ show-branches: ## show all branches
 	@git show-branch --list
 
 dev-checkout: ## checkout the dev branch
-	@BRANCH=$(shell echo $${BRANCH:-"dev"}) && \
-	    git show-branch --list | grep -q $${BRANCH} && \
+	@branch=$(shell echo $${BRANCH:-"dev"}) && \
+	    git show-branch --list | grep -q $${branch} && \
 		git checkout $${BRANCH}
 
 dev-checkout-upstream: ## create and checkout the dev branch, and set the upstream
-	@BRANCH=$(shell echo $${BRANCH:-"dev"}) && \
+	@branch=$(shell echo $${BRANCH:-"dev"}) && \
 		git checkout -B $${BRANCH} && \
-		git push --set-upstream origin $${BRANCH} || true
+		git push --set-upstream origin $${branch} || true
 
 main-checkout: ## checkout the main branch
 	@git checkout main
