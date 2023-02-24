@@ -10,7 +10,7 @@ on:
     paths:
       - "src/**"
       - "tests/**"
-
+      
 jobs:
   build:
     # Name the Job
