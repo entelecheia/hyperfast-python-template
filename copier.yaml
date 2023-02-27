@@ -77,7 +77,7 @@ documentaion_tool:
   help: What documentation tool do you want to use?
 
 copyright_year:
-  default: "{{ now().year }}"
+  default: "{{ '%Y' | strftime }}"
   type: int
   help: What is the copyright year?
 
