@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.1.8 (2023-02-27)
+### Fix
+* Docs requirements.txt ([`7404bb4`](https://github.com/entelecheia/hyperfast-python-template/commit/7404bb46d5205957a02c7497dcd3e93df29b2f66))
+
 ## v0.1.7 (2023-02-27)
 ### Fix
 * README template ext ([`c3a26ce`](https://github.com/entelecheia/hyperfast-python-template/commit/c3a26ceadae4fd4936e20d376d1b7530ff1f8f80))
