@@ -1,5 +1,13 @@
 <!--next-version-placeholder-->
 
+## v0.1.7 (2023-02-27)
+### Fix
+* README template ext ([`c3a26ce`](https://github.com/entelecheia/hyperfast-python-template/commit/c3a26ceadae4fd4936e20d376d1b7530ff1f8f80))
+
+### Documentation
+* Update README ([`6233d2d`](https://github.com/entelecheia/hyperfast-python-template/commit/6233d2d3b1206cae51b2942c31e7acebabb45e9c))
+* Add google analytics ([`0d72551`](https://github.com/entelecheia/hyperfast-python-template/commit/0d7255182e4fe341db9f91693afaf93c48feebad))
+
 ## v0.1.6 (2023-02-24)
 ### Fix
 * Github action templates ([`d3eadb0`](https://github.com/entelecheia/hyperfast-python-template/commit/d3eadb04c3514c55668f9d46934fab2ae97e2ae0))
