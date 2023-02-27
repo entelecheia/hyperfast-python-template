@@ -72,7 +72,7 @@ There are three ways to use this project:
     ```
 2. From the root of your project, run
     ```bash
-    copier gh:entelecheia/hyperfast-python-template path/to/destination
+    copier gh:entelecheia/hyperfast-python-template .
     ```
 3. Do your work
 
