@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.1.9 (2023-03-01)
+### Fix
+* Makefile copier template repo name ([`e7a2957`](https://github.com/entelecheia/hyperfast-python-template/commit/e7a29573a9cafed6baac1e6f0c1f6b33d1672139))
+
+### Documentation
+* Add furo theme ([`beea6df`](https://github.com/entelecheia/hyperfast-python-template/commit/beea6dfe4d2ccf01183aae0de280ab1a9daeb370))
+
 ## v0.1.8 (2023-02-27)
 ### Fix
 * Docs requirements.txt ([`7404bb4`](https://github.com/entelecheia/hyperfast-python-template/commit/7404bb46d5205957a02c7497dcd3e93df29b2f66))
