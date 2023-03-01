@@ -191,7 +191,7 @@ remove-template: ## remove the template files (Warning: if you do this, you can'
 	@rm -rf .copier-template
 
 init-project: install-copier install-precommit-hooks ## initialize the project (Warning: do this only once!)
-	@copier gh:entelecheia/hyperfast-template .
+	@copier gh:entelecheia/hyperfast-python-template .
 
 init-git: ## initialize git
 	@git init
