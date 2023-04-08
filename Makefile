@@ -158,7 +158,7 @@ main-checkout: ## checkout the main branch
 
 ##@ Setup
 
-iinstall-pipx: ## install pipx (pre-requisite for external tools)
+install-pipx: ## install pipx (pre-requisite for external tools)
 	@pipx --version &> /dev/null || pip install --user pipx || true
 
 install-copier: install-pipx ## install copier (pre-requisite for init-project)
