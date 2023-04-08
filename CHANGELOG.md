@@ -1,5 +1,10 @@
 <!--next-version-placeholder-->
 
+## v0.1.10 (2023-04-08)
+### Fix
+* Makefile typo ([`8080bd7`](https://github.com/entelecheia/hyperfast-python-template/commit/8080bd70685d760aa64175cd95b550d1e7114b2b))
+* Change release action, pyproject config ([`2863e94`](https://github.com/entelecheia/hyperfast-python-template/commit/2863e94585181043e5f7a7a24da59a7ea54f7384))
+
 ## v0.1.9 (2023-03-01)
 ### Fix
 * Makefile copier template repo name ([`e7a2957`](https://github.com/entelecheia/hyperfast-python-template/commit/e7a29573a9cafed6baac1e6f0c1f6b33d1672139))
