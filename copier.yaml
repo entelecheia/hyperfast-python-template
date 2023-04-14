@@ -26,7 +26,7 @@ project_name:
 friendly_name:
   default: "{{ project_name }}"
   type: str
-  help: What is your project friendly name? (it will be used fro the title of the documentation)
+  help: What is your project friendly name? (it will be used for the title of the documentation)
 
 package_name:
   default: "{{ project_name | replace('-', '_') }}"
