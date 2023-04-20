@@ -1,6 +1,7 @@
 # Changes here will be overwritten by Copier; do NOT edit manually
-_commit: v0.1.10-8-g90e6e7f
-_src_path: .
+_commit: v0.2.0-2-gd358051
+_src_path: gh:entelecheia/hyperfast-python-template
+another_template_source: null
 author: Young Joon Lee
 copyright_year: 2023
 documentaion_tool: jupyter-book
@@ -17,4 +18,5 @@ project_description: Hyperfast Python Template is a self-contained template that
 project_license: MIT
 project_name: hyperfast-python-template
 project_short_description: A python template that helps you jump start your project
+use_source_code_skeleton: true
 
