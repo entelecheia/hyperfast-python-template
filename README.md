@@ -7,8 +7,8 @@
 [![jupyter-book-image]][jupyter book]
 
 <!-- Links: -->
-[hyperfast python template]: https://github.com/entelecheia/hyperfast-python-template
 
+[hyperfast python template]: https://github.com/entelecheia/hyperfast-python-template
 [license-image]: https://img.shields.io/github/license/entelecheia/hyperfast-python-template
 [license-url]: https://github.com/entelecheia/hyperfast-python-template/blob/main/LICENSE
 [version-image]: https://img.shields.io/github/v/release/entelecheia/hyperfast-python-template?sort=semver
@@ -16,12 +16,12 @@
 [release-url]: https://github.com/entelecheia/hyperfast-python-template/releases
 [conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white
 [jupyter-book-image]: https://jupyterbook.org/en/stable/_images/badge.svg
-
 [repo-url]: https://github.com/entelecheia/hyperfast-python-template
 [pypi-url]: https://pypi.org/project/hyperfast-python-template
 [docs-url]: https://hyperfast-python.entelecheia.cc
 [changelog]: https://github.com/entelecheia/hyperfast-python-template/blob/main/CHANGELOG.md
 [contributing guidelines]: https://github.com/entelecheia/hyperfast-python-template/blob/main/CONTRIBUTING.md
+
 <!-- Links: -->
 
 A python template that helps you jump start your project
@@ -30,54 +30,40 @@ A python template that helps you jump start your project
 - GitHub: [https://github.com/entelecheia/hyperfast-python-template][repo-url]
 - PyPI: [https://pypi.org/project/hyperfast-python-template][pypi-url]
 
-Hyperfast Python Template is a self-contained template that helps you initialize your Python project inside the template. It is hyperfast in the sense that the template itself is converted into a Python project in the blink of an eye. It is also hyperfast in the sense that it helps you jump start your project with the best practices in the Python community.
+Hyperfast Python Template is a self-contained template that helps you initialize your Python project inside the template. It is hyperfast in the sense that it helps you jump start your project with the best practices in the Python community.
 
 ## Quickstart
 
-There are three ways to use this project:
+There are two ways to use this project:
 
-- Use [Hyperfast Python Template] to create a new repository
 - Use [Copier] to create a project to your local machine directly
 - Inject [Hyperfast Python Template] into an existing project
 
-### I. Use the template
-
-1. Click the `Use this template` button
-2. Enter a name for your repository
-3. Click `Create repository from template`
-4. Clone your new repository to your local machine
-5. Initialize your project
-    ```bash
-    make init-project
-    ```
-6. Do your work
-
-### II. Use Copier
+### I. Use Copier
 
 1. Install Copier
-    ```bash
-    pipx install copier
-    ```
+   ```bash
+   pipx install copier
+   ```
 2. Run
-    ```bash
-    copier gh:entelecheia/hyperfast-python-template path/to/destination
-    ```
+   ```bash
+   copier gh:entelecheia/hyperfast-python-template path/to/destination
+   ```
 3. Do your work
 
-### III. Inject the template
+### II. Inject the template
 
 1. Install Copier
-    ```bash
-    pipx install copier
-    ```
+   ```bash
+   pipx install copier
+   ```
 2. From the root of your project, run
-    ```bash
-    copier gh:entelecheia/hyperfast-python-template .
-    ```
+   ```bash
+   copier gh:entelecheia/hyperfast-python-template .
+   ```
 3. Do your work
 
 ## Features
-
 
 - [x] Automated changelog with [Conventional Commits] and [Python Semantic Release]
 - [x] Automated dependency updates with [Dependabot]
