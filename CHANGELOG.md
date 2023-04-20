@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.4 (2023-04-20)
+### Fix
+* **template:** Update Makefile.jinja ([`9822d7e`](https://github.com/entelecheia/hyperfast-python-template/commit/9822d7ec1b66c6e4ff1868cd2c7d703f7a3d9da3))
+
 ## v0.2.3 (2023-04-20)
 ### Fix
 * **copier-config:** Update Copier configuration file ([`df14690`](https://github.com/entelecheia/hyperfast-python-template/commit/df14690d69138d7a88913d8bdd8f152718f3adde))
