@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.3 (2023-04-20)
+### Fix
+* **copier-config:** Update Copier configuration file ([`df14690`](https://github.com/entelecheia/hyperfast-python-template/commit/df14690d69138d7a88913d8bdd8f152718f3adde))
+
 ## v0.2.2 (2023-04-20)
 ### Fix
 * **Makefile:** Adjust formatting and spacing ([`1833b33`](https://github.com/entelecheia/hyperfast-python-template/commit/1833b33d3162543e9bddd5de660f1d212fe4c4a4))
