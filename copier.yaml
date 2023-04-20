@@ -14,9 +14,9 @@ _envops:
 _answers_file: .copier-config.yaml
 
 _tasks:
-    # Strings get executed under system's default shell
-    - "[ -d .git ] || git init"
-    - "{% if github_repo_name %}git add remote origin https://github.com/{{ github_username }}/{{ github_repo_name }}.git 2>/dev/null || echo 'origin already exists'{% else %}echo 'No GitHub repository name provided. Skipping git remote add.'{% endif %}"
+  # Strings get executed under system's default shell
+  - "[ -d .git ] || git init"
+  - "{% if github_repo_name %}git add remote origin https://github.com/{{ github_username }}/{{ github_repo_name }}.git 2>/dev/null || echo 'origin already exists'{% else %}echo 'No GitHub repository name provided. Skipping git remote add.'{% endif %}"
 
 # questions
 project_name:
@@ -85,3 +85,12 @@ documentation_url:
   default: "https://{{ github_username }}.github.io/{{ github_repo_name }}"
   type: str
   help: What is your documentation URL?
+
+use_source_code_skeleton:
+  default: true
+  type: bool
+  help: Do you want to use the source code skeleton? (it will create `src` and `tests` directories)
+
+another_template_source:
+  type: str
+  help: What is the URL of another template to apply on top of this one?
