@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.8 (2023-04-20)
+### Fix
+* **build:** Upgrade copier to latest version ([`a2df059`](https://github.com/entelecheia/hyperfast-python-template/commit/a2df0597582579a9480da4e838d4dd736ca6bbfe))
+
 ## v0.2.7 (2023-04-20)
 ### Fix
 * **template:** Rename pyproject.toml.jinja to project.toml.jinja ([`eece2b1`](https://github.com/entelecheia/hyperfast-python-template/commit/eece2b11adf2fc24d2e33e8af26a32e5c09ff24d))
