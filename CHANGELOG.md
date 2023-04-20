@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.1 (2023-04-20)
+### Fix
+* **template:** Update to newer version of hyperfast-python-template ([`02b28d0`](https://github.com/entelecheia/hyperfast-python-template/commit/02b28d0f76b3133f35a1fbc45e74de8b983a9fea))
+
 ## v0.2.0 (2023-04-20)
 ### Feature
 * **docs:** Add PyPI badge to README and index markdown files ([`0980fad`](https://github.com/entelecheia/hyperfast-python-template/commit/0980fad4387e03b8dd172bb691f92e06046eb0ed))
