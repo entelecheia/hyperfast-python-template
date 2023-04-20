@@ -11,9 +11,7 @@ github_repo_name: hyperfast-python-template
 github_username: entelecheia
 package_name: hyperfastpy
 project_description: Hyperfast Python Template is a self-contained template that helps
-    you initialize your Python project inside the template. It is hyperfast in the
-    sense that the template itself is converted into a Python project in the blink
-    of an eye. It is also hyperfast in the sense that it helps you jump start your
+    you initialize your Python project inside the template. It is hyperfast in the sense that it helps you jump start your
     project with the best practices in the Python community.
 project_license: MIT
 project_name: hyperfast-python-template
