@@ -21,7 +21,7 @@ _tasks:
 # questions
 project_name:
   type: str
-  help: What is your project name? (it will be used in `pip install {{ project_name }}`)
+  help: What is your project name? (it will be used in `pip install project_name`)
 
 friendly_name:
   default: "{{ project_name }}"
@@ -31,7 +31,7 @@ friendly_name:
 package_name:
   default: "{{ project_name | replace('-', '_') }}"
   type: str
-  help: What is your Python module name? (it will be used in `import {{ package_name }}`)
+  help: What is your Python module name? (it will be used in `import package_name`)
 
 project_short_description:
   type: str
