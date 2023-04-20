@@ -184,6 +184,9 @@ install-commitzen: install-poetry ## install commitzen (pre-requisite for commit
 install-precommit: install-commitzen ## install pre-commit
 	@pre-commit --version &> /dev/null || poetry add pre-commit --group dev || true
 
+install-precommit-hooks: install-precommit ## install pre-commit hooks
+	@pre-commit install
+
 install: ## install the package
 	@poetry install --without dev
 

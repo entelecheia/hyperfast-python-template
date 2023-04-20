@@ -4,7 +4,7 @@
 [![license-image]][license-url]
 [![version-image]][release-url]
 [![release-date-image]][release-url]
-[![jupyter-book-image]][docs-url]
+{% if documentaion_tool == 'jupyter-book' %}[![jupyter-book-image]][docs-url]{% endif %}
 
 <!-- Links: -->
 [pypi-image]: https://badge.fury.io/py/{{ project_name }}.svg

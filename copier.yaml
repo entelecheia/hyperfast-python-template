@@ -91,6 +91,11 @@ use_source_code_skeleton:
   type: bool
   help: Do you want to use the source code skeleton? (it will create `src` and `tests` directories)
 
-another_template_source:
+code_template_source:
   type: str
-  help: What is the URL of another template to apply on top of this one?
+  help: What is the URL of the code template to apply to the project? (e.g. gh:entelecheia/hyfi-template)
+
+code_template_answers_file:
+  default: .copier-code-config.yaml
+  type: str
+  help: What is the path to the answers file of the code template? (e.g. .copier-hyfi-config.yaml)
