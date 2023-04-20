@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.0 (2023-04-20)
+### Feature
+* **docs:** Add PyPI badge to README and index markdown files ([`0980fad`](https://github.com/entelecheia/hyperfast-python-template/commit/0980fad4387e03b8dd172bb691f92e06046eb0ed))
+
 ## v0.1.10 (2023-04-08)
 ### Fix
 * Makefile typo ([`8080bd7`](https://github.com/entelecheia/hyperfast-python-template/commit/8080bd70685d760aa64175cd95b550d1e7114b2b))
