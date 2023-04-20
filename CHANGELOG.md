@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.5 (2023-04-20)
+### Fix
+* **config:** Update homepage URL in pyproject.toml files ([`d97e442`](https://github.com/entelecheia/hyperfast-python-template/commit/d97e442a5b5c9256d3d263b905dfca91d5954ac6))
+
 ## v0.2.4 (2023-04-20)
 ### Fix
 * **template:** Update Makefile.jinja ([`9822d7e`](https://github.com/entelecheia/hyperfast-python-template/commit/9822d7ec1b66c6e4ff1868cd2c7d703f7a3d9da3))
