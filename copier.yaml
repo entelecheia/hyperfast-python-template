@@ -17,6 +17,8 @@ _tasks:
   # Strings get executed under system's default shell
   - "[ -d .git ] || git init"
   - "{% if github_repo_name %}git add remote origin https://github.com/{{ github_username }}/{{ github_repo_name }}.git 2>/dev/null || echo 'origin already exists'{% else %}echo 'No GitHub repository name provided. Skipping git remote add.'{% endif %}"
+  # if code_template_source is not empty, apply the code template
+  - "{% if code_template_source %}copier --answers-file {{ code_template_answers_file }} {{ code_template_source }} .{% else %}echo 'No code template source provided. Skipping copier.'{% endif %}"
 
 # questions
 project_name:
@@ -96,6 +98,6 @@ code_template_source:
   help: What is the URL of the code template to apply to the project? (e.g. gh:entelecheia/hyfi-template)
 
 code_template_answers_file:
-  default: .copier-code-config.yaml
+  default: .copier-hyfi-config.yaml
   type: str
   help: What is the path to the answers file of the code template? (e.g. .copier-hyfi-config.yaml)
