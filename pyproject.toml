@@ -4,7 +4,7 @@ version = "0.2.8"
 description = "A python template that helps you jump start your project"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
-homepage = "https://hyperfast-python.entelecheia.cc"
+homepage = "https://hyperfast-python.entelecheia.ai"
 readme = "README.md"
 packages = [{ include = "hyperfastpy", from = "src" }]
 

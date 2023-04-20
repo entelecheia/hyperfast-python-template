@@ -6,7 +6,7 @@ code_template_answers_file: .copier-code-config.yaml
 code_template_source: ''
 copyright_year: 2023
 documentaion_tool: jupyter-book
-documentation_url: https://hyperfast-python.entelecheia.cc
+documentation_url: https://hyperfast-python.entelecheia.ai
 email: entelecheia@hotmail.com
 friendly_name: Hyperfast Python Template
 github_repo_name: hyperfast-python-template

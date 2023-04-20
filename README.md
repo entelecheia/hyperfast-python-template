@@ -18,7 +18,7 @@
 [jupyter-book-image]: https://jupyterbook.org/en/stable/_images/badge.svg
 [repo-url]: https://github.com/entelecheia/hyperfast-python-template
 [pypi-url]: https://pypi.org/project/hyperfast-python-template
-[docs-url]: https://hyperfast-python.entelecheia.cc
+[docs-url]: https://hyperfast-python.entelecheia.ai
 [changelog]: https://github.com/entelecheia/hyperfast-python-template/blob/main/CHANGELOG.md
 [contributing guidelines]: https://github.com/entelecheia/hyperfast-python-template/blob/main/CONTRIBUTING.md
 
@@ -26,7 +26,7 @@
 
 A python template that helps you jump start your project
 
-- Documentation: [https://hyperfast-python.entelecheia.cc][docs-url]
+- Documentation: [https://hyperfast-python.entelecheia.ai][docs-url]
 - GitHub: [https://github.com/entelecheia/hyperfast-python-template][repo-url]
 - PyPI: [https://pypi.org/project/hyperfast-python-template][pypi-url]
 
