@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.2 (2023-04-20)
+### Fix
+* **Makefile:** Adjust formatting and spacing ([`1833b33`](https://github.com/entelecheia/hyperfast-python-template/commit/1833b33d3162543e9bddd5de660f1d212fe4c4a4))
+
 ## v0.2.1 (2023-04-20)
 ### Fix
 * **template:** Update to newer version of hyperfast-python-template ([`02b28d0`](https://github.com/entelecheia/hyperfast-python-template/commit/02b28d0f76b3133f35a1fbc45e74de8b983a9fea))
