@@ -156,6 +156,17 @@ dev-checkout-upstream: ## create and checkout the dev branch, and set the upstre
 main-checkout: ## checkout the main branch
 	@git checkout main
 
+##@ Utilities
+
+large-files: ## show the 20 largest files in the repo
+	@find . -printf '%s %p\n'| sort -nr | head -20
+
+disk-usage: ## show the disk usage of the repo
+	@du -h -d 2 .
+
+git-sizer: ## run git-sizer
+	@git-sizer --verbose
+
 ##@ Setup
 
 install-pipx: ## install pipx (pre-requisite for external tools)
@@ -191,16 +202,8 @@ init-project: install-copier install-precommit-hooks ## initialize the project (
 init-git: ## initialize git
 	@git init
 
+reinit-project: install-copier ## reinitialize the project
+	@copier --answers-file .copier-config.yaml gh:entelecheia/hyperfast-python-template .
+
 reinit-project-force: install-copier ## initialize the project ignoring existing files (*Warning* this will overwrite existing files!)
 	@copier --answers-file .copier-config.yaml --force --vcs-ref=HEAD . .
-
-##@ Utilities
-
-large-files: ## show the 20 largest files in the repo
-	@find . -printf '%s %p\n'| sort -nr | head -20
-
-disk-usage: ## show the disk usage of the repo
-	@du -h -d 2 .
-
-git-sizer: ## run git-sizer
-	@git-sizer --verbose
