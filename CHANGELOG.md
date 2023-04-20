@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.6 (2023-04-20)
+### Fix
+* **template:** Add pyproject.toml.jinja file for {{package_name project ([`5f3e50e`](https://github.com/entelecheia/hyperfast-python-template/commit/5f3e50ee299b0cdef885c2eb1c938797fec603b8))
+
 ## v0.2.5 (2023-04-20)
 ### Fix
 * **config:** Update homepage URL in pyproject.toml files ([`d97e442`](https://github.com/entelecheia/hyperfast-python-template/commit/d97e442a5b5c9256d3d263b905dfca91d5954ac6))
