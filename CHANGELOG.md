@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.7 (2023-04-20)
+### Fix
+* **template:** Rename pyproject.toml.jinja to project.toml.jinja ([`eece2b1`](https://github.com/entelecheia/hyperfast-python-template/commit/eece2b11adf2fc24d2e33e8af26a32e5c09ff24d))
+
 ## v0.2.6 (2023-04-20)
 ### Fix
 * **template:** Add pyproject.toml.jinja file for {{package_name project ([`5f3e50e`](https://github.com/entelecheia/hyperfast-python-template/commit/5f3e50ee299b0cdef885c2eb1c938797fec603b8))
