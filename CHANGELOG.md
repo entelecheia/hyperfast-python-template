@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.12 (2023-04-21)
+### Fix
+* **version:** Add pre-commit command to make scm-version ([`c338f41`](https://github.com/entelecheia/hyperfast-python-template/commit/c338f4181f7b9241b14a26d6da5f46b1c5970746))
+
 ## v0.2.11 (2023-04-21)
 ### Fix
 * **copier:** Switch default documentation tool to jupyter-book in copier.yaml ([`a9cb285`](https://github.com/entelecheia/hyperfast-python-template/commit/a9cb2852268dd9144c77aa37ffcfdd7002519ad8))
