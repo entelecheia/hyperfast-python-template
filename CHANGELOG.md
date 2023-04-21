@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.9 (2023-04-21)
+### Fix
+* Ci triggers ([`59e6c59`](https://github.com/entelecheia/hyperfast-python-template/commit/59e6c59245c74930ac05d25c84760b90c40dd08c))
+
 ## v0.2.8 (2023-04-20)
 ### Fix
 * **build:** Upgrade copier to latest version ([`a2df059`](https://github.com/entelecheia/hyperfast-python-template/commit/a2df0597582579a9480da4e838d4dd736ca6bbfe))

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hyperfast-python-template"
-version = "0.2.8"
+version = "0.2.9"
 description = "A python template that helps you jump start your project"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
