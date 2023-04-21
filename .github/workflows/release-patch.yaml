@@ -11,6 +11,7 @@ on:
     paths:
       - 'src/**'
       - 'pyproject.toml'
+      - '.copier-template/**'
 
 permissions:
   contents: write
