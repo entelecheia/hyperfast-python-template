@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.11 (2023-04-21)
+### Fix
+* **copier:** Switch default documentation tool to jupyter-book in copier.yaml ([`a9cb285`](https://github.com/entelecheia/hyperfast-python-template/commit/a9cb2852268dd9144c77aa37ffcfdd7002519ad8))
+
 ## v0.2.10 (2023-04-21)
 ### Fix
 * **Makefile:** Update copier command options ([`235df10`](https://github.com/entelecheia/hyperfast-python-template/commit/235df101bfccd03b24459b2cfe5ad124de35e03f))
