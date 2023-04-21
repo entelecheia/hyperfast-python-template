@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.13 (2023-04-21)
+### Fix
+* **version:** Disable scm-version ([`e14d6f4`](https://github.com/entelecheia/hyperfast-python-template/commit/e14d6f428ce13dc8972dfba5eef1a0981b5ee0fb))
+
 ## v0.2.12 (2023-04-21)
 ### Fix
 * **version:** Add pre-commit command to make scm-version ([`c338f41`](https://github.com/entelecheia/hyperfast-python-template/commit/c338f4181f7b9241b14a26d6da5f46b1c5970746))
