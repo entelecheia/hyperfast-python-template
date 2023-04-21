@@ -70,11 +70,11 @@ github_repo_name:
   help: What is your GitHub repository name?
 
 documentaion_tool:
-  default: mkdocs
+  default: jupyter-book
   type: str
   choices:
-    - mkdocs
     - jupyter-book
+    - mkdocs
     - none
   help: What documentation tool do you want to use?
 
