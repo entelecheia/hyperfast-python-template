@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.10 (2023-04-21)
+### Fix
+* **Makefile:** Update copier command options ([`235df10`](https://github.com/entelecheia/hyperfast-python-template/commit/235df101bfccd03b24459b2cfe5ad124de35e03f))
+
 ## v0.2.9 (2023-04-21)
 ### Fix
 * Ci triggers ([`59e6c59`](https://github.com/entelecheia/hyperfast-python-template/commit/59e6c59245c74930ac05d25c84760b90c40dd08c))
