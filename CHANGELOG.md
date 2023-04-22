@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.18 (2023-04-22)
+### Fix
+* **copier:** Update copier.yaml and pyproject.toml.jinja templates ([`5b719c4`](https://github.com/entelecheia/hyperfast-python-template/commit/5b719c493e51007311986f0baf088adf1ef4761c))
+
 ## v0.2.17 (2023-04-22)
 ### Fix
 * **copier:** Update copier command to include package_name in data section ([`f84aa4a`](https://github.com/entelecheia/hyperfast-python-template/commit/f84aa4a10ac929ab965ebf8c2d8f56671d22c292))
