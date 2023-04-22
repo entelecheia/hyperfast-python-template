@@ -92,8 +92,8 @@ prerelease_tag = "rc"
 major_on_zero = true
 tag_commit = true
 changelog_file = "CHANGELOG.md"
-upload_to_repository = true
-upload_to_release = true
+upload_to_repository = {{ upload_to_repository }}
+upload_to_release = {{ upload_to_release }}
 build_command = "poetry build --no-cache"
 hvcs = "github" # hosting version control system, gitlab is also supported
 
