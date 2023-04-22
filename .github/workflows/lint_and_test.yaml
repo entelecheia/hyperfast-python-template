@@ -63,7 +63,6 @@ jobs:
       - name: Run unit-tests
         run: |
           set -o pipefail
-          make scm-version
           make tests-cov-fail
 
       # add content to GitHub summary
