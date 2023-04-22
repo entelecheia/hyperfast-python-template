@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; do NOT edit manually
-_commit: v0.2.14
+_commit: v0.2.18
 _src_path: .
 author: Young Joon Lee
 code_template_answers_file: .copier-code-config.yaml
@@ -19,5 +19,7 @@ project_description: Hyperfast Python Template is a self-contained template that
 project_license: MIT
 project_name: hyperfast-python-template
 project_short_description: A python template that helps you jump start your project
+upload_to_release: true
+upload_to_repository: true
 use_source_code_skeleton: true
 
