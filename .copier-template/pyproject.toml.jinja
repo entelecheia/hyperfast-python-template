@@ -5,6 +5,7 @@ description = "{{ project_short_description }}"
 authors = ["{{ author }} <{{ email }}>"]
 license = "{{ project_license }}"
 homepage = "{{ documentation_url }}"
+repository = "https://github.com/{{ github_username }}/{{ github_repo_name }}"
 readme = "README.md"
 packages = [{ include = "{{ package_name }}", from = "src" }]
 
@@ -98,5 +99,5 @@ build_command = "poetry build --no-cache"
 hvcs = "github" # hosting version control system, gitlab is also supported
 
 [build-system]
-requires = ["poetry-core>=1.0.0", "setuptools>=45", "setuptools_scm[toml]>=6.2"]
-build-backend = 'setuptools.build_meta'
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
