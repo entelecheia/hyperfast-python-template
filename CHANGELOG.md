@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.15 (2023-04-22)
+### Fix
+* **about-config:** Update author to authors and add version ([`be9ea0e`](https://github.com/entelecheia/hyperfast-python-template/commit/be9ea0ef67cadd4d37638c49c802ab4dc239cd6b))
+
 ## v0.2.14 (2023-04-22)
 ### Fix
 * **release:** Update version_pattern in pyproject.toml.jinja and remove /project.toml.jinja ([`697eb07`](https://github.com/entelecheia/hyperfast-python-template/commit/697eb077b8e6f63c70671f782bd0d6b09e3f9f62))
