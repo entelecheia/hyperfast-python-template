@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.16 (2023-04-22)
+### Fix
+* **Makefile:** Reinit-project ([`7bedc05`](https://github.com/entelecheia/hyperfast-python-template/commit/7bedc05828008f540e3dca653bfa0dd451cd9c26))
+
 ## v0.2.15 (2023-04-22)
 ### Fix
 * **about-config:** Update author to authors and add version ([`be9ea0e`](https://github.com/entelecheia/hyperfast-python-template/commit/be9ea0ef67cadd4d37638c49c802ab4dc239cd6b))
