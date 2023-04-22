@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.17 (2023-04-22)
+### Fix
+* **copier:** Update copier command to include package_name in data section ([`f84aa4a`](https://github.com/entelecheia/hyperfast-python-template/commit/f84aa4a10ac929ab965ebf8c2d8f56671d22c292))
+
 ## v0.2.16 (2023-04-22)
 ### Fix
 * **Makefile:** Reinit-project ([`7bedc05`](https://github.com/entelecheia/hyperfast-python-template/commit/7bedc05828008f540e3dca653bfa0dd451cd9c26))
