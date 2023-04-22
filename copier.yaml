@@ -51,6 +51,15 @@ project_description:
   type: str
   help: What is your project description?
 
+project_license:
+  type: str
+  choices:
+    - MIT
+    - CC-BY-4.0
+    - Apache-2.0
+    - GPLv3
+    - None
+
 author:
   type: str
   help: What is your name?
@@ -76,6 +85,11 @@ email:
     email must be a valid email address
     {% endif %}
 
+github_repo_name:
+  default: "{{ project_name }}"
+  type: str
+  help: What is your GitHub repository name?
+
 upload_to_release:
   default: true
   type: bool
@@ -85,20 +99,6 @@ upload_to_repository:
   default: true
   type: bool
   help: Do you want to upload the package to the GitHub repository?
-
-github_repo_name:
-  default: "{{ project_name }}"
-  type: str
-  help: What is your GitHub repository name?
-
-project_license:
-  type: str
-  choices:
-    - MIT
-    - CC-BY-4.0
-    - Apache-2.0
-    - GPLv3
-    - None
 
 documentaion_tool:
   default: jupyter-book
