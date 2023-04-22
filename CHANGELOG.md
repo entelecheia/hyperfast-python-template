@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.14 (2023-04-22)
+### Fix
+* **release:** Update version_pattern in pyproject.toml.jinja and remove /project.toml.jinja ([`697eb07`](https://github.com/entelecheia/hyperfast-python-template/commit/697eb077b8e6f63c70671f782bd0d6b09e3f9f62))
+
 ## v0.2.13 (2023-04-21)
 ### Fix
 * **version:** Disable scm-version ([`e14d6f4`](https://github.com/entelecheia/hyperfast-python-template/commit/e14d6f428ce13dc8972dfba5eef1a0981b5ee0fb))
