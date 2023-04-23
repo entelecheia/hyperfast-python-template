@@ -90,6 +90,11 @@ github_repo_name:
   type: str
   help: What is your GitHub repository name?
 
+build_and_release:
+  default: true
+  type: bool
+  help: Do you want to build and release the package?
+
 upload_to_release:
   default: true
   type: bool
