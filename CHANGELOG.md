@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.19 (2023-04-23)
+### Fix
+* **template:** Add Sphinx extensions for YouTube, video, and mermaid; upgrade Sphinx-thebe and requirements.txt ([`0dea308`](https://github.com/entelecheia/hyperfast-python-template/commit/0dea3088ec71d68acc7d10546213c749349d2472))
+
 ## v0.2.18 (2023-04-22)
 ### Fix
 * **copier:** Update copier.yaml and pyproject.toml.jinja templates ([`5b719c4`](https://github.com/entelecheia/hyperfast-python-template/commit/5b719c493e51007311986f0baf088adf1ef4761c))
