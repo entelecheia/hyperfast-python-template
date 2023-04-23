@@ -1,5 +1,10 @@
 <!--next-version-placeholder-->
 
+## v0.2.20 (2023-04-23)
+### Fix
+* **github-actions:** Rename workflows to match build_and_release flag ([`4986837`](https://github.com/entelecheia/hyperfast-python-template/commit/4986837254474426a6b258f45675a33b28672572))
+* **config:** Update Copier and PyProject config files ([`d4a529c`](https://github.com/entelecheia/hyperfast-python-template/commit/d4a529c208a5c699905f301a74ef9448ec3e16c0))
+
 ## v0.2.19 (2023-04-23)
 ### Fix
 * **template:** Add Sphinx extensions for YouTube, video, and mermaid; upgrade Sphinx-thebe and requirements.txt ([`0dea308`](https://github.com/entelecheia/hyperfast-python-template/commit/0dea3088ec71d68acc7d10546213c749349d2472))
