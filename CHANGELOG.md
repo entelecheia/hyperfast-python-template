@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.21 (2023-04-24)
+### Fix
+* **documentation:** Remove Furo HTML theme and update intersphinx_mapping in Sphinx configuration ([`a0e6a51`](https://github.com/entelecheia/hyperfast-python-template/commit/a0e6a512b5621931c61c25820bab876c072a9ae5))
+
 ## v0.2.20 (2023-04-23)
 ### Fix
 * **github-actions:** Rename workflows to match build_and_release flag ([`4986837`](https://github.com/entelecheia/hyperfast-python-template/commit/4986837254474426a6b258f45675a33b28672572))
