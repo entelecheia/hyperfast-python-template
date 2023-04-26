@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.2.23 (2023-04-26)
+### Fix
+* **src:** Update package name in about configuration file ([`76b9211`](https://github.com/entelecheia/hyperfast-python-template/commit/76b9211e8356cd55a931884da662055dea9027a0))
+
 ## v0.2.22 (2023-04-26)
 ### Fix
 * **workflows:** Remove pull request trigger for semantic-release-test workflow ([`94d4072`](https://github.com/entelecheia/hyperfast-python-template/commit/94d407208c87c61922fd13b1b8bc8a7ab50e97e4))
