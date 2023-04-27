@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.3.1 (2023-04-27)
+### Fix
+* **readme:** Rearrange badges in README.md file ([`8c81afe`](https://github.com/entelecheia/hyperfast-python-template/commit/8c81afef092a0afc895ad732edb1240c4ecaf74a))
+
 ## v0.3.0 (2023-04-27)
 ### Feature
 * Add poe task file ([`11732e1`](https://github.com/entelecheia/hyperfast-python-template/commit/11732e180269f5b5b24861e0d2c90c68ff7496f1))
