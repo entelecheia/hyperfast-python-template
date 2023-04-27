@@ -175,6 +175,9 @@ install-copier: install-pipx ## install copier (pre-requisite for init-project)
 install-poetry: install-pipx ## install poetry (pre-requisite for install)
 	@poetry --version &> /dev/null || pipx install poetry || true
 
+install-poe: install-poetry ## install poetry (pre-requisite for install)
+	@poetry poe --version &> /dev/null || poetry add --group dev poethepoet && poetry self add 'poethepoet[poetry_plugin]' || true
+
 install-commitzen: install-poetry ## install commitzen (pre-requisite for commit)
 	@cz version &> /dev/null || poetry add commitizen --group dev || true
 
