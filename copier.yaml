@@ -72,8 +72,8 @@ github_username:
   type: str
   help: What is your GitHub username?
   validator: >-
-    {% if not (github_username | regex_search('^[a-z][a-z0-9\-]+$')) %}
-    github_username must start with a letter, followed one or more letters, digits or dashes in lowercase only
+    {% if not (github_username | regex_search('^[a-z0-9][a-z0-9\-]+$')) %}
+    github_username must start with a letter or digit, followed one or more letters, digits or dashes in lowercase only
     {% endif %}
 
 email:
