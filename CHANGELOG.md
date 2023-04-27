@@ -1,5 +1,13 @@
 <!--next-version-placeholder-->
 
+## v0.3.0 (2023-04-27)
+### Feature
+* Add poe task file ([`11732e1`](https://github.com/entelecheia/hyperfast-python-template/commit/11732e180269f5b5b24861e0d2c90c68ff7496f1))
+
+### Fix
+* Poe task config ([`6d8a483`](https://github.com/entelecheia/hyperfast-python-template/commit/6d8a483dc685f640868e9ae093d09da3f664ffa6))
+* **copier:** Update validation for GitHub username in copier.yaml ([`5e8422d`](https://github.com/entelecheia/hyperfast-python-template/commit/5e8422dbb4881dcceb2451cb33c1a7e8fc4e4919))
+
 ## v0.2.23 (2023-04-26)
 ### Fix
 * **src:** Update package name in about configuration file ([`76b9211`](https://github.com/entelecheia/hyperfast-python-template/commit/76b9211e8356cd55a931884da662055dea9027a0))
