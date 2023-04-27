@@ -1,0 +1,23 @@
+[tool.poe.tasks.clean]
+script = "devtasks:clean"
+help = "remove build/python artifacts"
+
+[tool.poe.tasks.coverage]
+cmd = "pytest --cov-report html --cov src tests"
+help = "generate an HTML report of the coverage"
+
+[tool.poe.tasks.dev-setup]
+script = "devtasks:dev_setup"
+help = "set up local development environment"
+
+[tool.poe.tasks.lint]
+script = "devtasks:lint"
+help = "check (and auto-fix) style with pre-commit"
+
+[tool.poe.tasks.test]
+cmd = "pytest --color=yes"
+help = "run tests"
+
+[tool.poe.tasks.types]
+cmd = "mypy ."
+help = "run the type (mypy) checker on the codebase"
