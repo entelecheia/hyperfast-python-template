@@ -176,9 +176,9 @@ install-poetry: install-pipx ## install poetry (pre-requisite for install)
 	@poetry --version &> /dev/null || pipx install poetry || true
 
 install-poe: install-poetry ## install poetry (pre-requisite for install)
-	@poetry poe --version &> /dev/null || poetry add --group dev poethepoet && poetry self add 'poethepoet[poetry_plugin]' || true
+	@poetry poe --version &> /dev/null || pipx install poethepoet || true
 
-install-commitzen: install-poetry ## install commitzen (pre-requisite for commit)
+install-commitzen: install-poe ## install commitzen (pre-requisite for commit)
 	@cz version &> /dev/null || poetry add commitizen --group dev || true
 
 install-precommit: install-commitzen ## install pre-commit
