@@ -38,8 +38,8 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  favicon: https://assets.entelecheia.ai/favicon.png # favicon: Path to the favicon image
-  google_analytics_id: G-0K77490FJT # google_analytics_id: Google Analytics ID
+  favicon: https://assets.entelecheia.ai/favicon.png  # favicon: Path to the favicon image
+  google_analytics_id: G-0K77490FJT  # google_analytics_id: Google Analytics ID
 
 sphinx:
   config:
