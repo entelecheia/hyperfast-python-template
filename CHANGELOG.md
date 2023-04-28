@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.3.3 (2023-04-28)
+### Fix
+* **docs:** Add MathJax support and update markdown extensions in mkdocs.yaml.jinja ([`f22a28f`](https://github.com/entelecheia/hyperfast-python-template/commit/f22a28f528fd6e6242b05152d42dff6f39039678))
+
 ## v0.3.2 (2023-04-28)
 ### Fix
 * Apply updated template ([`de75922`](https://github.com/entelecheia/hyperfast-python-template/commit/de75922d847262357ce45eb65feb426b61f15ee1))
