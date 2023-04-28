@@ -8,7 +8,7 @@
 title: "{{ friendly_name }}" # The title of the book. Will be placed in the left navbar.
 author: "{{ author }}" # The author of the book
 copyright: "{{ copyright_year }}" # Copyright year to be placed in the footer
-# logo: logo.png # A path to the book logo
+{% if logo_path %}logo: {{ logo_path }}{% end -%} # logo: Path to the book logo
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -38,9 +38,14 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  {% if favicon_path %}favicon: {{ favicon_path }}{% end -%} # favicon: Path to the favicon image
+  {% if google_analytics_id %}google_analytics_id: {{ google_analytics_id }}{% end -%} # google_analytics_id: Google Analytics ID
 
 sphinx:
   config:
+    html_extra_path: ["assets"]
+    bibtex_reference_style: author_year
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
     intersphinx_mapping:
       ebp:
         - "https://executablebooks.org/en/latest/"
