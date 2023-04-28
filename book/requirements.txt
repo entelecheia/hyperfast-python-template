@@ -1,4 +1,5 @@
 jupyter-book
+docutils==0.17.1
 matplotlib
 numpy
 sphinx-inline-tabs

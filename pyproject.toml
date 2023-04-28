@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "hyperfast-python-template"
-version = "0.3.1"
+version = "0.0.0"
 description = "A python template that helps you jump start your project"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
 homepage = "https://hyperfast-python.entelecheia.ai"
+repository = "https://github.com/entelecheia/hyperfast-python-template"
 readme = "README.md"
 packages = [{ include = "hyperfastpy", from = "src" }]
 
@@ -31,56 +32,20 @@ pytest-cov = "^4.0.0"
 include = ".tasks.toml"
 
 [tool.black]
-exclude = [
-    '_version.py',
-    'node_modules',
-    '_build',
-    'docs',
-    'tests',
-    'venv',
-    '.copier-template',
-    '.refs',
-]
+exclude = ['_version.py', 'node_modules', '_build', 'docs', 'tests', 'venv', '.copier-template', '.refs']
 
 [tool.isort]
 profile = "black"
-skip = [
-    '_version.py',
-    'node_modules',
-    '_build',
-    'docs',
-    'tests',
-    'venv',
-    '.copier-template',
-    '.refs',
-]
+skip = ['_version.py', 'node_modules', '_build', 'docs', 'tests', 'venv', '.copier-template', '.refs']
 
 [tool.flake8]
 ignore = ['F401', 'E501', 'W503']
-exclude = [
-    "node_modules",
-    "_build",
-    "docs",
-    "tests",
-    "venv",
-    ".copier-template",
-    ".refs",
-]
+exclude = ["node_modules", "_build", "docs", "tests", "venv", ".copier-template", ".refs"]
 per-file-ignores = ['__init__.py:F401', '_version.py:W292']
 
 [tool.mypy]
 namespace_packages = true
-exclude = [
-    "node_modules",
-    "build",
-    "_build",
-    "dist",
-    "docs",
-    "tests",
-    "venv",
-    ".copier-template",
-    ".refs",
-]
+exclude = ["node_modules", "build", "_build", "dist", "docs", "tests", "venv", ".copier-template", ".refs"]
 # 3rd party import
 ignore_missing_imports = true
 # dynamic typing
@@ -116,15 +81,13 @@ exclude_lines = ['if __name__ == "__main__":']
 name = "cz_conventional_commits"
 tag_format = "v$version"
 
-[tool.setuptools_scm]
-write_to_template = '__version__ = "{version}"'
-tag_regex = '^(?P<prefix>v)?(?P<version>[^\+]+)(?P<suffix>.*)?$'
-
 [tool.semantic_release]
 branch = "main"
 version_toml = "pyproject.toml:tool.poetry.version"
+version_variable = "src/hyperfastpy/_version.py:__version__"
+version_pattern = 'src/hyperfastpy/conf/about/__init__.yaml:version: "{version}"'
 version_source = "tag"
-commit_version_number = true                                    # required for version_source = "tag"
+commit_version_number = true # required for version_source = "tag"
 commit_subject = "chore(release): :rocket: {version} [skip ci]"
 prerelease_tag = "rc"
 major_on_zero = true
@@ -133,7 +96,7 @@ changelog_file = "CHANGELOG.md"
 upload_to_repository = true
 upload_to_release = true
 build_command = "poetry build --no-cache"
-hvcs = "github"                                                 # hosting version control system, gitlab is also supported
+hvcs = "github" # hosting version control system, gitlab is also supported
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
