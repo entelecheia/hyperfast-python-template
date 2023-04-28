@@ -379,11 +379,6 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quickstart">Quickstart</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#i-use-the-template">I. Use the template</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ii-use-copier">II. Use Copier</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#iii-inject-the-template">III. Inject the template</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#features">Features</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changelog">Changelog</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing">Contributing</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
@@ -415,93 +410,6 @@ document.write(`
 <li><p>PyPI: <a class="reference external" href="https://pypi.org/project/hyperfast-python-template">https://pypi.org/project/hyperfast-python-template</a></p></li>
 </ul>
 <p>Hyperfast Python Template is a self-contained template that helps you initialize your Python project inside the template. It is hyperfast in the sense that it helps you jump start your project with the best practices in the Python community.</p>
-<section id="quickstart">
-<h2>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">#</a></h2>
-<p>There are three ways to use this project:</p>
-<ul class="simple">
-<li><p>Use <a class="reference external" href="https://github.com/entelecheia/hyperfast-python-template">Hyperfast Python Template</a> to create a new repository</p></li>
-<li><p>Use <a class="reference external" href="https://copier.readthedocs.io">Copier</a> to create a project to your local machine directly</p></li>
-<li><p>Inject <a class="reference external" href="https://github.com/entelecheia/hyperfast-python-template">Hyperfast Python Template</a> into an existing project</p></li>
-</ul>
-</section>
-<section id="i-use-the-template">
-<h2>I. Use the template<a class="headerlink" href="#i-use-the-template" title="Permalink to this heading">#</a></h2>
-<ol class="arabic">
-<li><p>Click the <code class="docutils literal notranslate"><span class="pre">Use</span> <span class="pre">this</span> <span class="pre">template</span></code> button</p></li>
-<li><p>Enter a name for your repository</p></li>
-<li><p>Click <code class="docutils literal notranslate"><span class="pre">Create</span> <span class="pre">repository</span> <span class="pre">from</span> <span class="pre">template</span></code></p></li>
-<li><p>Clone your new repository to your local machine</p></li>
-<li><p>Initialize your project</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make<span class="w"> </span>init-project
-</pre></div>
-</div>
-</li>
-<li><p>Do your work</p></li>
-</ol>
-</section>
-<section id="ii-use-copier">
-<h2>II. Use Copier<a class="headerlink" href="#ii-use-copier" title="Permalink to this heading">#</a></h2>
-<ol class="arabic">
-<li><p>Install Copier</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pipx<span class="w"> </span>install<span class="w"> </span>copier
-</pre></div>
-</div>
-</li>
-<li><p>Run</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>copier<span class="w"> </span>gh:entelecheia/hyperfast-python-template<span class="w"> </span>path/to/destination
-</pre></div>
-</div>
-</li>
-<li><p>Do your work</p></li>
-</ol>
-</section>
-<section id="iii-inject-the-template">
-<h2>III. Inject the template<a class="headerlink" href="#iii-inject-the-template" title="Permalink to this heading">#</a></h2>
-<ol class="arabic">
-<li><p>Install Copier</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pipx<span class="w"> </span>install<span class="w"> </span>copier
-</pre></div>
-</div>
-</li>
-<li><p>From the root of your project, run</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>copier<span class="w"> </span>gh:entelecheia/hyperfast-python-template<span class="w"> </span>path/to/destination
-</pre></div>
-</div>
-</li>
-<li><p>Do your work</p></li>
-</ol>
-</section>
-<section id="features">
-<h2>Features<a class="headerlink" href="#features" title="Permalink to this heading">#</a></h2>
-<ul class="contains-task-list simple">
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Automated changelog with <a class="reference external" href="https://conventionalcommits.org">Conventional Commits</a> and <a class="reference external" href="https://python-semantic-release.readthedocs.io/en/latest/">Python Semantic Release</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Automated dependency updates with <a class="reference external" href="https://dependabot.com/">Dependabot</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Automated semantic versioning with <a class="reference external" href="https://python-semantic-release.readthedocs.io/en/latest/">Python Semantic Release</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Automated uploads to <a class="reference external" href="https://pypi.org/">PyPI</a> and <a class="reference external" href="https://test.pypi.org/">TestPyPI</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Code coverage with <a class="reference external" href="https://pytest-cov.readthedocs.io/">Pytest-Cov</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Code formatting with <a class="reference external" href="https://github.com/psf/black">Black</a> and <a class="reference external" href="https://prettier.io/">Prettier</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Continuous integration with <a class="reference external" href="https://github.com/features/actions">GitHub Actions</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Coverage reporting with <a class="reference external" href="https://codecov.io/">Codecov</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Documentation with <a class="reference external" href="https://www.mkdocs.org">MkDocs</a>, <a class="reference external" href="https://jupyterbook.org">Jupyter Book</a>, and <a class="reference external" href="https://readthedocs.org/">Read the Docs</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Hyperfast rendering of the template into a new project with <a class="reference external" href="https://copier.readthedocs.io">Copier</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Import sorting with <a class="reference external" href="https://pycqa.github.io/isort/">isort</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Linting with <a class="reference external" href="https://pre-commit.com/">pre-commit</a> and <a class="reference external" href="http://flake8.pycqa.org">Flake8</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Managing project labels with <a class="reference external" href="https://github.com/marketplace/actions/github-labeler">GitHub Labeler</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Managing projects with <a class="reference external" href="https://www.gnu.org/software/make/">Make</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Packaging and dependency management with <a class="reference external" href="https://python-poetry.org/">Poetry</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Static type-checking with <a class="reference external" href="http://mypy-lang.org/">mypy</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Support for <a class="reference external" href="https://conventionalcommits.org">Conventional Commits</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Support for <a class="reference external" href="https://semver.org">Semantic Versioning</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" checked="checked" disabled="disabled" type="checkbox"> Testing with <a class="reference external" href="https://docs.pytest.org/en/latest/">pytest</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Automated Python syntax upgrades with <a class="reference external" href="https://github.com/asottile/pyupgrade">pyupgrade</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Automatic documentation from sources for <a class="reference external" href="https://www.mkdocs.org">MkDocs</a> with <a class="reference external" href="https://mkdocstrings.github.io">mkdocstrings</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Check documentation examples with <a class="reference external" href="https://github.com/Erotemic/xdoctest">xdoctest</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Runtime type-checking with <a class="reference external" href="https://github.com/agronholm/typeguard">Typeguard</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Security audit with <a class="reference external" href="https://github.com/PyCQA/bandit">Bandit</a> and <a class="reference external" href="https://github.com/pyupio/safety">Safety</a></p></li>
-<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Test automation with <a class="reference external" href="https://nox.thea.codes/">Nox</a></p></li>
-</ul>
-<p>The template supports Python 3.7, 3.8, 3.9, and 3.10.</p>
-</section>
 <section id="changelog">
 <h2>Changelog<a class="headerlink" href="#changelog" title="Permalink to this heading">#</a></h2>
 <p>See the <a class="reference external" href="https://github.com/entelecheia/hyperfast-python-template/blob/main/CHANGELOG.md">CHANGELOG</a> for more information.</p>
@@ -530,8 +438,8 @@ document.write(`
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
-            ref: "master",
+            repo: "entelecheia/hyperfast-python-template",
+            ref: "main",
         },
         codeMirrorConfig: {
             theme: "abcdef",
@@ -584,11 +492,6 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quickstart">Quickstart</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#i-use-the-template">I. Use the template</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ii-use-copier">II. Use Copier</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#iii-inject-the-template">III. Inject the template</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#features">Features</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changelog">Changelog</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing">Contributing</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
