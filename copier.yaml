@@ -136,6 +136,11 @@ google_analytics_id:
   type: str
   help: What is your Google Analytics ID? (leave empty if you don't have one. e.g. G-XXXXXXXXXX)
 
+use_launch_buttons:
+  default: false
+  type: bool
+  help: Do you want to use launch buttons in your documentation? (it is only available for Jupyter Book)
+
 use_source_code_skeleton:
   default: true
   type: bool

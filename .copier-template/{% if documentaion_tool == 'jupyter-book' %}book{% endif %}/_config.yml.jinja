@@ -8,7 +8,7 @@
 title: "{{ friendly_name }}" # The title of the book. Will be placed in the left navbar.
 author: "{{ author }}" # The author of the book
 copyright: "{{ copyright_year }}" # Copyright year to be placed in the footer
-{% if logo_path %}logo: {{ logo_path }}{% end -%} # logo: Path to the book logo
+{% if logo_path %}logo: {{ logo_path }}{% endif -%} # logo: Path to the book logo
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -38,8 +38,8 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  {% if favicon_path %}favicon: {{ favicon_path }}{% end -%} # favicon: Path to the favicon image
-  {% if google_analytics_id %}google_analytics_id: {{ google_analytics_id }}{% end -%} # google_analytics_id: Google Analytics ID
+  {% if favicon_path %}favicon: {{ favicon_path }}{% endif -%} # favicon: Path to the favicon image
+  {% if google_analytics_id %}google_analytics_id: {{ google_analytics_id }}{% endif -%} # google_analytics_id: Google Analytics ID
 
 sphinx:
   config:
@@ -88,3 +88,9 @@ sphinx:
     - sphinxcontrib.video
     - sphinxcontrib.mermaid
     - sphinx_thebe
+
+{% if use_launch_buttons -%}
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+  thebe: true
+{% endif -%}
