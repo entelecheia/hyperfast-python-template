@@ -1,4 +1,5 @@
 .copierignore
+.gitignore
 CHANGELOG.md
 book/_toc.yml
 book/usage.md
