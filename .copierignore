@@ -2,3 +2,5 @@
 book/_toc.yml
 book/usage.md
 pyproject.toml
+src/hyperfastpy/_version.py
+src/hyperfastpy/conf/about/__init__.yaml
