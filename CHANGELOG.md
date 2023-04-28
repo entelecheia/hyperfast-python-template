@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.4 (2023-04-28)
+### Fix
+* **Makefile.jinja:** Remove unused commands and update initialization process ([`dc9512b`](https://github.com/entelecheia/hyperfast-python-template/commit/dc9512be652790e9eec5cf8c7e0c17fa3e13693d))
+
 ## v0.4.3 (2023-04-28)
 ### Fix
 * **CNAME:** Check if documentation url is custum ([`46178eb`](https://github.com/entelecheia/hyperfast-python-template/commit/46178eb0e6e81fdf3494c05553955b5d49af123e))
