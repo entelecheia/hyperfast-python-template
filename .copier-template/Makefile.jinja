@@ -213,11 +213,12 @@ init-git: ## initialize git
 
 {% if project_name == 'hyperfast-python-template' -%}
 reinit-project: install-copier ## reinitialize the project (Warning: this may overwrite existing files!)
-	@copier --answers-file .copier-config.yaml --vcs-ref=HEAD . .
+	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier "$${args[@]}" --answers-file .copier-config.yaml --vcs-ref=HEAD . .'
 
 reinit-project-force: install-copier ## initialize the project ignoring existing files (Warning: this will overwrite existing files!)
-	@copier --skip pyproject.toml --answers-file .copier-config.yaml --force {%- if project_name.endswith('-template') %} --vcs-ref=HEAD{% endif %} . .
+	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier "$${args[@]}" --answers-file .copier-config.yaml --force --vcs-ref=HEAD . .'
+
 {% else -%}
 reinit-project: install-copier ## reinitialize the project (Warning: this may overwrite existing files!)
-	@copier {%- if code_template_source %} --data 'code_template_source={{code_template_source}}'{% endif %} --answers-file .copier-config.yaml {%- if project_name.endswith('-template') %} --vcs-ref=HEAD{% endif %} gh:entelecheia/hyperfast-python-template .
+	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier "$${args[@]}" --answers-file .copier-config.yaml {%- if project_name.endswith('-template') %} --vcs-ref=HEAD{% endif %} gh:entelecheia/hyperfast-python-template .
 {% endif -%}
