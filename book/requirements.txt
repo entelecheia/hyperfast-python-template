@@ -6,4 +6,8 @@ sphinx-inline-tabs
 sphinx-examples
 sphinx-proof
 sphinx-hoverxref
-furo>=2021.1.1
+sphinxcontrib-youtube
+sphinxcontrib-video
+sphinx-thebe
+sphinxcontrib-mermaid
+# furo>=2021.1.1
