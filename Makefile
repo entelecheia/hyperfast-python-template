@@ -214,4 +214,3 @@ reinit-project: install-copier ## reinitialize the project (Warning: this may ov
 
 reinit-project-force: install-copier ## initialize the project ignoring existing files (Warning: this will overwrite existing files!)
 	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier "$${args[@]}" --answers-file .copier-config.yaml --force --vcs-ref=HEAD . .'
-
