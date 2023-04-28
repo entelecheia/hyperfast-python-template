@@ -14,19 +14,24 @@ build:
   jobs:
     pre_build:
       # Generate on-the-fly Sphinx configuration from Jupyter Book's _config.yml
-      - "jupyter-book config sphinx docs/"
+      - "jupyter-book config sphinx book/"
 
 formats:
   - pdf
   - epub
+
+# Optionally declare the Python requirements required to build your docs
+python:
+   install:
+   - requirements: book/requirements.txt
 {% endif -%}
 
 {% if documentaion_tool == 'mkdocs' -%}
 mkdocs:
   configuration: mkdocs.yaml
-{% endif -%}
 
 # Optionally declare the Python requirements required to build your docs
 python:
    install:
    - requirements: docs/requirements.txt
+{% endif -%}
