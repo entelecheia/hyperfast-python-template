@@ -148,7 +148,7 @@ use_source_code_skeleton:
 
 code_template_source:
   type: str
-  help: What is the URL of the code template to apply to the project? (e.g. gh:entelecheia/hyfi-template)
+  help: What is the URL of the code template to apply to the project? (leave empty if you don't want to apply a code template. e.g. gh:entelecheia/hyfi-template)
 
 code_template_answers_file:
   default: .copier-hyfi-config.yaml

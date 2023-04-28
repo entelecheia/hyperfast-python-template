@@ -10,4 +10,3 @@ sphinxcontrib-youtube
 sphinxcontrib-video
 sphinx-thebe
 sphinxcontrib-mermaid
-# furo>=2021.1.1
