@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.2 (2023-04-28)
+### Fix
+* **copier-template:** Update Copier and release.yaml workflows ([`32e57a7`](https://github.com/entelecheia/hyperfast-python-template/commit/32e57a74ad972e58ac8da2b6ee3e1e8d539e83b7))
+
 ## v0.4.1 (2023-04-28)
 ### Fix
 * **.github/workflows): trigger release on .copier-config.yaml changes; chore(copierignore:** Ignore new generated files ([`d39aa43`](https://github.com/entelecheia/hyperfast-python-template/commit/d39aa43ff00ffcaea94122801ea3eb0daf75ff99))
