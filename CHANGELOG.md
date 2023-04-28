@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.0 (2023-04-28)
+### Feature
+* **copierignore:** Add ignore file for copier ([`2112f2e`](https://github.com/entelecheia/hyperfast-python-template/commit/2112f2e126675ab53a8bd97716c8ddd7b8846071))
+
 ## v0.3.3 (2023-04-28)
 ### Fix
 * **docs:** Add MathJax support and update markdown extensions in mkdocs.yaml.jinja ([`f22a28f`](https://github.com/entelecheia/hyperfast-python-template/commit/f22a28f528fd6e6242b05152d42dff6f39039678))
