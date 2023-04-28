@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.1 (2023-04-28)
+### Fix
+* **.github/workflows): trigger release on .copier-config.yaml changes; chore(copierignore:** Ignore new generated files ([`d39aa43`](https://github.com/entelecheia/hyperfast-python-template/commit/d39aa43ff00ffcaea94122801ea3eb0daf75ff99))
+
 ## v0.4.0 (2023-04-28)
 ### Feature
 * **copierignore:** Add ignore file for copier ([`2112f2e`](https://github.com/entelecheia/hyperfast-python-template/commit/2112f2e126675ab53a8bd97716c8ddd7b8846071))
