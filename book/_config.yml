@@ -8,7 +8,7 @@
 title: "Hyperfast Python Template" # The title of the book. Will be placed in the left navbar.
 author: "Young Joon Lee" # The author of the book
 copyright: "2023" # Copyright year to be placed in the footer
-logo: https://assets.entelecheia.ai/favicon.png # logo: Path to the book logo
+logo: https://assets.entelecheia.ai/logo.png # logo: Path to the book logo
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
