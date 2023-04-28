@@ -1,3 +1,4 @@
-book/_toc.md
+.copierignore
+book/_toc.yml
 book/usage.md
 pyproject.toml
