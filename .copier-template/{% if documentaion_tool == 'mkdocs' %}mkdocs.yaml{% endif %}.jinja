@@ -10,14 +10,24 @@ plugins:
 markdown_extensions:
   - markdown_include.include:
       base_path: .
+  - pymdownx.arithmatex:
+      generic: true
   - admonition
 theme:
   name: material
   palette:
     scheme: slate
-{%- if project_name == 'hyperfast-python-template' %}
+  features:
+    - navigation.expand
+  {% if favicon_path %}favicon: {{ favicon_path }} {% endif -%} # favicon: Path to the favicon image
+  {% if logo_path %}logo: {{ logo_path }} {% endif -%} # logo: Path to the book logo
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+{% if google_analytics_id -%}
 extra:
   analytics:
     provider: google
-    property: G-0K77490FJT
-{%- endif %}
+    property: {{ google_analytics_id }}
+{% endif -%}
