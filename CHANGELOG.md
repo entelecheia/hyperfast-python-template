@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.3 (2023-04-28)
+### Fix
+* **CNAME:** Check if documentation url is custum ([`46178eb`](https://github.com/entelecheia/hyperfast-python-template/commit/46178eb0e6e81fdf3494c05553955b5d49af123e))
+
 ## v0.4.2 (2023-04-28)
 ### Fix
 * **copier-template:** Update Copier and release.yaml workflows ([`32e57a7`](https://github.com/entelecheia/hyperfast-python-template/commit/32e57a74ad972e58ac8da2b6ee3e1e8d539e83b7))
