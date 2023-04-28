@@ -124,6 +124,18 @@ documentation_url:
   type: str
   help: What is your documentation URL?
 
+favicon_path:
+  type: str
+  help: What is the path to your favicon? (leave empty if you don't have one. e.g. favicon.png or https://example.com/favicon.png)
+
+logo_path:
+  type: str
+  help: What is the path to your logo? (leave empty if you don't have one. e.g. logo.png or https://example.com/logo.png)
+
+google_analytics_id:
+  type: str
+  help: What is your Google Analytics ID? (leave empty if you don't have one. e.g. G-XXXXXXXXXX)
+
 use_source_code_skeleton:
   default: true
   type: bool
