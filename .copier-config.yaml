@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; do NOT edit manually
-_commit: v0.4.1
+_commit: v0.4.5
 _src_path: .
 author: Young Joon Lee
 build_and_release: true
@@ -16,13 +16,20 @@ github_username: entelecheia
 google_analytics_id: G-0K77490FJT
 logo_path: https://assets.entelecheia.ai/favicon.png
 package_name: hyperfastpy
-project_description: Hyperfast Python Template is a self-contained template that helps
-    you initialize your Python project inside the template. It is hyperfast in the
-    sense that it helps you jump start your project with the best practices in the
-    Python community.
+project_description: The Hyperfast Python Template is a powerful and comprehensive
+    solution designed to accelerate the development and maintenance of high-quality
+    Python projects. By incorporating industry best practices and automating key aspects
+    such as dependency management, releases, code formatting, testing, and documentation,
+    this template streamlines the entire development process. It ensures code quality
+    through continuous integration, coverage reporting, linting, and static type-checking
+    while providing seamless support for Conventional Commits and Semantic Versioning.
+    With the Hyperfast Python Template, developers can efficiently create and manage
+    Python projects, focusing on their core functionality while enjoying a robust,
+    well-organized, and maintainable codebase.
 project_license: MIT
 project_name: hyperfast-python-template
-project_short_description: A python template that helps you jump start your project
+project_short_description: Streamlining Python Project Development with a Comprehensive
+    Toolset for Quality, Efficiency, and Maintainability
 upload_to_release: true
 upload_to_repository: true
 use_launch_buttons: true
