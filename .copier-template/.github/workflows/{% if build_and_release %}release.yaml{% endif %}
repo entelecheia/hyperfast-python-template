@@ -10,7 +10,7 @@ on:
     paths:
       - 'src/**'
       - 'pyproject.toml'
-      - '.copier-config.yaml'
+      - '.copier-template/**'
 
 permissions:
   contents: write
