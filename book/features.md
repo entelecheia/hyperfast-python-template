@@ -27,7 +27,7 @@
 - [ ] Security audit with [Bandit] and [Safety]
 - [ ] Test automation with [Nox]
 
-The template supports Python 3.7, 3.8, 3.9, and 3.10.
+The template supports Python 3.8, 3.9, and 3.10.
 
 [bandit]: https://github.com/PyCQA/bandit
 [black]: https://github.com/psf/black
