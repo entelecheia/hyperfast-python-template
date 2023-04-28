@@ -1,0 +1,6 @@
+[project]
+name = "hyperfast-python-template"
+description = "A python template that helps you jump start your project"
+authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
+license = "MIT"
+homepage = "https://hyperfast-python.entelecheia.cc"
