@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.5 (2023-04-28)
+### Fix
+* **copier:** Update .copierignore to include pyproject.toml ([`9bf04aa`](https://github.com/entelecheia/hyperfast-python-template/commit/9bf04aa96291b8900e131db965105c2050ec84a5))
+
 ## v0.4.4 (2023-04-28)
 ### Fix
 * **Makefile.jinja:** Remove unused commands and update initialization process ([`dc9512b`](https://github.com/entelecheia/hyperfast-python-template/commit/dc9512be652790e9eec5cf8c7e0c17fa3e13693d))
