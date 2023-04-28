@@ -1,5 +1,10 @@
 <!--next-version-placeholder-->
 
+## v0.3.2 (2023-04-28)
+### Fix
+* Apply updated template ([`de75922`](https://github.com/entelecheia/hyperfast-python-template/commit/de75922d847262357ce45eb65feb426b61f15ee1))
+* Apply updated template ([`8577ccd`](https://github.com/entelecheia/hyperfast-python-template/commit/8577ccd9bcf6b465f85e5e73f732892e98b23fe0))
+
 ## v0.3.1 (2023-04-27)
 ### Fix
 * **readme:** Rearrange badges in README.md file ([`8c81afe`](https://github.com/entelecheia/hyperfast-python-template/commit/8c81afef092a0afc895ad732edb1240c4ecaf74a))
