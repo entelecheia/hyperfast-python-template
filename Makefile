@@ -210,7 +210,7 @@ init-git: ## initialize git
 	@git init
 
 reinit-project: install-copier ## reinitialize the project (Warning: this may overwrite existing files!)
-	@copier --answers-file .copier-config.yaml --vcs-ref=HEAD . .
+	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier "$${args[@]}" --answers-file .copier-config.yaml --vcs-ref=HEAD . .'
 
 reinit-project-force: install-copier ## initialize the project ignoring existing files (Warning: this will overwrite existing files!)
-	@copier --skip pyproject.toml --answers-file .copier-config.yaml --force --vcs-ref=HEAD . .
+	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier "$${args[@]}" --answers-file .copier-config.yaml --force --vcs-ref=HEAD . .'
