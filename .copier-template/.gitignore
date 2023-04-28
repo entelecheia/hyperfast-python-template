@@ -24,13 +24,3 @@ coverage.xml
 *.cover
 htmlcov/
 pytest-coverage.*
-
-{% if project_name == 'hyperfast-python-template' -%}
-# for template test
-src/{{ package_name }}/
-tests/{{ package_name }}/
-/book/
-/docs/
-/mkdocs.yaml
-/.readthedocs.yaml
-{% endif -%}
