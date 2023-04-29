@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.4.6 (2023-04-29)
+### Fix
+* **copier:** Add support for code template source option ([`2f4f9f8`](https://github.com/entelecheia/hyperfast-python-template/commit/2f4f9f86d89128db8971c78ba272b0604a6c26c2))
+
+### Documentation
+* Update README ([`f626e31`](https://github.com/entelecheia/hyperfast-python-template/commit/f626e3191462c18d21c9b68fa20f492bf882f2e9))
+
 ## v0.4.5 (2023-04-28)
 ### Fix
 * **copier:** Update .copierignore to include pyproject.toml ([`9bf04aa`](https://github.com/entelecheia/hyperfast-python-template/commit/9bf04aa96291b8900e131db965105c2050ec84a5))
