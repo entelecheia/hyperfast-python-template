@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.7 (2023-04-30)
+### Fix
+* **mkdocs:** Add navigation indexes feature to mkdocs.yaml template ([`baa3950`](https://github.com/entelecheia/hyperfast-python-template/commit/baa395057a7febe117888aeccb2388afdb99a6ec))
+
 ## v0.4.6 (2023-04-29)
 ### Fix
 * **copier:** Add support for code template source option ([`2f4f9f8`](https://github.com/entelecheia/hyperfast-python-template/commit/2f4f9f86d89128db8971c78ba272b0604a6c26c2))
