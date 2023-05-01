@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.8 (2023-05-01)
+### Fix
+* **template:** Add .tasks-extra.toml for custom tasks ([`3edad08`](https://github.com/entelecheia/hyperfast-python-template/commit/3edad088f805de0b550f3c233568b1577cc5034a))
+
 ## v0.4.7 (2023-04-30)
 ### Fix
 * **mkdocs:** Add navigation indexes feature to mkdocs.yaml template ([`baa3950`](https://github.com/entelecheia/hyperfast-python-template/commit/baa395057a7febe117888aeccb2388afdb99a6ec))
