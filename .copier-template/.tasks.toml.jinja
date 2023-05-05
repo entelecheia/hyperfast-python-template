@@ -127,7 +127,8 @@ args = ["branch"]
 cmd = "git checkout main"
 help = "checkout main"
 
-{% if build_and_release -%}
+{%- if build_and_release %}
+
 [tool.poe.tasks.run]
 cmd = "{{ package_name }}"
 help = "run the main program"
@@ -137,7 +138,8 @@ cmd = "poetry build"
 help = "build the package"
 {%- endif %}
 
-{% if documentaion_tool == 'jupyter-book' -%}
+{%- if documentaion_tool == 'jupyter-book' %}
+
 [tool.poe.tasks.install-ghp-import]
 cmd = "pipx install ghp-import"
 help = "install ghp-import"
