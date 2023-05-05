@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.20 (2023-05-05)
+### Fix
+* **copier-template:** Version_variable and version_pattern ([`18c4306`](https://github.com/entelecheia/hyperfast-python-template/commit/18c4306bcdb2116018ea5eec1774f820716b248a))
+
 ## v0.4.19 (2023-05-05)
 ### Fix
 * **template:** Update .tasks.toml.jinja file format ([`5c89b81`](https://github.com/entelecheia/hyperfast-python-template/commit/5c89b8138369514f9f470c0a24ce7bc887526d9d))
