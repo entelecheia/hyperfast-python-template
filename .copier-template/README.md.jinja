@@ -1,6 +1,6 @@
 # {{ friendly_name }}
 
-{% if build_and_release %}[![pypi-image]][pypi-url]{% endif %}
+{% if build_and_release and upload_to_repository %}[![pypi-image]][pypi-url]{% endif %}
 [![version-image]][release-url]
 [![release-date-image]][release-url]
 [![license-image]][license-url]
@@ -26,7 +26,7 @@
 
 - Documentation: [{{ documentation_url }}][docs-url]
 - GitHub: [https://github.com/{{ github_username }}/{{ github_repo_name }}][repo-url]
-{% if build_and_release %}- PyPI: [https://pypi.org/project/{{ project_name }}][pypi-url]{% endif %}
+{% if build_and_release and upload_to_repository %}- PyPI: [https://pypi.org/project/{{ project_name }}][pypi-url]{% endif %}
 
 {{ project_description }}
 
