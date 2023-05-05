@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.18 (2023-05-05)
+### Fix
+* **copier-template:** Remove unnecessary whitespace in tasks.toml.jinja file ([`d198efc`](https://github.com/entelecheia/hyperfast-python-template/commit/d198efc5e649ebf4c6c4d4625c5b2dd250d4d30d))
+
 ## v0.4.17 (2023-05-05)
 ### Fix
 * **dependencies:** Jupyter-book ([`486f5f2`](https://github.com/entelecheia/hyperfast-python-template/commit/486f5f295a5102946f92967d671a84ba2560aca2))
