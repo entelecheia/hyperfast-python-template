@@ -86,8 +86,10 @@ tag_format = "v$version"
 [tool.semantic_release]
 branch = "main"
 version_toml = "pyproject.toml:tool.poetry.version"
+{% if build_and_release -%}
 version_variable = "src/{{ package_name }}/_version.py:__version__"
 version_pattern = 'src/{{ package_name }}/conf/about/__init__.yaml:version: "{version}"'
+{% endif -%}
 version_source = "tag"
 commit_version_number = true # required for version_source = "tag"
 commit_subject = "chore(release): :rocket: {version} [skip ci]"
