@@ -82,6 +82,7 @@ initialize: install-pipx ## initialize the project environment
 	@pipx install poethepoet
 	@pipx install commitizen
 	@pipx install pre-commit
+	@pre-commit install
 
 init-project: initialize {%- if not project_name.endswith('-template') %} remove-template{% endif %} ## initialize the project (Warning: do this only once!)
 	@copier {%- if code_template_source %} --data 'code_template_source={{code_template_source}}'{% endif %} --answers-file .copier-config.yaml {%- if project_name.endswith('-template') %} --vcs-ref=HEAD{% endif %} gh:entelecheia/hyperfast-python-template .
