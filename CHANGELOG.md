@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.13 (2023-05-05)
+### Fix
+* **dependencies:** Fix typo in Makefile.jinja ([`96a717c`](https://github.com/entelecheia/hyperfast-python-template/commit/96a717cde0dfe6cb5372c07f583141fd7b87532f))
+
 ## v0.4.12 (2023-05-05)
 ### Fix
 * **workflows:** Modify release.yaml to use poetry for dependency installation. ([`4a7c1e4`](https://github.com/entelecheia/hyperfast-python-template/commit/4a7c1e4532ab54dd1388883ea26cacb1929896dc))
