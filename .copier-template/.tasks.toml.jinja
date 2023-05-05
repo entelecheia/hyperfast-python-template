@@ -43,11 +43,11 @@ cmd = "pytest --doctest-modules --cov=src --cov-report term-missing --cov-report
 help = "run tests with pytest and generate a coverage report"
 
 [tool.poe.tasks.tests-cov-fail]
-cmd = "pytest --doctest-modules --cov=src --cov-report term-missing --cov-report=html --cov-fail-under=80 --junitxml=pytest.xml | tee pytest-coverage.txt"
+shell = "pytest --doctest-modules --cov=src --cov-report term-missing --cov-report=html --cov-fail-under=80 --junitxml=tests/pytest.xml | tee tests/pytest-coverage.txt"
 help = "run tests with pytest and generate a coverage report, fail if coverage is below 80%"
 
 [tool.poe.tasks.clean-cov]
-cmd = "rm -rf .coverage htmlcov pytest.xml pytest-coverage.txt"
+cmd = "rm -rf .coverage tests/htmlcov tests/pytest.xml tests/pytest-coverage.txt"
 help = "remove coverage reports"
 
 [tool.poe.tasks.clean-pycache]
@@ -130,3 +130,48 @@ help = "checkout main"
 [tool.poe.tasks.run]
 cmd = "{{ package_name }}"
 help = "run the main program"
+
+[tool.poe.tasks.build]
+cmd = "poetry build"
+help = "build the package"
+
+{% if documentaion_tool == 'jupyter-book' -%}
+[tool.poe.tasks.install-ghp-import]
+cmd = "pipx install ghp-import"
+help = "install ghp-import"
+
+[tool.poe.tasks.install-jupyter-book]
+shell = """
+  pipx install jupyter-book
+  args=(); while IFS= read -r file; do args+=("$file"); done < book/requirements.txt; pipx inject jupyter-book "${args[@]:1}"
+"""
+help = "install jupyter-book"
+
+[tool.poe.tasks.book-build]
+cmd = "jupyter-book build book"
+help = "build the book"
+
+[tool.poe.tasks.book-build-all]
+cmd = "jupyter-book build book --all"
+help = "build the book with all outputs"
+
+[tool.poe.tasks.book-publish]
+cmd = "ghp-import -n -p -f book/_build/html"
+help = "publish the book"
+{%- endif %}
+
+[tool.poe.tasks.install]
+cmd = "poetry install --without dev"
+help = "install dependencies"
+
+[tool.poe.tasks.install-dev]
+cmd = "poetry install --with dev"
+help = "install dev dependencies"
+
+[tool.poe.tasks.update]
+cmd = "poetry update"
+help = "update dependencies"
+
+[tool.poe.tasks.lock]
+cmd = "poetry lock"
+help = "lock dependencies"
