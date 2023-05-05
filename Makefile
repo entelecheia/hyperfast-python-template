@@ -28,7 +28,7 @@ clean: ## run all clean commands
 ##@ Git Branches
 
 show-branches: ## show all branches
-	@poe show-branches
+	@git show-branch --list
 
 dev-checkout: ## checkout the dev branch
 	@branch=$(shell echo $${branch:-"dev"}) && \

@@ -134,7 +134,6 @@ help = "run the main program"
 [tool.poe.tasks.build]
 cmd = "poetry build"
 help = "build the package"
-
 [tool.poe.tasks.install-ghp-import]
 cmd = "pipx install ghp-import"
 help = "install ghp-import"
@@ -157,7 +156,6 @@ help = "build the book with all outputs"
 [tool.poe.tasks.book-publish]
 cmd = "ghp-import -n -p -f book/_build/html"
 help = "publish the book"
-
 [tool.poe.tasks.install]
 cmd = "poetry install --without dev"
 help = "install dependencies"

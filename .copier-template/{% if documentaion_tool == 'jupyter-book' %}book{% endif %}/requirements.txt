@@ -10,3 +10,4 @@ sphinxcontrib-youtube
 sphinxcontrib-video
 sphinx-thebe
 sphinxcontrib-mermaid
+sphinx-carousel
