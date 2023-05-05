@@ -10,7 +10,7 @@ on:
     paths:
       - "src/**"
       - "tests/**"
-      
+
 jobs:
   build:
     # Name the Job
@@ -30,8 +30,8 @@ jobs:
           fetch-depth: 0
 
       # install poetry
-      - name: Install poetry
-        run: pipx install poetry>=1.3.2
+      - name: Install poetry and poethepoet
+        run: pipx install poetry>=1.3.2 poethepoet
 
       # set up python
       - name: Set up Python ${{ matrix.python-version }}
@@ -48,13 +48,13 @@ jobs:
       - name: Run linters
         run: |
           set -o pipefail
-          make lint
+          poe lint
 
       # run unit tests
       - name: Run unit-tests
         run: |
           set -o pipefail
-          make tests-cov-fail
+          poe tests-cov-fail
 
       # add content to GitHub summary
       - name: Pytest coverage GitHub summary
@@ -62,10 +62,9 @@ jobs:
           set -o pipefail
           echo '# Coverage report' >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
-          cat pytest-coverage.txt >> $GITHUB_STEP_SUMMARY
+          cat tests/pytest-coverage.txt >> $GITHUB_STEP_SUMMARY
           echo '```' >> $GITHUB_STEP_SUMMARY
           echo '\n\n\n'
-          echo '${{ steps.coverageComment.outputs.coverageHtml }}' >> $GITHUB_STEP_SUMMARY
 
       # add pytest coverage report to PR
       - name: Pytest coverage comment
@@ -74,5 +73,5 @@ jobs:
         uses: MishaKav/pytest-coverage-comment@main
         with:
           title: Coverage Report
-          pytest-coverage-path: pytest-coverage.txt
-          junitxml-path: pytest.xml
+          pytest-coverage-path: tests/pytest-coverage.txt
+          junitxml-path: tests/pytest.xml
