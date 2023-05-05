@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.22 (2023-05-05)
+### Fix
+* **template:** Fix syntax error in pyproject.toml.jinja file ([`c46aad0`](https://github.com/entelecheia/hyperfast-python-template/commit/c46aad0e503fecdb7a338ef045fa02fd899712ba))
+
 ## v0.4.21 (2023-05-05)
 ### Fix
 * **upload:** Fix typo in upload_to_repository help message ([`1c7edc3`](https://github.com/entelecheia/hyperfast-python-template/commit/1c7edc30d18f0ec89bc5d976a9ff56b17dd8dc10))
