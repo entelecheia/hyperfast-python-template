@@ -164,7 +164,7 @@ git-sizer: ## run git-sizer
 ##@ Setup
 
 install-pipx: ## install pipx (pre-requisite for external tools)
-	@commmand -v pipx &> /dev/null || pip install --user pipx || true
+	@command -v pipx &> /dev/null || pip install --user pipx || true
 
 install-copier: install-pipx ## install copier (pre-requisite for init-project)
 	@command -v copier &> /dev/null || pipx install copier || true
