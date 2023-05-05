@@ -106,4 +106,6 @@ build_command = "poetry build --no-cache"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
-{% endif -%}
+{% else -%}
+build_command = "mkdir -p dist && echo 'No build command configured' > dist/release.txt"
+{%- endif %}
