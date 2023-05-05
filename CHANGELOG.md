@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.12 (2023-05-05)
+### Fix
+* **workflows:** Modify release.yaml to use poetry for dependency installation. ([`4a7c1e4`](https://github.com/entelecheia/hyperfast-python-template/commit/4a7c1e4532ab54dd1388883ea26cacb1929896dc))
+
 ## v0.4.11 (2023-05-05)
 ### Fix
 * **Makefile:** Move python tasks to poethepoet ([`a6e66d8`](https://github.com/entelecheia/hyperfast-python-template/commit/a6e66d890f10fd760f6a5fce0b4316e64e7ffd1c))
