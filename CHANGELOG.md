@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.16 (2023-05-05)
+### Fix
+* **docs:** Remove obsolete api.md file ([`80e3a29`](https://github.com/entelecheia/hyperfast-python-template/commit/80e3a29f99d3aae7320de88d5eeaa1126d99dd19))
+
 ## v0.4.15 (2023-05-05)
 ### Fix
 * **build:** Configure build_and_release variable usage in copier.yaml, README.md.jinja, pyproject.toml.jinja, and .tasks.toml.jinja files ([`e4a847c`](https://github.com/entelecheia/hyperfast-python-template/commit/e4a847ce3433a5e31a8f674444d4cdd52a03b227))
