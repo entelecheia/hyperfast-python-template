@@ -1,5 +1,10 @@
 <!--next-version-placeholder-->
 
+## v0.4.11 (2023-05-05)
+### Fix
+* **Makefile:** Move python tasks to poethepoet ([`a6e66d8`](https://github.com/entelecheia/hyperfast-python-template/commit/a6e66d890f10fd760f6a5fce0b4316e64e7ffd1c))
+* **dependencies:** Update dependency management tool to Poetry in workflows ([`6a62536`](https://github.com/entelecheia/hyperfast-python-template/commit/6a62536edc35a13aee608b7a3f5414ccfaa7c9f3))
+
 ## v0.4.10 (2023-05-05)
 ### Fix
 * **conf:** Change _package_name_ to __package_name__ in about/__init__.yaml.jinja ([`7daf5c7`](https://github.com/entelecheia/hyperfast-python-template/commit/7daf5c7ed7554dfa2d59b3da17b2f997a422a8c6))
