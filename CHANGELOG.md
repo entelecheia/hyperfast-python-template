@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.17 (2023-05-05)
+### Fix
+* **dependencies:** Jupyter-book ([`486f5f2`](https://github.com/entelecheia/hyperfast-python-template/commit/486f5f295a5102946f92967d671a84ba2560aca2))
+
 ## v0.4.16 (2023-05-05)
 ### Fix
 * **docs:** Remove obsolete api.md file ([`80e3a29`](https://github.com/entelecheia/hyperfast-python-template/commit/80e3a29f99d3aae7320de88d5eeaa1126d99dd19))
