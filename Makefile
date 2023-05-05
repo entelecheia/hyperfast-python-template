@@ -82,8 +82,9 @@ initialize: install-pipx ## initialize the project environment
 	@pipx install poethepoet
 	@pipx install commitizen
 	@pipx install pre-commit
+	@pre-commit install
 
-init-project: install-copier install-precommit-hooks ## initialize the project (Warning: do this only once!)
+init-project: initialize ## initialize the project (Warning: do this only once!)
 	@copier --answers-file .copier-config.yaml --vcs-ref=HEAD gh:entelecheia/hyperfast-python-template .
 
 reinit-project: install-copier ## reinitialize the project (Warning: this may overwrite existing files!)
