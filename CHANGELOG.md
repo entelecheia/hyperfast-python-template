@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.15 (2023-05-05)
+### Fix
+* **build:** Configure build_and_release variable usage in copier.yaml, README.md.jinja, pyproject.toml.jinja, and .tasks.toml.jinja files ([`e4a847c`](https://github.com/entelecheia/hyperfast-python-template/commit/e4a847ce3433a5e31a8f674444d4cdd52a03b227))
+
 ## v0.4.14 (2023-05-05)
 ### Fix
 * **tests:** Update pytest file path in coverage report script ([`d03f391`](https://github.com/entelecheia/hyperfast-python-template/commit/d03f3913cbb9764f717e4ca91ea9b4ac767d0c0d))
