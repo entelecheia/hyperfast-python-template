@@ -89,6 +89,7 @@ sphinx:
     - sphinxcontrib.video
     - sphinxcontrib.mermaid
     - sphinx_thebe
+    - sphinx_carousel.carousel
 
 launch_buttons:
   colab_url: "https://colab.research.google.com"
