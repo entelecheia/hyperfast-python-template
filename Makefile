@@ -194,7 +194,6 @@ install-dev: ## install the package in development mode
 	@poetry install --with dev
 
 initialize: install-pipx ## initialize the project environment
-	@pipx install copier
 	@pipx install poethepoet
 	@pipx install commitizen
 	@pipx install pre-commit
