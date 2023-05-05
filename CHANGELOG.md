@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.14 (2023-05-05)
+### Fix
+* **tests:** Update pytest file path in coverage report script ([`d03f391`](https://github.com/entelecheia/hyperfast-python-template/commit/d03f3913cbb9764f717e4ca91ea9b4ac767d0c0d))
+
 ## v0.4.13 (2023-05-05)
 ### Fix
 * **dependencies:** Fix typo in Makefile.jinja ([`96a717c`](https://github.com/entelecheia/hyperfast-python-template/commit/96a717cde0dfe6cb5372c07f583141fd7b87532f))
