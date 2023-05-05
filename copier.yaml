@@ -142,7 +142,7 @@ use_launch_buttons:
   help: Do you want to use launch buttons in your documentation? (it is only available for Jupyter Book)
 
 use_source_code_skeleton:
-  default: true
+  default: "{{ build_and_release | lower }}"
   type: bool
   help: Do you want to use the source code skeleton? (it will create `src` and `tests` directories)
 
