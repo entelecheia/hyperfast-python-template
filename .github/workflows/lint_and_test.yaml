@@ -29,16 +29,15 @@ jobs:
         with:
           fetch-depth: 0
 
-      # install poetry
-      - name: Install poetry and poethepoet
-        run: pipx install poetry>=1.3.2 poethepoet
-
-      # set up python
+        # set up python
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-          cache: "poetry"
+
+      # initialize
+      - name: Initialize
+        run: make initialize
 
       # install dependencies
       - name: Install dependencies for linters
