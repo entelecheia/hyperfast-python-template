@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.9 (2023-05-05)
+### Fix
+* **copier-template:** Rename CNAME file to CNAME.jinja in docs folder ([`688dd00`](https://github.com/entelecheia/hyperfast-python-template/commit/688dd00f2ef323c1fb7521aa6e7d6dba0d1c7af5))
+
 ## v0.4.8 (2023-05-01)
 ### Fix
 * **template:** Add .tasks-extra.toml for custom tasks ([`3edad08`](https://github.com/entelecheia/hyperfast-python-template/commit/3edad088f805de0b550f3c233568b1577cc5034a))
