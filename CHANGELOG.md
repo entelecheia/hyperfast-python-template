@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.23 (2023-05-05)
+### Fix
+* **copier:** Update help texts in copier.yaml file ([`2eb8df0`](https://github.com/entelecheia/hyperfast-python-template/commit/2eb8df0ca76af322109aa9ba24f83f1d12ad0ade))
+
 ## v0.4.22 (2023-05-05)
 ### Fix
 * **template:** Fix syntax error in pyproject.toml.jinja file ([`c46aad0`](https://github.com/entelecheia/hyperfast-python-template/commit/c46aad0e503fecdb7a338ef045fa02fd899712ba))
