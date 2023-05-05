@@ -19,118 +19,11 @@
 help:  ## Display this help
 	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n  make \033[36m<target>\033[0m\n"} /^[a-zA-Z_-]+:.*?##/ { printf "  \033[36m%-25s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
 
-##@ Formatting
-
-.PHONY: format-black
-format-black: ## black (code formatter)
-	@poe format-black
-
-.PHONY: format-isort
-format-isort: ## isort (import formatter)
-	@poe format-isort
-
-.PHONY: format
-format: format-black format-isort ## run all formatters
-
-##@ Linting
-
-.PHONY: lint-black
-lint-black: ## black in linting mode
-	@poe lint-black
-
-.PHONY: lint-isort
-lint-isort: ## isort in linting mode
-	@poe lint-isort
-
-.PHONY: lint-flake8
-lint-flake8: ## flake8 (linter)
-	@poe lint-flake8
-
-.PHONY: lint-mypy
-lint-mypy: ## mypy (static-type checker)
-	@poe lint-mypy
-
-.PHONY: lint-mypy-report
-lint-mypy-report: ## run mypy & create report
-	@poe lint-mypy-report
-
-lint: lint-black lint-isort lint-flake8 ## run all linters
-
-##@ Running & Debugging
-
-.PHONY: run
-run: ## run the main script
-	@poe run
-
-##@ Testing
-
-.PHONY: tests
-tests: ## run tests with pytest
-	@poe tests
-
-.PHONY: tests-cov
-tests-cov: ## run tests with pytest and show coverage (terminal + html)
-	@poe tests-cov
-
-.PHONY: tests-cov-fail
-tests-cov-fail: ## run unit tests with pytest and show coverage (terminal + html) & fail if coverage too low & create files for CI
-	@poe tests-cov-fail
-
-##@ Jupyter-Book
-
-book-build: ## build documentation locally
-	@poetry run jupyter-book build book
-
-book-build-all: ## build all documentation locally
-	@poetry run jupyter-book build book --all
-
-book-publish: ## publish documentation to "gh-pages" branch
-	@poetry run ghp-import -n -p -f book/_build/html
-
-book-deploy: ## build & publish documentation to "gh-pages" branch
-	book-build book-publish
 
 ##@ Clean-up
 
-clean-cov: ## remove output files from pytest & coverage
-	@poe clean-cov
-
-clean-docs: ## remove output files from mkdocs
-	@poe clean-docs
-
-clean-pycache: ## remove __pycache__ directories
-	@poe clean-pycache
-
-clean: clean-cov clean-book-build clean-pycache ## run all clean commands
-
-##@ Releases
-
-version: ## returns the current version
-	@poe version
-
-next-version: ## returns the next version
-	@poe next-version
-
-changelog: ## returns the current changelog
-	@poe changelog
-
-next-changelog: ## returns the next changelog
-	@poe next-changelog
-
-release-noop: ## release without changing anything
-	@poe release-noop
-
-release-ci: ## release in CI
-	@poe release-ci
-
-prerelease-noop: ## release a pre-release without changing anything
-	@poe prerelease-noop
-
-prerelease-ci: ## release a pre-release in CI
-	@poe prerelease-ci
-
-build: ## build the package
-	@poetry build
+clean: ## run all clean commands
+	@poe clean
 
 ##@ Git Branches
 
@@ -184,20 +77,11 @@ install-precommit: install-pipx ## install pre-commit
 install-precommit-hooks: install-precommit ## install pre-commit hooks
 	@pre-commit install
 
-install: ## install the package
-	@poetry install --without dev
-
-update: ## update the package
-	@poetry update
-
-install-dev: ## install the package in development mode
-	@poetry install --with dev
-
 initialize: install-pipx ## initialize the project environment
+	@pipx install copier
 	@pipx install poethepoet
 	@pipx install commitizen
 	@pipx install pre-commit
-	@pre-commit install
 
 init-project: install-copier install-precommit-hooks ## initialize the project (Warning: do this only once!)
 	@copier --answers-file .copier-config.yaml --vcs-ref=HEAD gh:entelecheia/hyperfast-python-template .
