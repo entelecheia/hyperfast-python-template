@@ -172,14 +172,14 @@ install-copier: install-pipx ## install copier (pre-requisite for init-project)
 install-poetry: install-pipx ## install poetry (pre-requisite for install)
 	@command -v poetry &> /dev/null || pipx install poetry || true
 
-install-poe: install-poetry ## install poetry (pre-requisite for install)
+install-poe: install-pipx ## install poetry (pre-requisite for install)
 	@command -v poe &> /dev/null || pipx install poethepoet || true
 
-install-commitzen: install-poe ## install commitzen (pre-requisite for commit)
+install-commitzen: install-pipx ## install commitzen (pre-requisite for commit)
 	@command -v cz &> /dev/null || pipx install commitizen || true
 
-install-precommit: install-commitzen ## install pre-commit
-	@command -v pre-commit &> /dev/null || pip install --user pre-commit || true
+install-precommit: install-pipx ## install pre-commit
+	@command -v pre-commit &> /dev/null || pipx install pre-commit || true
 
 install-precommit-hooks: install-precommit ## install pre-commit hooks
 	@pre-commit install
@@ -193,7 +193,11 @@ update: ## update the package
 install-dev: ## install the package in development mode
 	@poetry install --with dev
 
-initialize: install-precommit ## install pre-commit hooks
+initialize: install-pipx ## initialize the project environment
+	@pipx install copier
+	@pipx install poethepoet
+	@pipx install commitizen
+	@pipx install pre-commit
 	@pre-commit install
 
 init-project: install-copier install-precommit-hooks ## initialize the project (Warning: do this only once!)
