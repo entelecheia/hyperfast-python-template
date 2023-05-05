@@ -98,12 +98,12 @@ build_and_release:
 upload_to_release:
   default: true
   type: bool
-  help: Do you want to upload the package to the GitHub repository?
+  help: Do you want to upload the package to the GitHub release?
 
 upload_to_repository:
   default: true
   type: bool
-  help: Do you want to upload the package to PyPI?
+  help: Do you want to upload the package to the PyPI repository?
 
 documentaion_tool:
   default: jupyter-book
