@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.21 (2023-05-05)
+### Fix
+* **upload:** Fix typo in upload_to_repository help message ([`1c7edc3`](https://github.com/entelecheia/hyperfast-python-template/commit/1c7edc30d18f0ec89bc5d976a9ff56b17dd8dc10))
+
 ## v0.4.20 (2023-05-05)
 ### Fix
 * **copier-template:** Version_variable and version_pattern ([`18c4306`](https://github.com/entelecheia/hyperfast-python-template/commit/18c4306bcdb2116018ea5eec1774f820716b248a))
