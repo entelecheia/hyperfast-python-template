@@ -179,7 +179,7 @@ install-commitzen: install-poe ## install commitzen (pre-requisite for commit)
 	@command -v cz &> /dev/null || pipx install commitizen || true
 
 install-precommit: install-commitzen ## install pre-commit
-	@command -v pre-commit &> /dev/null || pipx install pre-commit || true
+	@command -v pre-commit &> /dev/null || pip install --user pre-commit || true
 
 install-precommit-hooks: install-precommit ## install pre-commit hooks
 	@pre-commit install
