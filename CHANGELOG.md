@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.10 (2023-05-05)
+### Fix
+* **conf:** Change _package_name_ to __package_name__ in about/__init__.yaml.jinja ([`7daf5c7`](https://github.com/entelecheia/hyperfast-python-template/commit/7daf5c7ed7554dfa2d59b3da17b2f997a422a8c6))
+
 ## v0.4.9 (2023-05-05)
 ### Fix
 * **copier-template:** Rename CNAME file to CNAME.jinja in docs folder ([`688dd00`](https://github.com/entelecheia/hyperfast-python-template/commit/688dd00f2ef323c1fb7521aa6e7d6dba0d1c7af5))
