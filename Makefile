@@ -164,22 +164,22 @@ git-sizer: ## run git-sizer
 ##@ Setup
 
 install-pipx: ## install pipx (pre-requisite for external tools)
-	@pipx --version &> /dev/null || pip install --user pipx || true
+	@commmand -v pipx &> /dev/null || pip install --user pipx || true
 
 install-copier: install-pipx ## install copier (pre-requisite for init-project)
-	@copier --version &> /dev/null || pipx install copier || true
+	@command -v copier &> /dev/null || pipx install copier || true
 
 install-poetry: install-pipx ## install poetry (pre-requisite for install)
-	@poetry --version &> /dev/null || pipx install poetry || true
+	@command -v poetry &> /dev/null || pipx install poetry || true
 
 install-poe: install-poetry ## install poetry (pre-requisite for install)
-	@poetry poe --version &> /dev/null || pipx install poethepoet || true
+	@command -v poe &> /dev/null || pipx install poethepoet || true
 
 install-commitzen: install-poe ## install commitzen (pre-requisite for commit)
-	@cz version &> /dev/null || pipx install commitizen || true
+	@command -v cz &> /dev/null || pipx install commitizen || true
 
 install-precommit: install-commitzen ## install pre-commit
-	@pre-commit --version &> /dev/null || pipx install pre-commit || true
+	@command -v pre-commit &> /dev/null || pipx install pre-commit || true
 
 install-precommit-hooks: install-precommit ## install pre-commit hooks
 	@pre-commit install
