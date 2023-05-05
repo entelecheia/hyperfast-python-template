@@ -46,7 +46,7 @@ jobs:
 
       # install dependencies
       - name: Install dependencies for linters
-        run: make install-dev
+        run: poe install-dev
 
       # run linters
       - name: Run linters
