@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.24 (2023-05-06)
+### Fix
+* **gitignore:** Add .hypothesis/ to ignore list ([`55cb014`](https://github.com/entelecheia/hyperfast-python-template/commit/55cb0143d63248cb048495c6711be92bc526fbaa))
+
 ## v0.4.23 (2023-05-05)
 ### Fix
 * **copier:** Update help texts in copier.yaml file ([`2eb8df0`](https://github.com/entelecheia/hyperfast-python-template/commit/2eb8df0ca76af322109aa9ba24f83f1d12ad0ade))
