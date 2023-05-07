@@ -96,12 +96,12 @@ build_and_release:
   help: Do you want to build and release the package?
 
 upload_to_release:
-  default: true
+  default: "{{ build_and_release | lower }}"
   type: bool
-  help: Do you want to upload the package to the GitHub release?
+  help: Do you want to upload the assets built to the GitHub release?
 
 upload_to_repository:
-  default: true
+  default: "{{ build_and_release | lower }}"
   type: bool
   help: Do you want to upload the package to the PyPI repository?
 
