@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.26 (2023-05-07)
+### Fix
+* **workflow:** Update release.yaml to trigger on successful completion of lint & test workflow ([`a66b740`](https://github.com/entelecheia/hyperfast-python-template/commit/a66b740fe5093e7dba7605ba17e5287b732006cf))
+
 ## v0.4.25 (2023-05-07)
 ### Fix
 * **makefile:** Add node installation targets and commands ([`4d49dd7`](https://github.com/entelecheia/hyperfast-python-template/commit/4d49dd713acdd214f9cc1a3da44c9a3a53c2c12c))
