@@ -59,6 +59,21 @@ gc-prune: ## garbage collect and prune
 
 ##@ Setup
 
+install-node: ## install node
+	@export NVM_DIR="$${HOME}/.nvm"; \
+	[ -s "$${NVM_DIR}/nvm.sh" ] && . "$${NVM_DIR}/nvm.sh"; \
+	nvm install --lts
+
+nvm-ls: ## list node versions
+	@export NVM_DIR="$${HOME}/.nvm"; \
+	[ -s "$${NVM_DIR}/nvm.sh" ] && . "$${NVM_DIR}/nvm.sh"; \
+	nvm ls
+
+set-default-node: ## set default node
+	@export NVM_DIR="$${HOME}/.nvm"; \
+	[ -s "$${NVM_DIR}/nvm.sh" ] && . "$${NVM_DIR}/nvm.sh"; \
+	nvm alias default node
+
 install-pipx: ## install pipx (pre-requisite for external tools)
 	@command -v pipx &> /dev/null || pip install --user pipx || true
 
