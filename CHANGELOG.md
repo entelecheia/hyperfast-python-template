@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.27 (2023-05-07)
+### Fix
+* **copier:** Update template version ([`c6633ea`](https://github.com/entelecheia/hyperfast-python-template/commit/c6633eabce59b9efcf2de2e5f4b41469e0ea34bd))
+
 ## v0.4.26 (2023-05-07)
 ### Fix
 * **workflow:** Update release.yaml to trigger on successful completion of lint & test workflow ([`a66b740`](https://github.com/entelecheia/hyperfast-python-template/commit/a66b740fe5093e7dba7605ba17e5287b732006cf))
