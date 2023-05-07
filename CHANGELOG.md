@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.25 (2023-05-07)
+### Fix
+* **makefile:** Add node installation targets and commands ([`4d49dd7`](https://github.com/entelecheia/hyperfast-python-template/commit/4d49dd713acdd214f9cc1a3da44c9a3a53c2c12c))
+
 ## v0.4.24 (2023-05-06)
 ### Fix
 * **gitignore:** Add .hypothesis/ to ignore list ([`55cb014`](https://github.com/entelecheia/hyperfast-python-template/commit/55cb0143d63248cb048495c6711be92bc526fbaa))
