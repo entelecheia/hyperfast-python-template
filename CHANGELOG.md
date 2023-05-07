@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.4.28 (2023-05-07)
+### Fix
+* **copier:** Update default values for upload options in copier.yaml ([`4d503cd`](https://github.com/entelecheia/hyperfast-python-template/commit/4d503cdd2ba25f38a78cb49208c464b2f78eb165))
+
 ## v0.4.27 (2023-05-07)
 ### Fix
 * **copier:** Update template version ([`c6633ea`](https://github.com/entelecheia/hyperfast-python-template/commit/c6633eabce59b9efcf2de2e5f4b41469e0ea34bd))
