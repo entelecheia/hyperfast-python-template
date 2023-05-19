@@ -1,5 +1,9 @@
 # Usage
 
+```{lastupdate}
+|lastupdate|
+```
+
 ## Quickstart
 
 There are two ways to use this project:
