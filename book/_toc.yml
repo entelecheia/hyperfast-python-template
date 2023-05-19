@@ -4,6 +4,5 @@
 format: jb-book
 root: index
 chapters:
-- file: usage
-- file: features
-- file: examples
+  - file: usage
+  - file: examples
