@@ -70,7 +70,7 @@ sphinx:
         - "https://sphinx-proof.readthedocs.io/en/latest/"
         - null
     hoverxref_intersphinx:
-     - "sphinxproof"
+      - "sphinxproof"
     mathjax3_config:
       tex:
         macros:
@@ -78,6 +78,7 @@ sphinx:
           "floor": ["\\lfloor#1\\rfloor", 1]
           "bmat": ["\\left[\\begin{array}"]
           "emat": ["\\end{array}\\right]"]
+    gitstamp_fmt: "%b %d, %Y"
 
   extra_extensions:
     - sphinx.ext.intersphinx
@@ -91,6 +92,7 @@ sphinx:
     - sphinx_thebe
     - sphinx_carousel.carousel
     - sphinxcontrib.lastupdate
+    - sphinx_gitstamp
 
 launch_buttons:
   colab_url: "https://colab.research.google.com"
