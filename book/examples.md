@@ -15,6 +15,8 @@ kernelspec:
 
 # Examples
 
+:Lastupdate: |lastupdate|
+
 This page contains a few examples of how you can use Hyperfast Python Template package.
 
 ## Installation
