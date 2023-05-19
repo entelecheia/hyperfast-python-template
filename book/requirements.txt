@@ -9,3 +9,4 @@ sphinxcontrib-video
 sphinx-thebe
 sphinxcontrib-mermaid
 sphinx-carousel
+sphinxcontrib-lastupdate
