@@ -1,5 +1,7 @@
 # Features
 
+:Lastupdate: |lastupdate|
+
 - [x] Automated changelog with [Conventional Commits] and [Python Semantic Release]
 - [x] Automated dependency updates with [Dependabot]
 - [x] Automated semantic versioning with [Python Semantic Release]
