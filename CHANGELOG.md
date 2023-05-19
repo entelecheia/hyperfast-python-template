@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.5.0 (2023-05-19)
+### Feature
+* **jupyterbook:** Add sphinxcontrib.lastupdate to config and requirements.txt ([`4b373a5`](https://github.com/entelecheia/hyperfast-python-template/commit/4b373a5884aa3e6a9ea0753cb660b65a7130c134))
+
+### Documentation
+* Update README ([`08dbf61`](https://github.com/entelecheia/hyperfast-python-template/commit/08dbf61d62d780b941952dd0c862932978316d4a))
+
 ## v0.4.28 (2023-05-07)
 ### Fix
 * **copier:** Update default values for upload options in copier.yaml ([`4d503cd`](https://github.com/entelecheia/hyperfast-python-template/commit/4d503cdd2ba25f38a78cb49208c464b2f78eb165))
