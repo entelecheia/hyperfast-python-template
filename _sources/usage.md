@@ -1,7 +1,7 @@
 # Usage
 
-```{lastupdate}
-|lastupdate|
+```{lastupdate} |lastupdate|
+
 ```
 
 ## Quickstart
