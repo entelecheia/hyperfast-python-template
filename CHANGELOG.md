@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.5.1 (2023-05-23)
+### Fix
+* **git-tasks:** Fix typo and consistency in tasks names ([`c20c65b`](https://github.com/entelecheia/hyperfast-python-template/commit/c20c65b73ad271e3bc4ed21bd86496b0f821c952))
+
 ## v0.5.0 (2023-05-19)
 ### Feature
 * **jupyterbook:** Add sphinxcontrib.lastupdate to config and requirements.txt ([`4b373a5`](https://github.com/entelecheia/hyperfast-python-template/commit/4b373a5884aa3e6a9ea0753cb660b65a7130c134))
