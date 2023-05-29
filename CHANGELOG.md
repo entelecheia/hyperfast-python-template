@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.5.2 (2023-05-29)
+### Fix
+* **template:** Update copier configuration ([`e7aa752`](https://github.com/entelecheia/hyperfast-python-template/commit/e7aa7528d28dfbda3ce37ed369e92f5ec7bf705d))
+
 ## v0.5.1 (2023-05-23)
 ### Fix
 * **git-tasks:** Fix typo and consistency in tasks names ([`c20c65b`](https://github.com/entelecheia/hyperfast-python-template/commit/c20c65b73ad271e3bc4ed21bd86496b0f821c952))
