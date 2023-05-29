@@ -1,5 +1,5 @@
 jupyter-book
-docutils==0.17.1
+docutils==0.20.1
 sphinx-inline-tabs
 sphinx-examples
 sphinx-proof
