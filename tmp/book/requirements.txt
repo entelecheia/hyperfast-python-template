@@ -1,0 +1,12 @@
+jupyter-book
+docutils==0.17.1
+sphinx-inline-tabs
+sphinx-examples
+sphinx-proof
+sphinx-hoverxref
+sphinxcontrib-youtube
+sphinxcontrib-video
+sphinx-thebe
+sphinxcontrib-mermaid
+sphinx-carousel
+sphinxcontrib-lastupdate
