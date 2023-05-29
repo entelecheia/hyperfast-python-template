@@ -1,10 +1,10 @@
 # Changes here will be overwritten by Copier; do NOT edit manually
-_commit: v0.5.1-3-ge7aa752
+_commit: v0.5.1-7-gd5fbf9b
 _src_path: .
 author: Young Joon Lee
 build_and_release: true
 code_template_answers_file: .copier-code-config.yaml
-code_template_source: ''
+code_template_source: None
 copyright_year: 2023
 documentaion_tool: jupyter-book
 documentation_url: https://hyperfast-python.entelecheia.ai

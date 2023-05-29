@@ -1,0 +1,7 @@
+__package_name__: "hyperfastpy"
+name: "Hyperfast Python Template"
+authors: "Young Joon Lee <entelecheia@hotmail.com>"
+description: "Streamlining Python Project Development with a Comprehensive Toolset for Quality, Efficiency, and Maintainability"
+homepage: "https://hyperfast-python.entelecheia.ai"
+license: "MIT"
+version: "0.0.0"
