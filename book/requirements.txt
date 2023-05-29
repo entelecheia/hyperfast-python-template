@@ -10,4 +10,3 @@ sphinx-thebe
 sphinxcontrib-mermaid
 sphinx-carousel
 sphinxcontrib-lastupdate
-sphinx-last-updated-by-git
