@@ -191,3 +191,21 @@ help = "git lfs migrate"
 args = [
   { name = "patterns", default = "*.pdf" },
 ]
+
+[tool.poe.tasks.git-add-submodule]
+cmd = "git submodule add ${url} ${path}"
+help = "git submodule add"
+args = [
+  { name = "url" },
+  { name = "path" },
+]
+
+[tool.poe.tasks.git-init-submodule]
+cmd = "git submodule update --init --recursive"
+help = "git submodule update --init --recursive"
+
+[tool.poe.tasks.git-update-submodule]
+cmd = "git submodule update --recursive --remote"
+help = "git submodule update --recursive --remote"
+
+
