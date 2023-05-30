@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.6.0 (2023-05-30)
+### Feature
+* **git-lfs:** Add tasks for installing, tracking, and migrating LFS files ([`9aa6cde`](https://github.com/entelecheia/hyperfast-python-template/commit/9aa6cde3082b7c6dbd24bb398a9c50cf2a888aa3))
+
+### Fix
+* **tests:** Remove git folder from temporary files ([`535f229`](https://github.com/entelecheia/hyperfast-python-template/commit/535f229c0d4c4ce8be0573e2df23d6b3241e5ae3))
+
 ## v0.5.2 (2023-05-29)
 ### Fix
 * **template:** Update copier configuration ([`e7aa752`](https://github.com/entelecheia/hyperfast-python-template/commit/e7aa7528d28dfbda3ce37ed369e92f5ec7bf705d))
