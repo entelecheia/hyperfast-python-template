@@ -114,6 +114,7 @@ reinit-project-force: install-copier ## initialize the project ignoring existing
 
 test-init-project: install-copier ## initialize the project ignoring existing files (Warning: this will overwrite existing files!)
 	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier "$${args[@]}" --answers-file .copier-config.yaml --force --vcs-ref=HEAD . tmp'
+	@rm -rf tmp/.git
 {% else -%}
 reinit-project: install-copier ## reinitialize the project (Warning: this may overwrite existing files!)
 	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier "$${args[@]}" {%- if code_template_source and code_template_source != 'None' %} --data 'code_template_source={{code_template_source}}'{% endif %} --answers-file .copier-config.yaml {%- if project_name.endswith('-template') %} --vcs-ref=HEAD{% endif %} gh:entelecheia/hyperfast-python-template .'

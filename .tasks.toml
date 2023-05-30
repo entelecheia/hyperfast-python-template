@@ -173,3 +173,39 @@ help = "update dependencies"
 [tool.poe.tasks.lock]
 cmd = "poetry lock"
 help = "lock dependencies"
+
+[tool.poe.tasks.git-lfs-install]
+cmd = "git lfs install"
+help = "git lfs install"
+
+[tool.poe.tasks.git-lfs-track]
+cmd = "git lfs track ${patterns}"
+help = "git lfs track"
+args = [
+  { name = "patterns", default = "*.pdf" },
+]
+
+[tool.poe.tasks.git-lfs-migrate]
+cmd = "git lfs migrate import --everything --include=${patterns}"
+help = "git lfs migrate"
+args = [
+  { name = "patterns", default = "*.pdf" },
+]
+
+[tool.poe.tasks.git-add-submodule]
+cmd = "git submodule add ${url} ${path}"
+help = "git submodule add ${url} ${path}"
+args = [
+  { name = "url" },
+  { name = "path" },
+]
+
+[tool.poe.tasks.git-init-submodule]
+cmd = "git submodule update --init --recursive"
+help = "git submodule update --init --recursive"
+
+[tool.poe.tasks.git-update-submodule]
+cmd = "git submodule update --recursive --remote"
+help = "git submodule update --recursive --remote"
+
+
