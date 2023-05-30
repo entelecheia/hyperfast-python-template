@@ -200,7 +200,7 @@ args = [
 
 [tool.poe.tasks.git-add-submodule]
 cmd = "git submodule add ${url} ${path}"
-help = "git submodule add"
+help = "git submodule add ${url} ${path}"
 args = [
   { name = "url" },
   { name = "path" },
