@@ -108,9 +108,6 @@ mkvirtualenv-system: ## create the project environment with system site packages
 workon: ## activate the project environment
 	@. "$$WORKON_HOME/hyperfast-python-template/bin/activate"
 
-install: install-poetry ## install the project
-	@poetry install
-
 initialize: install-pipx ## initialize the project environment
 	@pipx install copier
 	@pipx install poethepoet
