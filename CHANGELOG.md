@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.8.0 (2023-06-02)
+### Feature
+* **copier-template:** Add .envrc.jinja file for virtual environment configuration ([`5b4fe83`](https://github.com/entelecheia/hyperfast-python-template/commit/5b4fe83928f5af71100955dbc26a1cf751321b6f))
+
 ## v0.7.0 (2023-06-02)
 ### Feature
 * **makefile:** Add virtual environment commands ([`7df625d`](https://github.com/entelecheia/hyperfast-python-template/commit/7df625db65936b7e67883d5dcabb4b607e6acdff))
