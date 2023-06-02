@@ -95,6 +95,19 @@ install-precommit: install-pipx ## install pre-commit
 install-precommit-hooks: install-precommit ## install pre-commit hooks
 	@pre-commit install
 
+mkvirtualenv: ## create the project environment
+	@python3 -m venv "$$WORKON_HOME/hyperfast-python-template"
+	@. "$$WORKON_HOME/hyperfast-python-template/bin/activate"
+	@pip install --upgrade pip setuptools wheel
+
+mkvirtualenv-system: ## create the project environment with system site packages
+	@python3 -m venv "$$WORKON_HOME/hyperfast-python-template" --system-site-packages
+	@. "$$WORKON_HOME/hyperfast-python-template/bin/activate"
+	@pip install --upgrade pip setuptools wheel
+
+workon: ## activate the project environment
+	@. "$$WORKON_HOME/hyperfast-python-template/bin/activate"
+
 initialize: install-pipx ## initialize the project environment
 	@pipx install copier
 	@pipx install poethepoet
