@@ -194,7 +194,7 @@ args = [
 
 [tool.poe.tasks.git-add-submodule]
 cmd = "git submodule add ${url} ${path}"
-help = "git submodule add"
+help = "git submodule add ${url} ${path}"
 args = [
   { name = "url" },
   { name = "path" },
@@ -208,4 +208,10 @@ help = "git submodule update --init --recursive"
 cmd = "git submodule update --recursive --remote"
 help = "git submodule update --recursive --remote"
 
+[tool.poe.tasks.poetry-disable-virtualenvs]
+cmd = "poetry config virtualenvs.create false"
+help = "Disable virtualenvs in poetry"
 
+[tool.poe.tasks.poetry-enable-virtualenvs]
+cmd = "poetry config virtualenvs.create true"
+help = "Enable virtualenvs in poetry"
