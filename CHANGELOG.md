@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.7.0 (2023-06-02)
+### Feature
+* **makefile:** Add virtual environment commands ([`7df625d`](https://github.com/entelecheia/hyperfast-python-template/commit/7df625db65936b7e67883d5dcabb4b607e6acdff))
+* **mkvirtualenv:** Add option to create project environment with system site packages ([`7b479b2`](https://github.com/entelecheia/hyperfast-python-template/commit/7b479b20b9e315e226beadefc62368ea38e9646f))
+* **poetry:** Add options to enable/disable virtualenvs ([`11fc6b2`](https://github.com/entelecheia/hyperfast-python-template/commit/11fc6b2c12e0f1942f1b625c0c3ee6576f6c5f8e))
+
 ## v0.6.0 (2023-05-30)
 ### Feature
 * **git-lfs:** Add tasks for installing, tracking, and migrating LFS files ([`9aa6cde`](https://github.com/entelecheia/hyperfast-python-template/commit/9aa6cde3082b7c6dbd24bb398a9c50cf2a888aa3))
