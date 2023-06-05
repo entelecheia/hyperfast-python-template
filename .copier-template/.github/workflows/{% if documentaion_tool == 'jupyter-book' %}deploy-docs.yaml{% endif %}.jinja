@@ -34,6 +34,6 @@ jobs:
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN|e }}
           publish_dir: book/_build/html
-          cname: ${{ vars.CNAME }}
+          cname: ${{ vars.CNAME|e }}
