@@ -1,5 +1,10 @@
 <!--next-version-placeholder-->
 
+## v0.8.1 (2023-06-05)
+### Fix
+* **ci:** Update deploy-docs.yaml to handle cname ([`eaac59e`](https://github.com/entelecheia/hyperfast-python-template/commit/eaac59edb2533fdce9bdd8b4c1152d947c377eca))
+* **workflows:** Update deploy-docs script ([`139e9af`](https://github.com/entelecheia/hyperfast-python-template/commit/139e9af43762ca068956c55a1a51cb11aa7a7d32))
+
 ## v0.8.0 (2023-06-02)
 ### Feature
 * **copier-template:** Add .envrc.jinja file for virtual environment configuration ([`5b4fe83`](https://github.com/entelecheia/hyperfast-python-template/commit/5b4fe83928f5af71100955dbc26a1cf751321b6f))
