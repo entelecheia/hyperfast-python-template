@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.8.3 (2023-06-06)
+### Fix
+* **copier:** Switch copier command from `copier` to `copier copy` ([`a80ee8b`](https://github.com/entelecheia/hyperfast-python-template/commit/a80ee8b5b1526ca28029e07aa015ff84a330464c))
+
 ## v0.8.2 (2023-06-06)
 ### Fix
 * **build:** Use --UNSAFE flag for copier on reinit and test-init-project targets. ([`8f02abe`](https://github.com/entelecheia/hyperfast-python-template/commit/8f02abea9ad7635bed739c8d22e9652640b01070))
