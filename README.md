@@ -46,7 +46,7 @@ There are two ways to use this project:
    ```
 2. Run
    ```bash
-   copier copy gh:entelecheia/hyperfast-python-template path/to/destination
+   copier copy --UNSAFE gh:entelecheia/hyperfast-python-template path/to/destination
    ```
 3. Do your work
 
@@ -58,7 +58,7 @@ There are two ways to use this project:
    ```
 2. From the root of your project, run
    ```bash
-   copier copy gh:entelecheia/hyperfast-python-template .
+   copier copy --UNSAFE gh:entelecheia/hyperfast-python-template .
    ```
 3. Do your work
 
