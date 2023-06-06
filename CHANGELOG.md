@@ -1,5 +1,13 @@
 <!--next-version-placeholder-->
 
+## v0.8.2 (2023-06-06)
+### Fix
+* **build:** Use --UNSAFE flag for copier on reinit and test-init-project targets. ([`8f02abe`](https://github.com/entelecheia/hyperfast-python-template/commit/8f02abea9ad7635bed739c8d22e9652640b01070))
+* **template:** Update Makefile.jinja with copier copy command ([`bd7f8c2`](https://github.com/entelecheia/hyperfast-python-template/commit/bd7f8c2943618b352f374f6bb84151bfd5f2244c))
+
+### Documentation
+* **copier:** Change 'gh' to 'copy' in usage instructions ([`daba488`](https://github.com/entelecheia/hyperfast-python-template/commit/daba4883a1915b191f131e57d67855bf927201ff))
+
 ## v0.8.1 (2023-06-05)
 ### Fix
 * **ci:** Update deploy-docs.yaml to handle cname ([`eaac59e`](https://github.com/entelecheia/hyperfast-python-template/commit/eaac59edb2533fdce9bdd8b4c1152d947c377eca))
