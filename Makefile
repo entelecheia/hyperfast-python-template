@@ -125,5 +125,5 @@ reinit-project-force: install-copier ## initialize the project ignoring existing
 	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier copy "$${args[@]}" --answers-file .copier-config.yaml --force --vcs-ref=HEAD . .'
 
 test-init-project: install-copier ## initialize the project ignoring existing files (Warning: this will overwrite existing files!)
-	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier copy "$${args[@]}" --answers-file .copier-config.yaml --force --vcs-ref=HEAD . tmp'
+	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier copy "$${args[@]}" --answers-file .copier-config.yaml --UNSAFE --force --vcs-ref=HEAD . tmp'
 	@rm -rf tmp/.git
