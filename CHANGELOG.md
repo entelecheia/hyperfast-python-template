@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.8.4 (2023-06-07)
+### Fix
+* **virtual-environment:** Update activation script ([`b40f50f`](https://github.com/entelecheia/hyperfast-python-template/commit/b40f50f58359abd6355aff946c3e87fc07e29a70))
+
+### Documentation
+* **copier:** Add --UNSAFE flag to copier copy commands in README and usage.md files ([`c0f9013`](https://github.com/entelecheia/hyperfast-python-template/commit/c0f9013c3f6ba8bc8f099e199492fe30d78d2765))
+
 ## v0.8.3 (2023-06-06)
 ### Fix
 * **copier:** Switch copier command from `copier` to `copier copy` ([`a80ee8b`](https://github.com/entelecheia/hyperfast-python-template/commit/a80ee8b5b1526ca28029e07aa015ff84a330464c))
