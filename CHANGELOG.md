@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.8.5 (2023-06-07)
+### Fix
+* **envrc:** Export PYTHON_KEYRING_BACKEND in .envrc.jinja ([`0e44e32`](https://github.com/entelecheia/hyperfast-python-template/commit/0e44e328e09bff6637f731322b9e1856f63f2197))
+
 ## v0.8.4 (2023-06-07)
 ### Fix
 * **virtual-environment:** Update activation script ([`b40f50f`](https://github.com/entelecheia/hyperfast-python-template/commit/b40f50f58359abd6355aff946c3e87fc07e29a70))
