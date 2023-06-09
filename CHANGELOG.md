@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.8.6 (2023-06-09)
+### Fix
+* **copier.yaml:** Update project_name validator to allow uppercase letters ([`d033eed`](https://github.com/entelecheia/hyperfast-python-template/commit/d033eedb69dbea0a6287997063f7388d7b8618d8))
+
 ## v0.8.5 (2023-06-07)
 ### Fix
 * **envrc:** Export PYTHON_KEYRING_BACKEND in .envrc.jinja ([`0e44e32`](https://github.com/entelecheia/hyperfast-python-template/commit/0e44e328e09bff6637f731322b9e1856f63f2197))
