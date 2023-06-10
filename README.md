@@ -9,7 +9,7 @@
 
 <!-- Links: -->
 
-[codecov-image]: https://codecov.io/gh/entelecheia/hyperfast-python-template/branch/codecov/graph/badge.svg?token=29NXUNQUBU
+[codecov-image]: https://codecov.io/gh/entelecheia/hyperfast-python-template/branch/main/graph/badge.svg?token=29NXUNQUBU
 [codecov-url]: https://codecov.io/gh/entelecheia/hyperfast-python-template
 [pypi-image]: https://img.shields.io/pypi/v/hyperfast-python-template
 [license-image]: https://img.shields.io/github/license/entelecheia/hyperfast-python-template
