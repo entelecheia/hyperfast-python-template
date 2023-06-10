@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.8.8 (2023-06-10)
+### Fix
+* **copier:** Update to commit v0.8.7-2-g9e92154 ([`24f961e`](https://github.com/entelecheia/hyperfast-python-template/commit/24f961ef2e5322f9bff372bf3c81760eb573c27c))
+
 ## v0.8.7 (2023-06-10)
 ### Fix
 * **config:** Add main branch option ([`d4bb86c`](https://github.com/entelecheia/hyperfast-python-template/commit/d4bb86c4450dc0ff4d7974257bdba0bc604f5bd6))
