@@ -1,5 +1,15 @@
 <!--next-version-placeholder-->
 
+## v0.8.7 (2023-06-10)
+### Fix
+* **config:** Add main branch option ([`d4bb86c`](https://github.com/entelecheia/hyperfast-python-template/commit/d4bb86c4450dc0ff4d7974257bdba0bc604f5bd6))
+* **tasks:** Simplify tests-cov and tests-cov-fail tasks ([`5055a55`](https://github.com/entelecheia/hyperfast-python-template/commit/5055a55e36cbbcd939b98b2b7634a42425861183))
+* **workflow:** Update Codecov coverage report handling ([`b21ec7d`](https://github.com/entelecheia/hyperfast-python-template/commit/b21ec7d058c7319ee9e516dd35b1498db43d42ef))
+* **dependencies:** Add cov-verify task for codecov.yml validation ([`ad83a85`](https://github.com/entelecheia/hyperfast-python-template/commit/ad83a85104f7594bf6961645e851b1cffcae4761))
+
+### Documentation
+* Update codecov badge in README.md ([`254a914`](https://github.com/entelecheia/hyperfast-python-template/commit/254a914c96be22a4acd33de18b626ba7bb910d90))
+
 ## v0.8.6 (2023-06-09)
 ### Fix
 * **copier.yaml:** Update project_name validator to allow uppercase letters ([`d033eed`](https://github.com/entelecheia/hyperfast-python-template/commit/d033eedb69dbea0a6287997063f7388d7b8618d8))
