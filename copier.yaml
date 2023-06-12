@@ -151,6 +151,11 @@ use_source_code_skeleton:
   type: bool
   help: Do you want to use the source code skeleton? (it will create `src` and `tests` directories)
 
+poe_task_files:
+  default: "['.tasks.toml', '.tasks-extra.toml']"
+  type: yaml
+  help: What are the POE task files? (e.g. ['.tasks.toml', '.tasks-extra.toml'])
+
 code_template_source:
   default: ""
   type: str
