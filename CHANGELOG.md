@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.9.0 (2023-06-12)
+### Feature
+* **poe:** Update poe include option with dynamic file list ([`400dd66`](https://github.com/entelecheia/hyperfast-python-template/commit/400dd66149b7108d3feda4c80cfc2ecfe8ef5219))
+* **templates:** Update Makefile.jinja for testing initialization to temporary directory ([`13ae6d2`](https://github.com/entelecheia/hyperfast-python-template/commit/13ae6d20b5fc19be6e120505332c6c308c07ebf5))
+* **copier:** Add POE task files to configuration ([`4eed529`](https://github.com/entelecheia/hyperfast-python-template/commit/4eed529228242347dabcc4bdd76d37e970d2df81))
+
 ## v0.8.8 (2023-06-10)
 ### Fix
 * **copier:** Update to commit v0.8.7-2-g9e92154 ([`24f961e`](https://github.com/entelecheia/hyperfast-python-template/commit/24f961ef2e5322f9bff372bf3c81760eb573c27c))
