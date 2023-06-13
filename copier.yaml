@@ -147,6 +147,7 @@ google_analytics_id:
   help: What is your Google Analytics ID? (leave empty if you don't have one. e.g. G-XXXXXXXXXX)
 
 codecov_graph_token:
+  default: "[REPLACE_ME]"
   type: str
   help: What is your Codecov graph token? (leave empty if you don't have one. e.g. XXXXXXXXXX) You can find it in https://app.codecov.io/gh/{{ github_username }}/{{ github_repo_name }}/settings
 
