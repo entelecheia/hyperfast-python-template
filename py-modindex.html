@@ -7,9 +7,8 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-
-    <title>Hyperfast Python Template &#8212; Hyperfast Python Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Module Index &#8212; Hyperfast Python Template</title>
   
   
   
@@ -85,13 +84,21 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <script>window.MathJax = {"tex": {"macros": {"N": "\\mathbb{N}", "floor": ["\\lfloor#1\\rfloor", 1], "bmat": ["\\left[\\begin{array}"], "emat": ["\\end{array}\\right]"]}}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
+    <script src="https://unpkg.com/mermaid@10.2.0/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'py-modindex';</script>
     <link rel="shortcut icon" href="https://assets.entelecheia.ai/favicon.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Usage" href="usage.html" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+
+    <script>
+      DOCUMENTATION_OPTIONS.COLLAPSE_INDEX = true;
+    </script>
+
+
   </head>
   
   
@@ -155,7 +162,7 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="sidebar-primary-item">
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="index.html">
   
   
   
@@ -174,8 +181,8 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="index.html">
                     Hyperfast Python Template
                 </a>
             </li>
@@ -258,24 +265,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/entelecheia/hyperfast-python-template/edit/main/book/index.md" target="_blank"
-   class="btn btn-sm btn-source-edit-button dropdown-item"
-   title="Suggest edit"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-pencil-alt"></i>
-  </span>
-<span class="btn__text-container">Suggest edit</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li><a href="https://github.com/entelecheia/hyperfast-python-template/issues/new?title=Issue%20on%20page%20%2Findex.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/entelecheia/hyperfast-python-template/issues/new?title=Issue%20on%20page%20%2Fpy-modindex.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -287,54 +277,6 @@ const thebe_selector_output = ".output, .cell_output"
   </span>
 <span class="btn__text-container">Open issue</span>
 </a>
-</li>
-      
-  </ul>
-</div>
-
-
-
-
-
-
-<div class="dropdown dropdown-download-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
-    <i class="fas fa-download"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="_sources/index.md" target="_blank"
-   class="btn btn-sm btn-download-source-button dropdown-item"
-   title="Download source file"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="btn__text-container">.md</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li>
-<button onclick="window.print()"
-  class="btn btn-sm btn-download-pdf-button dropdown-item"
-  title="Print to PDF"
-  data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="btn__text-container">.pdf</span>
-</button>
 </li>
       
   </ul>
@@ -374,9 +316,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -387,22 +327,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Hyperfast Python Template</h1>
+    <h1></h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changelog">Changelog</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing">Contributing</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -412,69 +341,24 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="hyperfast-python-template">
-<h1>Hyperfast Python Template<a class="headerlink" href="#hyperfast-python-template" title="Permalink to this heading">#</a></h1>
-<p><a class="reference external" href="https://pypi.org/project/hyperfast-python-template"><img alt="pypi-image" src="https://img.shields.io/pypi/v/hyperfast-python-template" /></a>
-<a class="reference external" href="https://github.com/entelecheia/hyperfast-python-template/releases"><img alt="version-image" src="https://img.shields.io/github/v/release/entelecheia/hyperfast-python-template?sort=semver" /></a>
-<a class="reference external" href="https://github.com/entelecheia/hyperfast-python-template/releases"><img alt="release-date-image" src="https://img.shields.io/github/release-date/entelecheia/hyperfast-python-template" /></a>
-<a class="reference external" href="https://github.com/entelecheia/hyperfast-python-template/blob/main/LICENSE"><img alt="license-image" src="https://img.shields.io/github/license/entelecheia/hyperfast-python-template" /></a>
-<a class="reference external" href="https://hyperfast-python.entelecheia.ai"><img alt="jupyter-book-image" src="https://jupyterbook.org/en/stable/_images/badge.svg" /></a>
-<a class="reference external" href="https://codecov.io/gh/entelecheia/hyperfast-python-template"><img alt="codecov" src="https://codecov.io/gh/entelecheia/hyperfast-python-template/branch/main/graph/badge.svg?token=29NXUNQUBU" /></a></p>
-<!-- Links: -->
-<!-- Links: -->
-<p>Streamlining Python Project Development with a Comprehensive Toolset for Quality, Efficiency, and Maintainability</p>
-<ul class="simple">
-<li><p>Documentation: <a class="reference external" href="https://hyperfast-python.entelecheia.ai">https://hyperfast-python.entelecheia.ai</a></p></li>
-<li><p>GitHub: <a class="github reference external" href="https://github.com/entelecheia/hyperfast-python-template">entelecheia/hyperfast-python-template</a></p></li>
-<li><p>PyPI: <a class="reference external" href="https://pypi.org/project/hyperfast-python-template">https://pypi.org/project/hyperfast-python-template</a></p></li>
-</ul>
-<p>The Hyperfast Python Template is a powerful and comprehensive solution designed to accelerate the development and maintenance of high-quality Python projects. By incorporating industry best practices and automating key aspects such as dependency management, releases, code formatting, testing, and documentation, this template streamlines the entire development process. It ensures code quality through continuous integration, coverage reporting, linting, and static type-checking while providing seamless support for Conventional Commits and Semantic Versioning. With the Hyperfast Python Template, developers can efficiently create and manage Python projects, focusing on their core functionality while enjoying a robust, well-organized, and maintainable codebase.</p>
-<section id="changelog">
-<h2>Changelog<a class="headerlink" href="#changelog" title="Permalink to this heading">#</a></h2>
-<p>See the <a class="reference external" href="https://github.com/entelecheia/hyperfast-python-template/blob/main/CHANGELOG.md">CHANGELOG</a> for more information.</p>
-</section>
-<section id="contributing">
-<h2>Contributing<a class="headerlink" href="#contributing" title="Permalink to this heading">#</a></h2>
-<p>Contributions are welcome! Please see the <a class="reference external" href="https://github.com/entelecheia/hyperfast-python-template/blob/main/CONTRIBUTING.md">contributing guidelines</a> for more information.</p>
-</section>
-<section id="license">
-<h2>License<a class="headerlink" href="#license" title="Permalink to this heading">#</a></h2>
-<p>This project is released under the <a class="reference external" href="https://github.com/entelecheia/hyperfast-python-template/blob/main/LICENSE">MIT License</a>.</p>
-</section>
-<section id="table-of-contents">
-<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this heading">#</a></h2>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
-<li class="toctree-l1"><a class="reference internal" href="api.html">API Reference</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="_autosummary/hyperfastpy.html">hyperfastpy</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
-</ul>
-</div>
-</section>
-</section>
 
-    <script type="text/x-thebe-config">
-    {
-        requestKernel: true,
-        binderOptions: {
-            repo: "entelecheia/hyperfast-python-template",
-            ref: "main",
-        },
-        codeMirrorConfig: {
-            theme: "abcdef",
-            mode: "python"
-        },
-        kernelOptions: {
-            name: "python3",
-            path: "./."
-        },
-        predefinedOutput: true
-    }
-    </script>
-    <script>kernelName = 'python3'</script>
+   <h1>Python Module Index</h1>
+
+   <div class="modindex-jumpbox">
+   <a href="#cap-h"><strong>h</strong></a>
+   </div>
+
+   <table class="indextable modindextable">
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-h"><td></td><td>
+       <strong>h</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="_autosummary/hyperfastpy.html#module-hyperfastpy"><code class="xref">hyperfastpy</code></a></td><td>
+       <em></em></td></tr>
+   </table>
+
 
                 </article>
               
@@ -487,15 +371,6 @@ document.write(`
   
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
-    <a class="right-next"
-       href="usage.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Usage</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div></div>
   
 </div>
@@ -505,23 +380,6 @@ document.write(`
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changelog">Changelog</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing">Contributing</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>
