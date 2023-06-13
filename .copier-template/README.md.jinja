@@ -5,8 +5,11 @@
 [![release-date-image]][release-url]
 [![license-image]][license-url]
 {% if documentaion_tool == 'jupyter-book' %}[![jupyter-book-image]][docs-url]{% endif %}
+[![codecov][codecov-image]][codecov-url]
 
 <!-- Links: -->
+[codecov-image]: https://codecov.io/gh/{{ github_username }}/{{ github_repo_name }}/branch/{{ main_branch }}/graph/badge.svg?token={{ codecov_graph_token }}
+[codecov-url]: https://codecov.io/gh/{{ github_username }}/{{ github_repo_name }}
 [pypi-image]: https://img.shields.io/pypi/v/{{ project_name }}
 [license-image]: https://img.shields.io/github/license/{{ github_username }}/{{ github_repo_name }}
 [license-url]: https://github.com/{{ github_username }}/{{ github_repo_name }}/blob/{{ main_branch }}/LICENSE

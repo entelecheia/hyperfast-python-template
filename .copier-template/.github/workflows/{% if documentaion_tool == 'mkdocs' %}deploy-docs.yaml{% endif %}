@@ -27,6 +27,10 @@ jobs:
         with:
           python-version: 3.x
 
+      # install the source code
+      - name: Install the source code
+        run: pip install .
+
       - uses: actions/cache@v3
         with:
           key: ${{ github.ref }}
