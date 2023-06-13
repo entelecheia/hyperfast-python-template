@@ -24,11 +24,21 @@ jobs:
         with:
           python-version: 3.x
 
+      # install poetry
+      - name: Install poetry
+        run: |
+          pipx install poetry>=1.3.2
+          poetry config virtualenvs.create false
+
+      # install the source code
+      - name: Install the source code
+        run: poetry install
+
       # Build the book
       - name: Build the book
         run: |
-          pip install -r book/requirements.txt
-          jupyter-book build book
+          poetry run pip install -r book/requirements.txt
+          poetry run jupyter-book build book
 
       # Deploy the book's HTML to gh-pages branch
       - name: GitHub Pages action
