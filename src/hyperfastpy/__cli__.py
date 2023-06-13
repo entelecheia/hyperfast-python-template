@@ -4,7 +4,7 @@
 
 import click
 
-from . import __version__
+from hyperfastpy._version import __version__
 
 
 @click.command()
