@@ -1,5 +1,7 @@
 {
     "python.linting.mypyEnabled": false,
     "python.linting.enabled": false,
-    "python.linting.pylintEnabled": false
+    "python.linting.pylintEnabled": false,
+    "docify.commentService.docstringFormat": "Google",
+    "docify.commentService.moreExpressiveComments": true
 }
