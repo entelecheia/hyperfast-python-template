@@ -81,7 +81,7 @@ help = "install ghp-import"
 [tool.poe.tasks.install-jupyter-book-pipx]
 shell = """
   pipx install jupyter-book
-  args=(); while IFS= read -r file; do args+=("$file"); done < book/requirements.txt; pipx inject jupyter-book "${args[@]:1}"
+  pipx inject jupyter-book $(awk '{if(!/^ *#/ && NF) print}' book/requirements.txt)
 """
 help = "install jupyter-book with pipx"
 
