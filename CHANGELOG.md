@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.10.1 (2023-06-13)
+### Fix
+* **project-files:** Remove project.toml and pyproject.toml ([`f1c15c9`](https://github.com/entelecheia/hyperfast-python-template/commit/f1c15c9bb7f5b63b893a3c75c8c6611f894f182c))
+
 ## v0.10.0 (2023-06-13)
 ### Feature
 * **config:** Add Sphinx extensions ([`4d3aa18`](https://github.com/entelecheia/hyperfast-python-template/commit/4d3aa18ab4cb31f00b198ff402203b26fab2d673))
