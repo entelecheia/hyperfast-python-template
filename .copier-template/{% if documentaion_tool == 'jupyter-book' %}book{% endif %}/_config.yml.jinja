@@ -78,9 +78,15 @@ sphinx:
           "floor": ["\\lfloor#1\\rfloor", 1]
           "bmat": ["\\left[\\begin{array}"]
           "emat": ["\\end{array}\\right]"]
+    add_module_names: false
+    autosummary_generate: true
 
   extra_extensions:
     - sphinx.ext.intersphinx
+    - sphinx.ext.autodoc
+    - sphinx.ext.autosummary
+    - sphinx.ext.napoleon
+    - sphinx.ext.viewcode
     - sphinx_inline_tabs
     - sphinx_proof
     - sphinx_examples
