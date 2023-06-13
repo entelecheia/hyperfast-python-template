@@ -14,4 +14,3 @@ main
 get_version
 -----------
 .. autofunction:: hyperfastpy.__init__.get_version
-
