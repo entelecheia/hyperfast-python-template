@@ -137,24 +137,24 @@ logo_path:
   type: str
   help: What is the path to your logo? (leave empty if you don't have one. e.g. logo.png or https://example.com/logo.png)
 
-google_analytics_id:
-  type: str
-  help: What is your Google Analytics ID? (leave empty if you don't have one. e.g. G-XXXXXXXXXX)
-
 use_launch_buttons:
   default: false
   type: bool
   help: Do you want to use launch buttons in your documentation? (it is only available for Jupyter Book)
 
-use_source_code_skeleton:
-  default: "{{ build_and_release | lower }}"
-  type: bool
-  help: Do you want to use the source code skeleton? (it will create `src` and `tests` directories)
+google_analytics_id:
+  type: str
+  help: What is your Google Analytics ID? (leave empty if you don't have one. e.g. G-XXXXXXXXXX)
 
 poe_task_files:
   default: "['.tasks.toml', '.tasks-extra.toml']"
   type: yaml
   help: What are the POE task files? (e.g. ['.tasks.toml', '.tasks-extra.toml'])
+
+use_source_code_skeleton:
+  default: "{{ build_and_release | lower }}"
+  type: bool
+  help: Do you want to use the source code skeleton? (it will create `src` and `tests` directories)
 
 code_template_source:
   default: ""
