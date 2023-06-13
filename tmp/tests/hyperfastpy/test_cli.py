@@ -17,6 +17,6 @@ def capture(command: List[str]) -> Tuple[bytes, bytes, int]:
 
 def test_cli() -> None:
     """Test cli module"""
-    command = ["hyperfastpy"]
+    command = ["hyperfastpy", "--name", "test", "--count", "3"]
     out, err, exitcode = capture(command)
     assert exitcode == 0
