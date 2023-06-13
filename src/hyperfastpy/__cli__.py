@@ -13,7 +13,8 @@ from . import __version__
 @click.option("--name", "-n", prompt="Your name", help="The person to greet.")
 def main(count, name):
     """
-    This is the cli function of the package. You can use this function to print a list of items and their names
+    This is the cli function of the package.
+    You can use this function to print a message to the user.
 
     Args:
         count: The number of items to print
