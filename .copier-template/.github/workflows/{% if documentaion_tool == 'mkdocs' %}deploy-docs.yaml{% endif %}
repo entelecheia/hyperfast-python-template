@@ -27,10 +27,20 @@ jobs:
         with:
           python-version: 3.x
 
+      # install poetry
+      - name: Install poetry
+        run: |
+          pipx install poetry>=1.3.2
+          poetry config virtualenvs.create false
+
+      # install the source code
+      - name: Install the source code
+        run: poetry install
+
       - uses: actions/cache@v3
         with:
           key: ${{ github.ref }}
           path: .cache
       - run: |
-          pip install -r docs/requirements.txt
-          mkdocs gh-deploy --force
+          poetry run pip install -r docs/requirements.txt
+          poetry run mkdocs gh-deploy --force
