@@ -1,5 +1,19 @@
 <!--next-version-placeholder-->
 
+## v0.10.0 (2023-06-13)
+### Feature
+* **config:** Add Sphinx extensions ([`4d3aa18`](https://github.com/entelecheia/hyperfast-python-template/commit/4d3aa18ab4cb31f00b198ff402203b26fab2d673))
+* **copier:** Add codecov_graph_token field to copier.yaml ([`9b63dcf`](https://github.com/entelecheia/hyperfast-python-template/commit/9b63dcf4c154ba036c79892ee98ce7d6a09810ce))
+* **docs:** Update Sphinx configuration; Add autosummary, autodoc, napoleon, and viewcode extensions and set add_module_names to false. ([`3edaf8c`](https://github.com/entelecheia/hyperfast-python-template/commit/3edaf8c3d58f74a145f4f407a1813a44ef0535af))
+* **book:** Add new API chapter ([`b315459`](https://github.com/entelecheia/hyperfast-python-template/commit/b315459b00595a7f0b6959ba7017821f9664647c))
+* **cli:** Add click options and greet message ([`5ac9981`](https://github.com/entelecheia/hyperfast-python-template/commit/5ac99814c642b26050ac444619a1adf007155d85))
+* **docs:** Add mkdocs-click to requirements and enable it in mkdocs.yaml ([`ec0f2c1`](https://github.com/entelecheia/hyperfast-python-template/commit/ec0f2c1725732735e9b7e2e248bb92e96ca6bf8c))
+
+### Fix
+* **jupyter-book:** Use correct pip command to install requirements ([`d1852da`](https://github.com/entelecheia/hyperfast-python-template/commit/d1852da080bb956457d338028a6ee2b059582ba5))
+* **tests:** Update cli test to include new parameter ([`996f91d`](https://github.com/entelecheia/hyperfast-python-template/commit/996f91d70a0bd7741f51cb35e2e678c26bb723a0))
+* **init:** Fix import statement and update function description ([`4662ba9`](https://github.com/entelecheia/hyperfast-python-template/commit/4662ba92353d576e491de9dc747be095b2388a81))
+
 ## v0.9.0 (2023-06-12)
 ### Feature
 * **poe:** Update poe include option with dynamic file list ([`400dd66`](https://github.com/entelecheia/hyperfast-python-template/commit/400dd66149b7108d3feda4c80cfc2ecfe8ef5219))
