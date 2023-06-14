@@ -134,5 +134,5 @@ test-init-project-force: install-copier ## test initializing the project to a te
 	@rm -rf tmp/.git
 {% else -%}
 reinit-project: install-copier ## reinitialize the project (Warning: this may overwrite existing files!)
-	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier copy "$${args[@]}" {%- if code_template_source and code_template_source != 'None' %} --data 'code_template_source={{code_template_source}}'{% endif %} --answers-file .copier-config.yaml {%- if project_name.endswith('-template') %} --UNSAFE --vcs-ref=HEAD{% endif %} gh:entelecheia/hyperfast-python-template .'
+	@bash -c 'args=(); while IFS= read -r file; do args+=("--skip" "$$file"); done < .copierignore; copier copy --UNSAFE "$${args[@]}" {%- if code_template_source and code_template_source != 'None' %} --data 'code_template_source={{code_template_source}}'{% endif %} --answers-file .copier-config.yaml {%- if project_name.endswith('-template') %} --vcs-ref=HEAD{% endif %} gh:entelecheia/hyperfast-python-template .'
 {% endif -%}
