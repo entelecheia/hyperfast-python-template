@@ -1,5 +1,10 @@
 <!--next-version-placeholder-->
 
+## v0.10.2 (2023-06-14)
+### Fix
+* **copier.yaml:** Added condition for code_template_source VCS ref ([`ea2d874`](https://github.com/entelecheia/hyperfast-python-template/commit/ea2d874599d31d513f1b4ee7ed4de2dd0ebfacb8))
+* **Makefile:** Add --UNSAFE flag for reinit-project command ([`33274e5`](https://github.com/entelecheia/hyperfast-python-template/commit/33274e5a9b9acafa30d0905a46b629e4dc67fc4d))
+
 ## v0.10.1 (2023-06-13)
 ### Fix
 * **project-files:** Remove project.toml and pyproject.toml ([`f1c15c9`](https://github.com/entelecheia/hyperfast-python-template/commit/f1c15c9bb7f5b63b893a3c75c8c6611f894f182c))
