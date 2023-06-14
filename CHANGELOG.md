@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.10.3 (2023-06-14)
+### Fix
+* **copier:** Update copier copy command to include project_name data and change package_name to project_name in data ([`4a1598d`](https://github.com/entelecheia/hyperfast-python-template/commit/4a1598daae2f1a9fe72b7e0db5e229aab15c18ab))
+
 ## v0.10.2 (2023-06-14)
 ### Fix
 * **copier.yaml:** Added condition for code_template_source VCS ref ([`ea2d874`](https://github.com/entelecheia/hyperfast-python-template/commit/ea2d874599d31d513f1b4ee7ed4de2dd0ebfacb8))
