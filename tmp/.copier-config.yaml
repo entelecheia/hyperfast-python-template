@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; do NOT edit manually
-_commit: v0.10.3-2-gd9e8fde
+_commit: v0.10.3-5-g2510a09
 _src_path: .
 author: Young Joon Lee
 build_and_release: true
@@ -19,8 +19,8 @@ logo_path: https://assets.entelecheia.ai/logo.png
 main_branch: main
 package_name: hyperfastpy
 package_scripts:
-- hyperfastpy = "hyperfastpy.__cli__:main"
-- hyperfast-cli = "hyperfastpy.__cli__:cli_main"
+- hyperfastpy = 'hyperfastpy.__cli__:main'
+- hyperfast-cli = 'hyperfastpy.__cli__:cli_main'
 poe_task_files:
 - .tasks.toml
 - .tasks-extra.toml
