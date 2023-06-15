@@ -101,7 +101,7 @@ package_name:
     {% endif %}
 
 package_scripts:
-  default: "[{{ package_name }} = '{{ package_name }}.__cli__:main']"
+  default: "[{{ package_name }} = \"{{ package_name }}.__cli__:main\"]"
   type: yaml
   help: What are the scripts of your Python package? (it will be used as CLI entry points)
 
