@@ -34,15 +34,6 @@ friendly_name:
   type: str
   help: What is your project friendly name? (it will be used for the title of the documentation)
 
-package_name:
-  default: "{{ project_name | replace('-', '_') }}"
-  type: str
-  help: What is your Python module name? (it will be used in `import package_name`)
-  validator: >-
-    {% if not (package_name | regex_search('^[a-z][a-z0-9_]+$')) %}
-    package_name must start with a letter, followed one or more letters, digits or underscores in lowercase only
-    {% endif %}
-
 project_short_description:
   type: str
   help: What is your project short description?
@@ -99,6 +90,20 @@ build_and_release:
   default: true
   type: bool
   help: Do you want to build and release the package?
+
+package_name:
+  default: "{{ project_name | replace('-', '_') }}"
+  type: str
+  help: What is your Python module name? (it will be used in `import package_name`)
+  validator: >-
+    {% if not (package_name | regex_search('^[a-z][a-z0-9_]+$')) %}
+    package_name must start with a letter, followed one or more letters, digits or underscores in lowercase only
+    {% endif %}
+
+package_scripts:
+  default: "[{{ package_name }} = '{{ package_name }}.__cli__:main']"
+  type: yaml
+  help: What are the scripts of your Python package? (it will be used as CLI entry points)
 
 upload_to_release:
   default: "{{ build_and_release | lower }}"
