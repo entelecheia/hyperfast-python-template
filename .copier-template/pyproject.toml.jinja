@@ -12,9 +12,9 @@ packages = [{ include = "{{ package_name }}", from = "src" }]
 
 {% if package_scripts -%}
 [tool.poetry.scripts]
-{% for script in package_scripts -%}
+{%- for script in package_scripts %}
 {{ script }}
-{%- endfor %}
+{% endfor -%}
 {%- endif %}
 {%- endif %}
 
