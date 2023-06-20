@@ -10,8 +10,12 @@ readme = "README.md"
 {% if build_and_release -%}
 packages = [{ include = "{{ package_name }}", from = "src" }]
 
+{% if package_scripts -%}
 [tool.poetry.scripts]
-{{ package_name }} = '{{ package_name }}.__cli__:main'
+{% for script in package_scripts -%}
+{{ script }}{{ "\n" if not loop.last }}
+{%- endfor %}
+{%- endif %}
 {%- endif %}
 
 [tool.poetry.dependencies]
