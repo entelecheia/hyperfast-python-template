@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.11.1 (2023-06-20)
+### Fix
+* **copier-template:** Update README.md.jinja with badge formatting and spacing ([`661f715`](https://github.com/entelecheia/hyperfast-python-template/commit/661f715284533e9b7c7a3327eb69f9ef1d642371))
+
 ## v0.11.0 (2023-06-20)
 ### Feature
 * **copier:** Update package scripts configuration in pyproject.toml ([`b21e952`](https://github.com/entelecheia/hyperfast-python-template/commit/b21e9522581c3b7f89080c49d453c1756049ba4d))
