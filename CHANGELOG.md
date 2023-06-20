@@ -1,5 +1,18 @@
 <!--next-version-placeholder-->
 
+## v0.11.0 (2023-06-20)
+### Feature
+* **copier:** Update package scripts configuration in pyproject.toml ([`b21e952`](https://github.com/entelecheia/hyperfast-python-template/commit/b21e9522581c3b7f89080c49d453c1756049ba4d))
+* **copier:** Add package_name and package_scripts options for better Python module building and configuration management ([`620fc82`](https://github.com/entelecheia/hyperfast-python-template/commit/620fc820ae2e2a48020249130ac027cccb86b940))
+
+### Fix
+* **scope:** Update package import in init.md.jinja ([`3323181`](https://github.com/entelecheia/hyperfast-python-template/commit/332318129a827a955996155c9a601be0c662b04c))
+* **cli:** Update import path of __cli__ module ([`6f4a280`](https://github.com/entelecheia/hyperfast-python-template/commit/6f4a28012f05d4871fecc51e62704a03f267fcab))
+* **dependencies:** Add codehilite plugin for markdown syntax highlighting ([`569e11c`](https://github.com/entelecheia/hyperfast-python-template/commit/569e11c5bc5b5f8a66d867208cd43ff9e9e25deb))
+* **copier:** Fix quotes inconsistency for package scripts in copier.yaml file ([`821b353`](https://github.com/entelecheia/hyperfast-python-template/commit/821b35388490050c953b701d67a927ae627a40c1))
+* **copier-template:** Update package scripts formatting ([`4cb4a12`](https://github.com/entelecheia/hyperfast-python-template/commit/4cb4a12167fea5b7516268864b8a3ed358f70e59))
+* **copier:** Fix quotes in package_scripts default value ([`d9e8fde`](https://github.com/entelecheia/hyperfast-python-template/commit/d9e8fdee3a09d72b76f852400ad1b0504c5b530a))
+
 ## v0.10.3 (2023-06-14)
 ### Fix
 * **copier:** Update copier copy command to include project_name data and change package_name to project_name in data ([`4a1598d`](https://github.com/entelecheia/hyperfast-python-template/commit/4a1598daae2f1a9fe72b7e0db5e229aab15c18ab))
