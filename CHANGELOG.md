@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.11.2 (2023-06-20)
+### Fix
+* **cli:** Add version message to main function ([`233a713`](https://github.com/entelecheia/hyperfast-python-template/commit/233a713baa9f48be8a12e72fc70c657f5bcc9296))
+
 ## v0.11.1 (2023-06-20)
 ### Fix
 * **copier-template:** Update README.md.jinja with badge formatting and spacing ([`661f715`](https://github.com/entelecheia/hyperfast-python-template/commit/661f715284533e9b7c7a3327eb69f9ef1d642371))
