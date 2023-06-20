@@ -1,11 +1,15 @@
 # {{ friendly_name }}
 
-{% if build_and_release and upload_to_repository %}[![pypi-image]][pypi-url]{% endif %}
+{% if build_and_release and upload_to_repository -%}
+[![pypi-image]][pypi-url]
+{%- endif %}
 [![version-image]][release-url]
 [![release-date-image]][release-url]
 [![license-image]][license-url]
-{% if documentaion_tool == 'jupyter-book' %}[![jupyter-book-image]][docs-url]{% endif %}
 [![codecov][codecov-image]][codecov-url]
+{% if documentaion_tool == 'jupyter-book' -%}
+[![jupyter-book-image]][docs-url]
+{%- endif %}
 
 <!-- Links: -->
 [codecov-image]: https://codecov.io/gh/{{ github_username }}/{{ github_repo_name }}/branch/{{ main_branch }}/graph/badge.svg?token={{ codecov_graph_token }}
