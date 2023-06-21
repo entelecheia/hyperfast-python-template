@@ -1,5 +1,9 @@
 <!--next-version-placeholder-->
 
+## v0.11.3 (2023-06-21)
+### Fix
+* **tasks:** Update clean-cov command to remove all coverage files ([`53775bd`](https://github.com/entelecheia/hyperfast-python-template/commit/53775bd9f8b9a02bd14c6388a11fd23f34359ce3))
+
 ## v0.11.2 (2023-06-20)
 ### Fix
 * **cli:** Add version message to main function ([`233a713`](https://github.com/entelecheia/hyperfast-python-template/commit/233a713baa9f48be8a12e72fc70c657f5bcc9296))
