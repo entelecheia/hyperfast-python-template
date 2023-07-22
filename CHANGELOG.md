@@ -1,5 +1,15 @@
 <!--next-version-placeholder-->
 
+## v0.11.4 (2023-07-22)
+
+### Fix
+
+* **dependencies:** Update black version range in pyproject.toml.jinja ([`d86a508`](https://github.com/entelecheia/hyperfast-python-template/commit/d86a5085f874f4b394d2aeea78c711263655872e))
+* **dependencies:** Constrain black version to >=23.0.0,<=23.3.0 ([`786dbb3`](https://github.com/entelecheia/hyperfast-python-template/commit/786dbb38f0111e78f3f3008d4cb0febd5c4fcad5))
+* **.copier-template:** Remove version_pattern from pyproject.toml.jinja ([`76dd3be`](https://github.com/entelecheia/hyperfast-python-template/commit/76dd3bed144edd2538a35194870d40a2b3e29e92))
+* **package_name:** Rename __init__.yaml.jinja to {{package_name}}.yaml.jinja ([`d8185ed`](https://github.com/entelecheia/hyperfast-python-template/commit/d8185edaee2cb4f2ba698260c8c7ed4082130e9c))
+* **configuration:** Rename about init settings to hyperfastpy settings ([`8a11757`](https://github.com/entelecheia/hyperfast-python-template/commit/8a1175745a36f2c46122572accdac636e925a421))
+
 ## v0.11.3 (2023-06-21)
 ### Fix
 * **tasks:** Update clean-cov command to remove all coverage files ([`53775bd`](https://github.com/entelecheia/hyperfast-python-template/commit/53775bd9f8b9a02bd14c6388a11fd23f34359ce3))
