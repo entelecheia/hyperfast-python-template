@@ -86,7 +86,6 @@ tag_format = "v$version"
 branch = "main"
 version_toml = "pyproject.toml:tool.poetry.version"
 version_variable = "src/hyperfastpy/_version.py:__version__"
-version_pattern = 'src/hyperfastpy/conf/about/__init__.yaml:version: "{version}"'
 version_source = "tag"
 commit_version_number = true # required for version_source = "tag"
 commit_subject = "chore(release): :rocket: {version} [skip ci]"
