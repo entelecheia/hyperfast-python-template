@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.11.5 (2023-08-08)
+
+### Fix
+
+* **.envrc.jinja:** Update environment variable export syntax and add shellcheck disable comments ([`391aba3`](https://github.com/entelecheia/hyperfast-python-template/commit/391aba349178befe0b7112605cfa34d008ce30d2))
+
 ## v0.11.4 (2023-07-22)
 
 ### Fix
