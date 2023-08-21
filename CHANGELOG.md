@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.11.6 (2023-08-21)
+
+### Fix
+
+* **tasks-extra:** Add 'hello' task with echo command ([`4b97ffa`](https://github.com/entelecheia/hyperfast-python-template/commit/4b97ffa4ebede7a44a3ed6b86f46546e2f71efd9))
+* **Makefile.jinja:** Remove conditionals from init-project command ([`9604d98`](https://github.com/entelecheia/hyperfast-python-template/commit/9604d988f1db5687de71306a263aa79162d510f9))
+
 ## v0.11.5 (2023-08-08)
 
 ### Fix
