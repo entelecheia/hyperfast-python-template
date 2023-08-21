@@ -115,6 +115,7 @@ initialize: install-pipx ## initialize the project environment
 	@pipx install pre-commit
 	@pre-commit install
 
+# TODO: #35 UNSAFE options should be moved out of if statements
 init-project: initialize {%- if not project_name.endswith('-template') %} remove-template{% endif %} ## initialize the project (Warning: do this only once!)
 	@copier copy {%- if code_template_source and code_template_source != 'None' %} --data 'code_template_source={{code_template_source}}'{% endif %} --answers-file .copier-config.yaml {%- if project_name.endswith('-template') %} --UNSAFE --vcs-ref=HEAD{% endif %} gh:entelecheia/hyperfast-python-template .
 
