@@ -1,0 +1,3 @@
+[tool.poe.tasks.hello]
+cmd = "echo 'Hello World'"
+help = "Put your extra tasks here"
