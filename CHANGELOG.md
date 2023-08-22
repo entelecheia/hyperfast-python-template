@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.11.7 (2023-08-22)
+
+### Fix
+
+* **README:** Replace --UNSAFE with --trust in copier instructions ([`7304025`](https://github.com/entelecheia/hyperfast-python-template/commit/7304025844cc5f0b97b3e1386f5f0edb214d92cf))
+* **copier.yaml:** Replace --UNSAFE flag with --trust in copier copy script ([`7e8f858`](https://github.com/entelecheia/hyperfast-python-template/commit/7e8f85885176850e7e3f9b7761dbd8797f220761))
+
 ## v0.11.6 (2023-08-21)
 
 ### Fix
