@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.11.8 (2023-10-31)
+
+### Fix
+
+* **dependencies:** Restrict python version to 3.12 ([`1252d10`](https://github.com/entelecheia/hyperfast-python-template/commit/1252d10f1d35943ed13f2da9fcf77d517ef4f7d2))
+* **dependencies:** Constrain python version to be less or equal to 3.12 ([`0066b96`](https://github.com/entelecheia/hyperfast-python-template/commit/0066b96939f31582964a1c73c982403e0392e1a7))
+
 ## v0.11.7 (2023-08-22)
 
 ### Fix
