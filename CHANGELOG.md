@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.11.9 (2023-11-03)
+
+### Fix
+
+* **github-workflows:** Pin down the python version to 3.9 ([`fadc4bf`](https://github.com/entelecheia/hyperfast-python-template/commit/fadc4bfdb442e72efc11ab2d895e4fc111393c52))
+
 ## v0.11.8 (2023-10-31)
 
 ### Fix
