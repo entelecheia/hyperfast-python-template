@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.11.10 (2023-11-09)
+
+### Fix
+
+* **black:** Use extend-exclude for more specific exclusions ([`c395a4e`](https://github.com/entelecheia/hyperfast-python-template/commit/c395a4e17ed64fbb69c84fe733cbd03767cc5b11))
+* **black-config:** Replace exclude with force-exclude ([`a8382c6`](https://github.com/entelecheia/hyperfast-python-template/commit/a8382c607344749c0792d4e8efd80ae9e9094366))
+
 ## v0.11.9 (2023-11-03)
 
 ### Fix
