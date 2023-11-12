@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.11.11 (2023-11-12)
+
+### Fix
+
+* **github-actions:** Remove conditional check on workflow success ([`e5cdb3c`](https://github.com/entelecheia/hyperfast-python-template/commit/e5cdb3c3e5359062959d48dca7ad8beafa822213))
+
 ## v0.11.10 (2023-11-09)
 
 ### Fix
