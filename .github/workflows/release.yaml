@@ -4,11 +4,13 @@ name: semantic-release
 on:
   workflow_call:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["lint & test"]
-    branches: [main]
-    types:
-      - completed
+  push:
+    branches:
+      - release*
+    paths:
+      - 'src/**'
+      - 'pyproject.toml'
+      - '.copier-template/**'
 
 permissions:
   contents: write
