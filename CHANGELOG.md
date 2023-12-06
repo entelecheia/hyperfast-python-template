@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.11.12 (2023-12-06)
+
+### Fix
+
+* **github-actions:** Upgrade setup-python to v5 ([`0acb374`](https://github.com/entelecheia/hyperfast-python-template/commit/0acb374d2bab25ec2353a11423e41a63904a165f))
+
 ## v0.11.11 (2023-11-12)
 
 ### Fix
