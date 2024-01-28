@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.11.13 (2024-01-28)
+
+### Fix
+
+* **book:** Remove specific version of docutils in requirements.txt ([`7c17e28`](https://github.com/entelecheia/hyperfast-python-template/commit/7c17e287fb067e482e50c046f8ea84eae849ae3d))
+
 ## v0.11.12 (2023-12-06)
 
 ### Fix
