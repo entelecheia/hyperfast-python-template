@@ -1,5 +1,17 @@
 <!--next-version-placeholder-->
 
+## v0.12.0 (2024-02-25)
+
+### Feature
+
+* **docs:** Add conditional for build and release section ([`46f0447`](https://github.com/entelecheia/hyperfast-python-template/commit/46f0447fea5730bf9829f7a81439b0d4080b2632))
+* **.copier-template:** Add mkdocs build and install tasks ([`3443032`](https://github.com/entelecheia/hyperfast-python-template/commit/3443032d65f2c6eeda640cda7f49fefc5c700da3))
+
+### Fix
+
+* **template:** Correct ElseIf statement in tasks.toml.jinja ([`0a09ab3`](https://github.com/entelecheia/hyperfast-python-template/commit/0a09ab3575a88dd552e9b4045f30075e432c6e7a))
+* **workflows:** Upgrade codecov-action to v4 and add token ([`7accea3`](https://github.com/entelecheia/hyperfast-python-template/commit/7accea33718a128762a74dafa80a1c2fa7e66f28))
+
 ## v0.11.13 (2024-01-28)
 
 ### Fix
