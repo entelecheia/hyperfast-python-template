@@ -107,7 +107,7 @@ help = "build the book with all outputs"
 [tool.poe.tasks.book-publish]
 cmd = "ghp-import -n -p -f book/_build/html"
 help = "publish the book"
-{%- elseif documentaion_tool == 'mkdocs' %}
+{%- elif documentaion_tool == 'mkdocs' %}
 
 [tool.poe.tasks.build-docs]
 cmd = "mkdocs build -f mkdocs.yaml"
