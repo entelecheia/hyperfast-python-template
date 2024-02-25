@@ -1,5 +1,13 @@
 <!--next-version-placeholder-->
 
+## v0.12.1 (2024-02-25)
+
+### Fix
+
+* **mkdocs:** Add conditional mkdocs-click anddocstrings plugins ([`ee29d6c`](https://github.com/entelecheia/hyperfast-python-template/commit/ee29d6cd2742c4473da0bcf661edbd9bac0fbc62))
+* **github-actions:** Upgrade actions/cache to version 4 ([`94ec4f9`](https://github.com/entelecheia/hyperfast-python-template/commit/94ec4f9c8ed86ac2126388a33a5e7733e7eb8ad7))
+* **copier-template:** Ignore MkDocs site directory ([`d4a2838`](https://github.com/entelecheia/hyperfast-python-template/commit/d4a28387e4f9de08031a958cfdd433faa185f48a))
+
 ## v0.12.0 (2024-02-25)
 
 ### Feature
