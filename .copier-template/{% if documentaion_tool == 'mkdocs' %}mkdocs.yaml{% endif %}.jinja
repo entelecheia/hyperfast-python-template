@@ -63,18 +63,22 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+{%- if build_and_release %}
   - mkdocs-click
+{%- endif %}
   - codehilite
 
 # Plugins
 plugins:
   - search
+{%- if build_and_release %}
   - mkdocstrings:
       handlers:
         # See: https://mkdocstrings.github.io/python/usage/
         python:
           options:
             docstring_style: google
+{%- endif %}
 
 # Customization
 extra_javascript:
