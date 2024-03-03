@@ -13,7 +13,7 @@ packages = [{ include = "hyperfastpy", from = "src" }]
 hyperfastpy = 'hyperfastpy.__cli__:main'
 
 [tool.poetry.dependencies]
-python = ">=3.8.1,<=3.12"
+python = ">=3.9,<=3.12"
 click = "^8.1.3"
 
 [tool.poetry.group.dev]
