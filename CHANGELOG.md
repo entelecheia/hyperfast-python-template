@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.13.0 (2024-03-03)
+
+### Feature
+
+* **dependencies:** Update python version from >=3.8.1 to >=3.9 ([`3435779`](https://github.com/entelecheia/hyperfast-python-template/commit/343577999307d450d6599e9fe3ab476b99c934cf))
+
 ## v0.12.1 (2024-02-25)
 
 ### Fix
