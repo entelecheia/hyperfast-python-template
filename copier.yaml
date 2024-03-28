@@ -18,7 +18,7 @@ _tasks:
   - "[ -d .git ] || git init"
   - "{% if github_repo_name %}git add remote origin https://github.com/{{ github_username }}/{{ github_repo_name }}.git 2>/dev/null || echo 'origin already exists'{% else %}echo 'No GitHub repository name provided. Skipping git remote add.'{% endif %}"
   # if code_template_source and code_template_source != 'None' is not empty, apply the code template
-  - "{% if code_template_source and code_template_source != 'None' %}copier copy --trust --data 'project_name={{project_name}}' --data 'package_name={{package_name}}' --answers-file {{ code_template_answers_file }} {%- if project_name.endswith('-template') %} --vcs-ref=HEAD{% endif %} {{ code_template_source }} .{% else %}echo 'No code template source provided. Skipping copier.'{% endif %}"
+  - "{% if code_template_source and code_template_source != 'None' %}copier copy --trust --data 'project_name={{project_name}}' --data 'package_name={{package_name}}' --data 'open_link={{open_link}}' --answers-file {{ code_template_answers_file }} {%- if project_name.endswith('-template') %} --vcs-ref=HEAD{% endif %} {{ code_template_source }} .{% else %}echo 'No code template source provided. Skipping copier.'{% endif %}"
 
 # questions
 project_name:
@@ -165,6 +165,10 @@ use_source_code_skeleton:
   default: "{{ build_and_release | lower }}"
   type: bool
   help: Do you want to use the source code skeleton? (it will create `src` and `tests` directories)
+
+open_link:
+  type: bool
+  help: Do you want to open the project homepage link when you run CLI commands?
 
 code_template_source:
   default: ""
