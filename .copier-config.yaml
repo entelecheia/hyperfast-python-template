@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; do NOT edit manually
-_commit: v0.13.0-4-g81e531f
+_commit: v0.13.1-4-g1d85967
 _src_path: .
 author: Young Joon Lee
 build_and_release: true
@@ -17,6 +17,7 @@ github_username: entelecheia
 google_analytics_id: G-0K77490FJT
 logo_path: https://assets.entelecheia.ai/logo.png
 main_branch: main
+open_link: true
 package_name: hyperfastpy
 package_scripts:
 - hyperfastpy = 'hyperfastpy.__cli__:main'
