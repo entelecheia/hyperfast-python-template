@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.14.0 (2024-03-28)
+
+### Feature
+
+* **template:** Add open link variable to about yaml file ([`8137761`](https://github.com/entelecheia/hyperfast-python-template/commit/81377619b55898168376560f7d6cd09433bfad54))
+* **copier:** Update copier command to include 'open_link' data; add 'open_link' option to copier template; update copier.yaml ([`4a68cb3`](https://github.com/entelecheia/hyperfast-python-template/commit/4a68cb34a3bde0d74912898dd801bee9d48176c0))
+
 ## v0.13.1 (2024-03-11)
 
 ### Fix
