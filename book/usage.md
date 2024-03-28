@@ -91,7 +91,7 @@ With the `CNAME` repository variable properly configured, your project will be s
 - [ ] Security audit with [Bandit] and [Safety]
 - [ ] Test automation with [Nox]
 
-The template supports Python 3.8, 3.9, and 3.10.
+The template supports Python 3.9, 3.10, 3.11 and 3.12.
 
 [bandit]: https://github.com/PyCQA/bandit
 [black]: https://github.com/psf/black
