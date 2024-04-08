@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.14.1 (2024-04-08)
+
+### Fix
+
+* **deployment:** Upgrade actions-gh-pages to v4 ([`7afcde2`](https://github.com/entelecheia/hyperfast-python-template/commit/7afcde2c2464ef8b7f1d12254cd55ace56c84f86))
+
 ## v0.14.0 (2024-03-28)
 
 ### Feature
