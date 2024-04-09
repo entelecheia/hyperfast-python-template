@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.14.2 (2024-04-09)
+
+### Fix
+
+* **book:** Update jupyter-book version in requirements.txt ([`8817d0c`](https://github.com/entelecheia/hyperfast-python-template/commit/8817d0cd7bdfd5ba469edc056cfe37c0fabeed75))
+* **template:** Update jupyter-book version in requirements.txt ([`6bfc26f`](https://github.com/entelecheia/hyperfast-python-template/commit/6bfc26fe3ab131b1e87c675fccccd61822adc082))
+
 ## v0.14.1 (2024-04-08)
 
 ### Fix
