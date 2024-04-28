@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.14.3 (2024-04-28)
+
+### Fix
+
+* **copier-template:** Update index header text ([`52686a0`](https://github.com/entelecheia/hyperfast-python-template/commit/52686a04736bf8e76cbe9b08935dd6c69cf43430))
+
 ## v0.14.2 (2024-04-09)
 
 ### Fix
