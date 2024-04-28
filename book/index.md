@@ -1,4 +1,4 @@
-# Hyperfast Python Template
+# Home
 
 [![pypi-image]][pypi-url]
 [![version-image]][release-url]
