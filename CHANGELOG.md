@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.14.4 (2024-06-27)
+
+### Fix
+
+* Update jupyter-book and docutils dependencies ([`8454e8c`](https://github.com/entelecheia/hyperfast-python-template/commit/8454e8cea643d74fd2717ff753628b69b3b4bd7c))
+
 ## v0.14.3 (2024-04-28)
 
 ### Fix
