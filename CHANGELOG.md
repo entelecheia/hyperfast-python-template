@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.14.5 (2024-08-22)
+
+### Fix
+
+* **workflows:** Rename release workflow template file for consistency ([`a629e55`](https://github.com/entelecheia/hyperfast-python-template/commit/a629e55846e05ffdf5a75c4afd94f2138bf62cc4))
+
 ## v0.14.4 (2024-06-27)
 
 ### Fix
