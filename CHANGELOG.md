@@ -1,5 +1,11 @@
 <!--next-version-placeholder-->
 
+## v0.14.6 (2024-10-07)
+
+### Fix
+
+* **requirements:** Upgrade jupyter-book to 1.0.3 (✨add Launch in Deepnote button setting) ([`75330f6`](https://github.com/entelecheia/hyperfast-python-template/commit/75330f65a1a89a8c4e28d936829a715882d8c2f6))
+
 ## v0.14.5 (2024-08-22)
 
 ### Fix
