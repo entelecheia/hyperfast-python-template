@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.15.2 (2024-10-20)
+
+### Bug Fixes
+
+* fix(workflows): add PyPI_API_TOKEN for package publishing ([`0afe660`](https://github.com/entelecheia/hyperfast-python-template/commit/0afe6607fa5d98f657343dde1ac22e54eb55af72))
+
+
 ## v0.15.1 (2024-10-20)
 
 ### Bug Fixes
