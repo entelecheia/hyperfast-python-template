@@ -1,5 +1,18 @@
 <!--next-version-placeholder-->
 
+## v0.15.1 (2024-10-20)
+
+### Bug Fixes
+
+* fix(release): enable build in semantic release workflow ([`2c7ce1d`](https://github.com/entelecheia/hyperfast-python-template/commit/2c7ce1d42e1cbad4da790242b574f7a4e8aaf304))
+
+* fix(release): set up Python environment and install dependencies,  add build command for poetry in pyproject.toml ([`948b506`](https://github.com/entelecheia/hyperfast-python-template/commit/948b5065fd1362be61d2378189546ea2baa5cbd7))
+
+### Refactoring
+
+* refactor(pyproject): adjust build command to use pip for poetry installation ([`a038f41`](https://github.com/entelecheia/hyperfast-python-template/commit/a038f41b5ab3bd5dc7d453d1c3f83ce4e7e1e103))
+
+
 ## v0.15.0 (2024-10-20)
 
 ### Chores
