@@ -35,11 +35,22 @@ jobs:
         run: |
           git checkout -B ${{ github.ref_name }} ${{ github.sha }}
 
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install poetry
+          poetry install
+
       - name: Action | Semantic Version Release
         id: release
         # Adjust tag with desired version if applicable.
         uses: python-semantic-release/python-semantic-release@v9.12.0
         with:
+          build: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
           git_committer_name: "github-actions"
           git_committer_email: "actions@users.noreply.github.com"
