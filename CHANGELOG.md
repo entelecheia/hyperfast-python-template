@@ -1,5 +1,12 @@
 <!--next-version-placeholder-->
 
+## v0.15.3 (2024-10-20)
+
+### Bug Fixes
+
+* fix(release): remove unnecessary password configuration for PyPI upload, add environment variable for release job ([`e683589`](https://github.com/entelecheia/hyperfast-python-template/commit/e6835898b677cd0a89dd9d8c625ec90e8b84984e))
+
+
 ## v0.15.2 (2024-10-20)
 
 ### Bug Fixes
