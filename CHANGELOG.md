@@ -1,5 +1,28 @@
 <!--next-version-placeholder-->
 
+## v0.15.0 (2024-10-20)
+
+### Chores
+
+* chore(workflows): update GitHub Action for PyPI publish to use release version ([`d9c5e67`](https://github.com/entelecheia/hyperfast-python-template/commit/d9c5e670188d3a51fde650bca091158b46d6119b))
+
+### Features
+
+* feat(release): streamline release workflow ([`951c89d`](https://github.com/entelecheia/hyperfast-python-template/commit/951c89dbee4cc592c70bfed3530f74a66051e373))
+
+### Refactoring
+
+* refactor(dependencies): upgrade python-semantic-release to 9.0.0 ([`bc438e4`](https://github.com/entelecheia/hyperfast-python-template/commit/bc438e4b198612340390808f2fe6ff6f44d71ff4))
+
+### Unknown
+
+* Merge pull request #91 from entelecheia/entelecheia/issue90 ([`1dde873`](https://github.com/entelecheia/hyperfast-python-template/commit/1dde8739f1dc2b92fa6392d996eec1a4e8145ee6))
+
+* Merge pull request #88 from entelecheia/release
+
+Release ([`00c71a4`](https://github.com/entelecheia/hyperfast-python-template/commit/00c71a47ff5e3c91d2cf0cd0c91e708c55e4dfb9))
+
+
 ## v0.14.6 (2024-10-07)
 
 ### Fix
@@ -640,4 +663,3 @@
 
 
 ## v0.0.1-rc.1 (2023-02-17)
-
