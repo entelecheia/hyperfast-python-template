@@ -7,3 +7,4 @@ book/_toc.yml
 book/usage.md
 pyproject.toml
 src/hyperfastpy/_version.py
+release.yaml
