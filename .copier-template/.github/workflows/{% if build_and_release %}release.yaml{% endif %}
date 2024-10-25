@@ -45,17 +45,13 @@ jobs:
           git_committer_name: "github-actions"
           git_committer_email: "actions@users.noreply.github.com"
 
-{% if upload_to_repository -%}
       - name: Publish | Upload package to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         if: steps.release.outputs.released == 'true'
 
-{%- endif %}
-{% if upload_to_release -%}
       - name: Publish | Upload to GitHub Release Assets
         uses: python-semantic-release/publish-action@v9.12.0
         if: steps.release.outputs.released == 'true'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.release.outputs.tag }}
-{%- endif %}
