@@ -1,5 +1,52 @@
 <!--next-version-placeholder-->
 
+## v0.16.0 (2024-10-25)
+
+### Bug Fixes
+
+* fix(template): correct variable name from 'version_variable' to 'version_variables' ([`df710ec`](https://github.com/entelecheia/hyperfast-python-template/commit/df710eccc53def6dda884d08c9483a94e57fd3e8))
+
+### Chores
+
+* chore(copierignore): add release.yaml to ignore list ([`a0b003e`](https://github.com/entelecheia/hyperfast-python-template/commit/a0b003effe140fa4124cbd74e0a9e4e18ad51362))
+
+* chore(config): update Copier version to v0.15.3 ([`6f33111`](https://github.com/entelecheia/hyperfast-python-template/commit/6f33111f79a1d04a90eda716521f0882842ed8c2))
+
+* chore(config): update commit reference from v0.15.3-11-g8605440 to v0.15.3-13-gf4555e0 ([`6c7ed7e`](https://github.com/entelecheia/hyperfast-python-template/commit/6c7ed7e165d39d979c4482e0680ae44750bc11fe))
+
+* chore(copier-config): update commit version to v0.15.3-11-g8605440 ([`d23f476`](https://github.com/entelecheia/hyperfast-python-template/commit/d23f476e3833030aa1c856d2b1eb4a7116b75a97))
+
+* chore(workflows): update release process configuration ([`5220b29`](https://github.com/entelecheia/hyperfast-python-template/commit/5220b299f3847add3aec83ff9df7f9ce0d7b00d1))
+
+* chore(workflows): remove obsolete GitHub Actions for prerelease and release processes ([`6adaae1`](https://github.com/entelecheia/hyperfast-python-template/commit/6adaae1ea84e0d3b93cd4078bcd29734a58b07ce))
+
+* chore(gitignore): add .venv/ directory to .gitignore ([`24eed80`](https://github.com/entelecheia/hyperfast-python-template/commit/24eed80733231b10af4d5ba6e0344c1b361d26e5))
+
+* chore(gitignore): add temporary and workspace directories to .gitignore ([`fa1c1d3`](https://github.com/entelecheia/hyperfast-python-template/commit/fa1c1d370535261c33619bee1facc7e0ff156dbc))
+
+* chore(workspace): add .gitkeep to workspace ([`209c441`](https://github.com/entelecheia/hyperfast-python-template/commit/209c441297662dcd9ad35dd76a62971bfad236fb))
+
+* chore: update commit message format for python-semantic-release ([`c243503`](https://github.com/entelecheia/hyperfast-python-template/commit/c2435033c9da7adf954c4aad6091110f6e7f17ae))
+
+* chore(release): update publish-action to v9.12.0 ([`56b1bba`](https://github.com/entelecheia/hyperfast-python-template/commit/56b1bba34578950e0fca4787dcf155965959f379))
+
+* chore(dependencies): remove unnecessary semantic release configuration comments ([`83a4a69`](https://github.com/entelecheia/hyperfast-python-template/commit/83a4a69587004ae6466d7a8ec27828cbb7985ea9))
+
+### Features
+
+* feat(release): add semantic release workflow for testing ([`a333a7f`](https://github.com/entelecheia/hyperfast-python-template/commit/a333a7f1e5d57cec3df0a76ff016c279d2b19fae))
+
+* feat(workflow): update release workflow with concurrency and permissions ([`dea9727`](https://github.com/entelecheia/hyperfast-python-template/commit/dea97279602c8244cff861276adb7a9c10ed8a07))
+
+* feat(template): add build-system section with poetry configuration , update python-semantic-release to version 9.0.0 , enhance semantic release settings and commit parser options ([`4e92d52`](https://github.com/entelecheia/hyperfast-python-template/commit/4e92d5215e815384b044c1619d321ce1a7f35455))
+
+### Unknown
+
+* Merge pull request #94 from entelecheia/main ([`9519c8b`](https://github.com/entelecheia/hyperfast-python-template/commit/9519c8b3bbe73e0cbcb7ba3b09b8cfe9e66de197))
+
+* Merge pull request #93 from entelecheia/entelecheia/issue92 ([`8c69565`](https://github.com/entelecheia/hyperfast-python-template/commit/8c69565a21b2d6c952b9a973f5c09b236ae691aa))
+
+
 ## v0.15.3 (2024-10-20)
 
 ### Bug Fixes
