@@ -1,4 +1,5 @@
 .gitignore
+.copierignore
 .tasks-extra.toml
 README.md
 CHANGELOG.md

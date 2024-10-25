@@ -1,6 +1,6 @@
 # Changes here will be overwritten by Copier; do NOT edit manually
-_commit: v0.15.3-16-g1d74ea1
-_src_path: ..
+_commit: v0.16.0-5-gc366aff
+_src_path: .
 author: Young Joon Lee
 build_and_release: true
 code_template_answers_file: .copier-code-config.yaml
