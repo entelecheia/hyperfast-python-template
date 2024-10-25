@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hyperfast-python-template"
-version = "0.15.3"
+version = "0.16.0"
 description = "Streamlining Python Project Development with a Comprehensive Toolset for Quality, Efficiency, and Maintainability"
 authors = ["Young Joon Lee <entelecheia@hotmail.com>"]
 license = "MIT"
