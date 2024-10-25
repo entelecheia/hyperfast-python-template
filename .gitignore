@@ -18,6 +18,7 @@ dist/
 pytest_cache/
 pytest.xml
 .mypy_cache/
+.venv/
 
 # Coverage
 .coverage

@@ -1,5 +1,55 @@
 <!--next-version-placeholder-->
 
+## v0.15.3 (2024-10-20)
+
+### Bug Fixes
+
+* fix(release): remove unnecessary password configuration for PyPI upload, add environment variable for release job ([`e683589`](https://github.com/entelecheia/hyperfast-python-template/commit/e6835898b677cd0a89dd9d8c625ec90e8b84984e))
+
+
+## v0.15.2 (2024-10-20)
+
+### Bug Fixes
+
+* fix(workflows): add PyPI_API_TOKEN for package publishing ([`0afe660`](https://github.com/entelecheia/hyperfast-python-template/commit/0afe6607fa5d98f657343dde1ac22e54eb55af72))
+
+
+## v0.15.1 (2024-10-20)
+
+### Bug Fixes
+
+* fix(release): enable build in semantic release workflow ([`2c7ce1d`](https://github.com/entelecheia/hyperfast-python-template/commit/2c7ce1d42e1cbad4da790242b574f7a4e8aaf304))
+
+* fix(release): set up Python environment and install dependencies,  add build command for poetry in pyproject.toml ([`948b506`](https://github.com/entelecheia/hyperfast-python-template/commit/948b5065fd1362be61d2378189546ea2baa5cbd7))
+
+### Refactoring
+
+* refactor(pyproject): adjust build command to use pip for poetry installation ([`a038f41`](https://github.com/entelecheia/hyperfast-python-template/commit/a038f41b5ab3bd5dc7d453d1c3f83ce4e7e1e103))
+
+
+## v0.15.0 (2024-10-20)
+
+### Chores
+
+* chore(workflows): update GitHub Action for PyPI publish to use release version ([`d9c5e67`](https://github.com/entelecheia/hyperfast-python-template/commit/d9c5e670188d3a51fde650bca091158b46d6119b))
+
+### Features
+
+* feat(release): streamline release workflow ([`951c89d`](https://github.com/entelecheia/hyperfast-python-template/commit/951c89dbee4cc592c70bfed3530f74a66051e373))
+
+### Refactoring
+
+* refactor(dependencies): upgrade python-semantic-release to 9.0.0 ([`bc438e4`](https://github.com/entelecheia/hyperfast-python-template/commit/bc438e4b198612340390808f2fe6ff6f44d71ff4))
+
+### Unknown
+
+* Merge pull request #91 from entelecheia/entelecheia/issue90 ([`1dde873`](https://github.com/entelecheia/hyperfast-python-template/commit/1dde8739f1dc2b92fa6392d996eec1a4e8145ee6))
+
+* Merge pull request #88 from entelecheia/release
+
+Release ([`00c71a4`](https://github.com/entelecheia/hyperfast-python-template/commit/00c71a47ff5e3c91d2cf0cd0c91e708c55e4dfb9))
+
+
 ## v0.14.6 (2024-10-07)
 
 ### Fix
@@ -640,4 +690,3 @@
 
 
 ## v0.0.1-rc.1 (2023-02-17)
-
