@@ -1,4 +1,3 @@
-.copierignore
 .gitignore
 .tasks-extra.toml
 README.md

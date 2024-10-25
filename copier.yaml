@@ -11,7 +11,7 @@ _envops:
   variable_end_string: "}}"
   variable_start_string: "{{"
 
-_answers_file: .copier/.copier-config.yaml
+_answers_file: .copier-config.yaml
 
 _tasks:
   # Strings get executed under system's default shell
@@ -176,6 +176,6 @@ code_template_source:
   help: What is the URL of the code template to apply to the project? (leave empty if you don't want to apply a code template. e.g. gh:entelecheia/hyfi-template)
 
 code_template_answers_file:
-  default: .copier/.copier-hyfi-config.yaml
+  default: .copier-hyfi-config.yaml
   type: str
   help: What is the path to the answers file of the code template? (e.g. .copier-hyfi-config.yaml)
