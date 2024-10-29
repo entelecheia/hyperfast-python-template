@@ -1,5 +1,36 @@
 <!--next-version-placeholder-->
 
+## v0.16.1 (2024-10-29)
+
+### Bug Fixes
+
+* fix(workflow): streamline release process and update permissions ([`964084d`](https://github.com/entelecheia/hyperfast-python-template/commit/964084d0a960e846d5471e53ab428b6b6506e283))
+
+### Chores
+
+* chore(config): update copier config to version .16.0 ([`e2e37ef`](https://github.com/entelecheia/hyperfast-python-template/commit/e2e37efe06189183622f5184d7dfc892034554ad))
+
+* chore(copier): rename .copierignore to .copier/.copierignore ([`08d8c7a`](https://github.com/entelecheia/hyperfast-python-template/commit/08d8c7ad49e12d4371238f529ea74b2f2b37ad6c))
+
+### Refactoring
+
+* refactor(workflows): remove redundant environment definition from release job ([`6c8b61b`](https://github.com/entelecheia/hyperfast-python-template/commit/6c8b61bedb4d1b1f08531eff4985cbdf424da4f1))
+
+* refactor(copier): update paths for configuration files ([`c366aff`](https://github.com/entelecheia/hyperfast-python-template/commit/c366affe853ee5a01e36e7ee99be2a0f81915955))
+
+* refactor(copier-template): update paths to use .copier directory for config and ignore files ([`0acc469`](https://github.com/entelecheia/hyperfast-python-template/commit/0acc469c31bf1444443ae872154a65176da17e8c))
+
+* refactor(copier): adjust answers file path to new directory structure ([`2663bf5`](https://github.com/entelecheia/hyperfast-python-template/commit/2663bf54504b5cd6b6889ef23f7d8083dac92595))
+
+### Unknown
+
+* Merge pull request #96 from entelecheia/main ([`c860760`](https://github.com/entelecheia/hyperfast-python-template/commit/c8607605ad00b067ba3658513ab77b3858705e1f))
+
+* Merge pull request #95 from entelecheia/release
+
+Release ([`bdae32d`](https://github.com/entelecheia/hyperfast-python-template/commit/bdae32dd84f8f6fd17a47efbb460691fa2ebd0a5))
+
+
 ## v0.16.0 (2024-10-25)
 
 ### Bug Fixes
