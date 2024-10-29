@@ -15,7 +15,6 @@ jobs:
   release:
     runs-on: ubuntu-latest
     concurrency: release
-    environment: release
 
     permissions:
       id-token: write
