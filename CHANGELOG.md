@@ -1,5 +1,20 @@
 <!--next-version-placeholder-->
 
+## v0.16.2 (2024-11-03)
+
+### Bug Fixes
+
+* fix(env): allow custom virtual environment path in .envrc.jinja ([`38e7466`](https://github.com/entelecheia/hyperfast-python-template/commit/38e7466e247e0988c05e6fcca73bc291de89dc50))
+
+### Unknown
+
+* Merge pull request #98 from entelecheia/main ([`fb38126`](https://github.com/entelecheia/hyperfast-python-template/commit/fb381263f176c520e9e50d90b57a0bb1057e289e))
+
+* Merge pull request #97 from entelecheia/release
+
+Release ([`b03f2a4`](https://github.com/entelecheia/hyperfast-python-template/commit/b03f2a4081439f7efc96b6915ee33b2b677bd133))
+
+
 ## v0.16.1 (2024-10-29)
 
 ### Bug Fixes
