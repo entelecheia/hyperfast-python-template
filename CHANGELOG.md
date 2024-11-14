@@ -1,5 +1,142 @@
 <!--next-version-placeholder-->
 
+## v0.16.3 (2024-11-14)
+
+### Bug Fixes
+
+- **deps**: Update black dependency to version 24.0.0
+  ([`897cda1`](https://github.com/entelecheia/hyperfast-python-template/commit/897cda19c6b9f7ee9e36b74d60c8155fdd3d8c67))
+
+- **deps**: Update Codecov and Python Semantic Release actions to latest versions
+  ([`9b1d0d5`](https://github.com/entelecheia/hyperfast-python-template/commit/9b1d0d5b77ecef56196ed2820924c69f8f8516b4))
+
+### Chores
+
+- **deps**: Bump codecov/codecov-action from 4 to 5
+  ([`487c9a6`](https://github.com/entelecheia/hyperfast-python-template/commit/487c9a6aa0818f2ba27d86728810925a624d2dd9))
+
+Bumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 4 to 5. - [Release
+  notes](https://github.com/codecov/codecov-action/releases) -
+  [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md) -
+  [Commits](https://github.com/codecov/codecov-action/compare/v4...v5)
+
+--- updated-dependencies: - dependency-name: codecov/codecov-action dependency-type:
+  direct:production update-type: version-update:semver-major ...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+- **deps**: Bump python-semantic-release/publish-action
+  ([`c981782`](https://github.com/entelecheia/hyperfast-python-template/commit/c98178225b326582a16961dbe7b90ea2f214b82a))
+
+Bumps
+  [python-semantic-release/publish-action](https://github.com/python-semantic-release/publish-action)
+  from 9.13.0 to 9.14.0. - [Release
+  notes](https://github.com/python-semantic-release/publish-action/releases) -
+  [Changelog](https://github.com/python-semantic-release/publish-action/blob/main/releaserc.toml) -
+  [Commits](https://github.com/python-semantic-release/publish-action/compare/v9.13.0...v9.14.0)
+
+--- updated-dependencies: - dependency-name: python-semantic-release/publish-action dependency-type:
+  direct:production update-type: version-update:semver-minor ...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+- **deps**: Bump python-semantic-release/python-semantic-release
+  ([`f48730b`](https://github.com/entelecheia/hyperfast-python-template/commit/f48730b7e8572b450a339f6169754bdc80d7bb35))
+
+Bumps
+  [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release)
+  from 9.13.0 to 9.14.0. - [Release
+  notes](https://github.com/python-semantic-release/python-semantic-release/releases) -
+  [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+  -
+  [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.13.0...v9.14.0)
+
+--- updated-dependencies: - dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production update-type: version-update:semver-minor ...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+- **deps**: Bump python-semantic-release/publish-action
+  ([#104](https://github.com/entelecheia/hyperfast-python-template/pull/104),
+  [`75944ef`](https://github.com/entelecheia/hyperfast-python-template/commit/75944efef9494c7b80ce8bed1a6c77306cc924ac))
+
+Bumps
+  [python-semantic-release/publish-action](https://github.com/python-semantic-release/publish-action)
+  from 9.12.1 to 9.13.0. - [Release
+  notes](https://github.com/python-semantic-release/publish-action/releases) -
+  [Changelog](https://github.com/python-semantic-release/publish-action/blob/main/releaserc.toml) -
+  [Commits](https://github.com/python-semantic-release/publish-action/compare/v9.12.1...v9.13.0)
+
+--- updated-dependencies: - dependency-name: python-semantic-release/publish-action dependency-type:
+  direct:production update-type: version-update:semver-minor ...
+
+Signed-off-by: dependabot[bot] <support@github.com> Co-authored-by: dependabot[bot]
+  <49699333+dependabot[bot]@users.noreply.github.com>
+
+- **deps**: Bump python-semantic-release/python-semantic-release
+  ([`553666d`](https://github.com/entelecheia/hyperfast-python-template/commit/553666da2ff6dac97812f316ccf66eecd07ac9f9))
+
+Bumps
+  [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release)
+  from 9.12.2 to 9.13.0. - [Release
+  notes](https://github.com/python-semantic-release/python-semantic-release/releases) -
+  [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+  -
+  [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.12.2...v9.13.0)
+
+--- updated-dependencies: - dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production update-type: version-update:semver-minor ...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+- **deps**: Bump python-semantic-release/python-semantic-release
+  ([`732ed1f`](https://github.com/entelecheia/hyperfast-python-template/commit/732ed1f03df4bd5d6c76908d9746ff45b30c5086))
+
+Bumps
+  [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release)
+  from 9.12.1 to 9.12.2. - [Release
+  notes](https://github.com/python-semantic-release/python-semantic-release/releases) -
+  [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+  -
+  [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.12.1...v9.12.2)
+
+--- updated-dependencies: - dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production update-type: version-update:semver-patch ...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+- **deps**: Bump python-semantic-release/python-semantic-release
+  ([`1ded5ed`](https://github.com/entelecheia/hyperfast-python-template/commit/1ded5ed2b526366b0ce195d8ae3942c813f6562a))
+
+Bumps
+  [python-semantic-release/python-semantic-release](https://github.com/python-semantic-release/python-semantic-release)
+  from 9.12.0 to 9.12.1. - [Release
+  notes](https://github.com/python-semantic-release/python-semantic-release/releases) -
+  [Changelog](https://github.com/python-semantic-release/python-semantic-release/blob/master/CHANGELOG.md)
+  -
+  [Commits](https://github.com/python-semantic-release/python-semantic-release/compare/v9.12.0...v9.12.1)
+
+--- updated-dependencies: - dependency-name: python-semantic-release/python-semantic-release
+  dependency-type: direct:production update-type: version-update:semver-patch ...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+- **deps**: Bump python-semantic-release/publish-action
+  ([`747c54a`](https://github.com/entelecheia/hyperfast-python-template/commit/747c54ad45f35dc90860ca08559942c600bd8335))
+
+Bumps
+  [python-semantic-release/publish-action](https://github.com/python-semantic-release/publish-action)
+  from 9.12.0 to 9.12.1. - [Release
+  notes](https://github.com/python-semantic-release/publish-action/releases) -
+  [Changelog](https://github.com/python-semantic-release/publish-action/blob/main/releaserc.toml) -
+  [Commits](https://github.com/python-semantic-release/publish-action/compare/v9.12.0...v9.12.1)
+
+--- updated-dependencies: - dependency-name: python-semantic-release/publish-action dependency-type:
+  direct:production update-type: version-update:semver-patch ...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+
 ## v0.16.2 (2024-11-03)
 
 ### Bug Fixes
