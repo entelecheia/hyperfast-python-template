@@ -1,4 +1,4 @@
-jupyter-book==1.0.4.post1
+jupyter-book==2.0.2
 docutils
 sphinx-inline-tabs
 sphinx-examples
